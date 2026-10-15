@@ -1,0 +1,405 @@
+/* ==========================================================================
+   Beauty Blossoms — Mobile Hero Section Styles
+   Pixel-accurate recreation of the authoritative reference design.
+   ========================================================================== */
+
+:root {
+  /* Brand Color Palette */
+  --bb-warm-ivory: #FFF7F0;
+  --bb-blush-pink: #FCE6E3;
+  --bb-soft-rose: #F5B8C4;
+  --bb-primary-rose: #CF2A52;
+  --bb-primary-rose-dark: #A51D3E;
+  --bb-deep-burgundy: #8C243E;
+  --bb-eyebrow-color: #4A1E29;
+  --bb-warm-charcoal: #2C2423;
+  --bb-badge-red: #C41E3A;
+
+  /* Header gradient */
+  --bb-header-bg: linear-gradient(180deg, #FDF5F2 0%, #FAF0EB 65%, #F8ECE7 100%);
+
+  /* Typography */
+  --font-serif-headline: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-serif-eyebrow: 'Cinzel', 'Playfair Display', Georgia, serif;
+  --font-sans-body: 'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Motion */
+  --transition-smooth: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ==========================================================================
+   Hero Container & Stacking Context
+   ========================================================================== */
+
+.bb-hero-wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: var(--bb-blush-pink);
+  user-select: none;
+}
+
+/* Edge-to-edge Photography Container */
+.bb-hero-background {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+/* Subtle atmospheric overlay protecting typography contrast */
+.bb-hero-atmospheric-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    transparent 52%,
+    rgba(255, 245, 240, 0.35) 70%,
+    rgba(255, 240, 235, 0.65) 86%,
+    rgba(250, 236, 230, 0.82) 100%
+  );
+  pointer-events: none;
+}
+
+/* ==========================================================================
+   Curved Header Layout
+   ========================================================================== */
+
+.bb-hero-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 20;
+  background: var(--bb-header-bg);
+}
+
+.bb-header-nav-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 56px;
+  padding: 14px 18px 0;
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* Left & Right Navigation Zones */
+.bb-nav-left,
+.bb-nav-right {
+  display: flex;
+  align-items: center;
+  z-index: 10;
+}
+
+.bb-nav-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: var(--bb-warm-charcoal);
+  transition: var(--transition-smooth);
+}
+
+.bb-nav-btn:hover {
+  color: var(--bb-deep-burgundy);
+  background-color: rgba(255, 255, 255, 0.4);
+  transform: translateY(-1px);
+}
+
+.bb-nav-btn:active {
+  transform: scale(0.95);
+}
+
+/* Left Hamburger Icon */
+.bb-hamburger-btn {
+  margin-left: -6px;
+}
+
+.bb-hamburger-svg {
+  width: 22px;
+  height: 16px;
+  stroke: var(--bb-warm-charcoal);
+}
+
+/* Right Shopping Bag Icon & Circular Badge */
+.bb-shopping-bag-btn {
+  margin-right: -6px;
+}
+
+.bb-bag-icon-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bb-shopping-bag-svg {
+  width: 21px;
+  height: 22px;
+  stroke: var(--bb-warm-charcoal);
+}
+
+.bb-cart-notification-badge {
+  position: absolute;
+  top: -6px;
+  right: -8px;
+  background-color: var(--bb-badge-red);
+  color: #FFFFFF;
+  font-family: var(--font-sans-body);
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1;
+  width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+/* Center Brand Identity (Strictly Viewport Centered) */
+.bb-nav-center {
+  position: absolute;
+  left: 50%;
+  top: 8px;
+  transform: translateX(-50%);
+  z-index: 5;
+  pointer-events: none;
+}
+
+.bb-brand-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bb-brand-logo-link {
+  display: inline-block;
+  pointer-events: auto;
+  transition: transform 0.2s ease;
+}
+
+.bb-brand-logo-link:hover {
+  transform: scale(1.02);
+}
+
+.bb-brand-logo-img {
+  width: 128px;
+  height: 128px;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 6px rgba(140, 36, 62, 0.05));
+}
+
+/* Organic Asymmetrical Curved Boundary */
+.bb-curved-boundary {
+  width: 100%;
+  line-height: 0;
+  margin-top: 14px;
+  position: relative;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.bb-curve-svg {
+  width: 100%;
+  height: 68px;
+  display: block;
+}
+
+/* ==========================================================================
+   Editorial Fashion Typography Layer
+   ========================================================================== */
+
+.bb-hero-content-layer {
+  position: relative;
+  z-index: 10;
+  margin-top: auto;
+  padding: 0 24px 34px;
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  box-sizing: border-box;
+}
+
+.bb-hero-editorial-block {
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+/* Eyebrow: TRADITIONAL ELEGANCE */
+.bb-hero-eyebrow {
+  font-family: var(--font-serif-eyebrow);
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  color: var(--bb-eyebrow-color);
+  text-transform: uppercase;
+  margin-bottom: 6px;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.6);
+}
+
+/* Main Heading: Lehenga Collection */
+.bb-hero-heading {
+  font-family: var(--font-serif-headline);
+  font-style: italic;
+  font-weight: 600;
+  font-size: clamp(38px, 11vw, 46px);
+  line-height: 1.05;
+  color: var(--bb-deep-burgundy);
+  margin: 0 0 10px 0;
+  display: flex;
+  flex-direction: column;
+  text-shadow: 0 2px 8px rgba(255, 255, 255, 0.5);
+}
+
+.bb-heading-line {
+  display: block;
+}
+
+.bb-heading-line2 {
+  letter-spacing: -0.01em;
+}
+
+/* Description Tagline */
+.bb-hero-description {
+  font-family: var(--font-sans-body);
+  font-size: 14px;
+  font-weight: 450;
+  line-height: 1.35;
+  color: #382126;
+  margin-bottom: 18px;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.7);
+}
+
+.bb-heart-glyph {
+  display: inline-block;
+  color: var(--bb-deep-burgundy);
+  font-weight: 600;
+  margin-left: 2px;
+}
+
+/* ==========================================================================
+   Rose-Pink Pill-Shaped CTA Button
+   ========================================================================== */
+
+.bb-collection-cta-wrapper {
+  margin-top: 2px;
+}
+
+.bb-collection-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, var(--bb-primary-rose) 0%, var(--bb-primary-rose-dark) 100%);
+  color: #FFFFFF;
+  padding: 10px 22px;
+  border-radius: 9999px;
+  font-family: var(--font-sans-body);
+  font-size: 13.5px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  box-shadow: 0 6px 16px rgba(207, 42, 82, 0.35);
+  transition: var(--transition-smooth);
+}
+
+.bb-collection-cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(207, 42, 82, 0.45);
+}
+
+.bb-collection-cta-btn:active {
+  transform: translateY(0) scale(0.98);
+}
+
+.bb-cta-arrow-svg {
+  width: 16px;
+  height: 16px;
+  transition: transform 0.2s ease;
+}
+
+.bb-collection-cta-btn:hover .bb-cta-arrow-svg {
+  transform: translateX(3px);
+}
+
+/* ==========================================================================
+   Responsive Adaptations (Tablet & Desktop)
+   ========================================================================== */
+
+@media (min-width: 768px) {
+  .bb-header-nav-row {
+    padding: 18px 32px 0;
+  }
+
+  .bb-brand-logo-img {
+    width: 144px;
+    height: 144px;
+  }
+
+  .bb-curve-svg {
+    height: 82px;
+  }
+
+  .bb-hero-content-layer {
+    padding: 0 48px 56px;
+  }
+
+  .bb-hero-editorial-block {
+    max-width: 440px;
+  }
+
+  .bb-hero-eyebrow {
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+
+  .bb-hero-heading {
+    font-size: 58px;
+    margin-bottom: 12px;
+  }
+
+  .bb-hero-description {
+    font-size: 16px;
+    margin-bottom: 22px;
+  }
+
+  .bb-collection-cta-btn {
+    padding: 12px 26px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .bb-header-nav-row {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 48px 0;
+  }
+
+  .bb-hero-content-layer {
+    padding: 0 64px 72px;
+  }
+
+  .bb-hero-editorial-block {
+    max-width: 520px;
+  }
+
+  .bb-hero-heading {
+    font-size: 64px;
+  }
+}

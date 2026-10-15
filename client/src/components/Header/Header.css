@@ -1,0 +1,220 @@
+/* Beauty Blossoms - Header & Organic Curved Transition Styles */
+
+.bb-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: var(--header-z-index);
+  background: linear-gradient(180deg, #FDF5F2 0%, #FAF0EB 60%, rgba(250, 240, 235, 0.95) 100%);
+  user-select: none;
+}
+
+/* Header Top Bar containing Left Hamburger, Centered Logo, Right Actions */
+.bb-header-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 64px;
+  padding: 12px 18px 0;
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* Left Group */
+.bb-header-left {
+  display: flex;
+  align-items: center;
+  z-index: 10;
+}
+
+/* Center Group - Visually & Geometrically centered to the Viewport */
+.bb-header-center {
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  pointer-events: none; /* Allows clicks to pass through empty bounds */
+}
+
+.bb-logo-link {
+  display: inline-block;
+  pointer-events: auto;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.bb-logo-link:hover {
+  transform: scale(1.02);
+}
+
+.bb-logo-image {
+  width: 130px;
+  height: 130px;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 8px rgba(140, 36, 62, 0.06));
+}
+
+/* Right Group */
+.bb-header-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 10;
+}
+
+/* Action Buttons */
+.bb-icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  border-radius: 50%;
+  color: var(--bb-charcoal-icon);
+  transition: color 0.2s ease, transform 0.15s ease, background-color 0.2s ease;
+}
+
+.bb-icon-btn:hover {
+  color: var(--bb-wine-primary);
+  background-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-1px);
+}
+
+.bb-icon-btn:active {
+  transform: scale(0.95);
+}
+
+.bb-hamburger-btn {
+  margin-left: -6px;
+}
+
+.bb-hamburger-icon {
+  width: 22px;
+  height: 22px;
+  stroke: var(--bb-charcoal-icon);
+}
+
+.bb-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.bb-action-icon {
+  width: 22px;
+  height: 22px;
+  stroke: var(--bb-charcoal-icon);
+}
+
+/* Cart Icon & Badge Wrapper */
+.bb-cart-icon-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bb-cart-svg {
+  width: 22px;
+  height: 22px;
+}
+
+.bb-cart-badge {
+  position: absolute;
+  top: -6px;
+  right: -8px;
+  background-color: var(--bb-badge-red);
+  color: #FFFFFF;
+  font-family: var(--font-sans-body);
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1;
+  min-width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 3px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* On mobile view matching reference, Search and Wishlist can gracefully hide on extra-small mobile to maintain 1:1 match */
+@media (max-width: 480px) {
+  .bb-search-btn,
+  .bb-wishlist-btn {
+    display: none;
+  }
+
+  .bb-header-bar {
+    padding: 10px 14px 0;
+  }
+
+  .bb-logo-image {
+    width: 124px;
+    height: 124px;
+  }
+}
+
+/* Tablet & Desktop Adjustments */
+@media (min-width: 481px) {
+  .bb-header-actions {
+    gap: 8px;
+  }
+  
+  .bb-search-btn,
+  .bb-wishlist-btn {
+    display: flex;
+  }
+
+  .bb-logo-image {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .bb-header-bar {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 16px 36px 0;
+  }
+
+  .bb-logo-image {
+    width: 156px;
+    height: 156px;
+  }
+}
+
+/* Organic Curved Silhouette Container */
+.bb-hero-curve-container {
+  width: 100%;
+  line-height: 0;
+  margin-top: 20px;
+  position: relative;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.bb-hero-curve-svg {
+  width: 100%;
+  height: 70px;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .bb-hero-curve-svg {
+    height: 85px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .bb-hero-curve-svg {
+    height: 100px;
+  }
+}
