@@ -6,7 +6,8 @@
   left: 0;
   width: 100%;
   z-index: var(--header-z-index);
-  background: linear-gradient(180deg, #FDF5F2 0%, #FAF0EB 60%, rgba(250, 240, 235, 0.95) 100%);
+  background: transparent;
+  background-color: transparent;
   user-select: none;
 }
 
@@ -20,7 +21,9 @@
   padding: 12px 18px 0;
   position: relative;
   box-sizing: border-box;
+  background-color: #FFF1EB;
 }
+
 
 /* Left Group */
 .bb-header-left {

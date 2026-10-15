@@ -15,8 +15,8 @@
   --bb-warm-charcoal: #2C2423;
   --bb-badge-red: #C41E3A;
 
-  /* Header gradient */
-  --bb-header-bg: linear-gradient(180deg, #FDF5F2 0%, #FAF0EB 65%, #F8ECE7 100%);
+  /* Header Solid Blush-Cream Color (Uniform on Top and Middle layers) */
+  --bb-header-solid-bg: #FFF1EB;
 
   /* Typography */
   --font-serif-headline: 'Playfair Display', Georgia, 'Times New Roman', serif;
@@ -42,14 +42,14 @@
   user-select: none;
 }
 
-/* Edge-to-edge Photography Container */
+/* Edge-to-edge Photography Container — Model aligned toward the right */
 .bb-hero-background {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
   background-size: cover;
-  background-position: center top;
+  background-position: 78% center;
   background-repeat: no-repeat;
   z-index: 1;
 }
@@ -70,27 +70,42 @@
 }
 
 /* ==========================================================================
-   Curved Header Layout
+   Curved Header Layout — Three Distinct Layers
    ========================================================================== */
 
+/* Header Root: 100% transparent so hero photograph is visible directly behind */
 .bb-hero-header {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 20;
-  background: var(--bb-header-bg);
+  background: transparent;
+  background-color: transparent;
+  pointer-events: none;
 }
 
+/* Enable pointer events on interactive nav zones */
+.bb-nav-left,
+.bb-nav-right,
+.bb-nav-center,
+.bb-brand-logo-link {
+  pointer-events: auto;
+}
+
+/* Layer 1: Top Layer — Upper rectangular header */
+.bb-header-top-layer,
 .bb-header-nav-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  min-height: 56px;
-  padding: 14px 18px 0;
+  min-height: 54px;
+  padding: 12px 18px 0;
   position: relative;
   box-sizing: border-box;
+  background-color: var(--bb-header-solid-bg);
+  pointer-events: auto;
 }
 
 /* Left & Right Navigation Zones */
@@ -174,9 +189,9 @@
 .bb-nav-center {
   position: absolute;
   left: 50%;
-  top: 8px;
+  top: 6px;
   transform: translateX(-50%);
-  z-index: 5;
+  z-index: 12;
   pointer-events: none;
 }
 
@@ -197,26 +212,46 @@
 }
 
 .bb-brand-logo-img {
-  width: 128px;
-  height: 128px;
+  width: 122px;
+  height: 122px;
   object-fit: contain;
   filter: drop-shadow(0 2px 6px rgba(140, 36, 62, 0.05));
 }
 
-/* Organic Asymmetrical Curved Boundary */
+/* Layer 2: Middle Layer — Central logo region extending vertically around logo */
+.bb-header-middle-layer,
 .bb-curved-boundary {
   width: 100%;
   line-height: 0;
-  margin-top: 14px;
+  margin-top: -1px; /* Seamless connection with top layer, eliminating horizontal gap */
   position: relative;
-  overflow: hidden;
+  background: transparent;
+  background-color: transparent;
+  overflow: visible;
   pointer-events: none;
 }
 
 .bb-curve-svg {
   width: 100%;
-  height: 68px;
+  height: 72px;
   display: block;
+}
+
+.bb-curve-fill {
+  fill: var(--bb-header-solid-bg);
+}
+
+/* Layer 3: Bottom Layer — Completely transparent U-shaped edge revealing the hero */
+.bb-header-bottom-layer {
+  position: relative;
+  width: 100%;
+  height: 0;
+  background: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  filter: none !important;
+  backdrop-filter: none !important;
+  pointer-events: none;
 }
 
 /* ==========================================================================
@@ -338,21 +373,56 @@
 }
 
 /* ==========================================================================
-   Responsive Adaptations (Tablet & Desktop)
+   Responsive Adaptations (Narrow Mobile, Tablet & Desktop)
    ========================================================================== */
 
-@media (min-width: 768px) {
+@media (max-width: 360px) {
+  .bb-header-top-layer,
   .bb-header-nav-row {
-    padding: 18px 32px 0;
+    padding: 10px 12px 0;
+    min-height: 50px;
   }
 
   .bb-brand-logo-img {
-    width: 144px;
-    height: 144px;
+    width: 110px;
+    height: 110px;
   }
 
   .bb-curve-svg {
-    height: 82px;
+    height: 56px;
+  }
+
+  .bb-hero-content-layer {
+    padding: 0 18px 24px;
+  }
+
+  .bb-hero-heading {
+    font-size: 34px;
+  }
+
+  .bb-hero-description {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 768px) {
+  .bb-hero-background {
+    background-position: 75% 20%;
+  }
+
+  .bb-header-top-layer,
+  .bb-header-nav-row {
+    padding: 16px 32px 0;
+    min-height: 60px;
+  }
+
+  .bb-brand-logo-img {
+    width: 138px;
+    height: 138px;
+  }
+
+  .bb-curve-svg {
+    height: 76px;
   }
 
   .bb-hero-content-layer {
@@ -385,10 +455,15 @@
 }
 
 @media (min-width: 1024px) {
+  .bb-hero-background {
+    background-position: center 20%;
+  }
+
+  .bb-header-top-layer,
   .bb-header-nav-row {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 20px 48px 0;
+    padding: 18px 48px 0;
   }
 
   .bb-hero-content-layer {
@@ -403,3 +478,4 @@
     font-size: 64px;
   }
 }
+

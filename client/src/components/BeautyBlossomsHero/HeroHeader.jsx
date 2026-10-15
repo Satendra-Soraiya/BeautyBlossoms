@@ -7,14 +7,16 @@ import HeroCurve from './HeroCurve';
 /**
  * HeroHeader Component
  * 
- * Houses the top navigation controls with the pale blush-pink/cream background,
- * viewport-centered brand identity, and the organic curved transition.
+ * Implements the three distinct visual header layers:
+ * 1. Top layer: Upper rectangular bar containing navigation controls and centered logo zone
+ * 2. Middle layer: Central region extending vertically around the logo (identical solid blush-cream)
+ * 3. Bottom layer: Completely transparent downward-facing U-shaped edge revealing the hero photograph
  */
 export default function HeroHeader({ cartCount = 0, onMenuClick, onCartClick }) {
   return (
     <header className="bb-hero-header" role="banner">
-      {/* Top action row containing hamburger, centered logo, and shopping bag */}
-      <div className="bb-header-nav-row">
+      {/* Layer 1: Top Layer — Upper rectangular header */}
+      <div className="bb-header-top-layer bb-header-nav-row">
         <div className="bb-nav-left">
           <MobileMenuButton onClick={onMenuClick} />
         </div>
@@ -28,8 +30,9 @@ export default function HeroHeader({ cartCount = 0, onMenuClick, onCartClick }) 
         </div>
       </div>
 
-      {/* Organic curved transition into the hero photograph */}
+      {/* Layer 2: Middle Layer & Layer 3: Bottom Layer via HeroCurve component */}
       <HeroCurve />
     </header>
   );
 }
+

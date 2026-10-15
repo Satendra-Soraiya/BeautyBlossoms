@@ -15,31 +15,27 @@ import React from 'react';
  */
 export default function HeroCurve({ className = '' }) {
   return (
-    <div className={`bb-hero-curve-container ${className}`} aria-hidden="true">
-      <svg
-        className="bb-hero-curve-svg"
-        viewBox="0 0 941 125"
-        preserveAspectRatio="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <defs>
-          <linearGradient id="bbHeaderCurveGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stopColor="#FDF5F2" />
-            <stop offset="50%" stopColor="#FAF0EB" />
-            <stop offset="100%" stopColor="#F8ECE7" />
-          </linearGradient>
-        </defs>
-        <path
-          d="M 0 0
-             L 941 0
-             L 941 20
-             C 890 15, 820 4, 760 6
-             C 600 32, 430 115, 295 118
-             C 195 114, 100 68, 0 54
-             Z"
-          fill="url(#bbHeaderCurveGradient)"
-        />
-      </svg>
-    </div>
+    <>
+      <div className={`bb-hero-curve-container bb-header-middle-layer ${className}`} aria-hidden="true">
+        <svg
+          className="bb-hero-curve-svg"
+          viewBox="0 0 1000 80"
+          preserveAspectRatio="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M 0 0
+               L 1000 0
+               L 1000 12
+               C 840 16, 680 78, 500 80
+               C 320 78, 160 14, 0 12
+               Z"
+            fill="#FFF1EB"
+          />
+        </svg>
+      </div>
+      <div className="bb-header-bottom-layer" aria-hidden="true" />
+    </>
   );
 }
+
