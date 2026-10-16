@@ -50,15 +50,14 @@
   user-select: none;
 }
 
-/* Edge-to-edge Photography Container — Model on right half with comfortable breathing room */
+/* Edge-to-edge Photography Container — Clean inset: 0 */
 .bb-hero-background {
   position: absolute;
-  top: -60px;
-  left: 0;
+  inset: 0;
   width: 100%;
-  height: calc(100% + 60px);
+  height: 100%;
   background-size: cover;
-  background-position: 66% top;
+  background-position: 68% top;
   background-repeat: no-repeat;
   z-index: 1;
 }
@@ -80,16 +79,35 @@
    Compact Curved Header Layout
    ========================================================================== */
 
-/* Header Root: Transparent container positioned above hero */
+/* Single compact predictable header layout */
 .bb-hero-header {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
+  height: clamp(82px, 80px + 1.5vw, 88px);
   z-index: 20;
   background: transparent;
-  background-color: transparent;
   pointer-events: none;
+}
+
+/* Unified header background with shallow curve */
+.bb-header-bg-container {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.bb-header-bg-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.bb-curve-fill {
+  fill: var(--bb-header-bg);
 }
 
 /* Enable pointer events on interactive navigation zones */
@@ -100,19 +118,17 @@
   pointer-events: auto;
 }
 
-/* Layer 1: Compact Navigation Row — Solid #FCEAE3 */
-.bb-header-top-layer,
+/* Header Nav Row: Vertically centered navigation controls */
 .bb-header-nav-row {
+  position: relative;
+  width: 100%;
+  height: 56px;
+  padding: 0 clamp(16px, 5vw, 24px);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
-  min-height: 52px;
-  padding: clamp(24px, 6.5vw, 30px) clamp(20px, 5.5vw, 26px) 0;
-  position: relative;
   box-sizing: border-box;
-  background-color: var(--bb-header-bg);
-  pointer-events: auto;
+  z-index: 2;
 }
 
 /* Left & Right Navigation Zones */
@@ -196,10 +212,13 @@
 .bb-nav-center {
   position: absolute;
   left: 50%;
-  top: clamp(2px, 0.6vh, 5px);
+  top: 2px;
   transform: translateX(-50%);
   z-index: 12;
   pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .bb-brand-logo-container {
@@ -219,34 +238,11 @@
 }
 
 .bb-brand-logo-img {
-  width: clamp(100px, 25vw, 112px);
-  height: clamp(100px, 25vw, 112px);
+  width: clamp(74px, 19vw, 84px);
+  height: clamp(74px, 19vw, 84px);
   object-fit: contain;
-  filter: drop-shadow(0 2px 4px rgba(140, 36, 62, 0.04));
-}
-
-/* Layer 2: Shallow Symmetrical Curved Transition (Reduced Depth by ~40%) */
-.bb-header-middle-layer,
-.bb-curved-boundary {
-  width: 100%;
-  line-height: 0;
-  margin-top: -1px; /* Seamless connection with nav row, 0 gap */
-  position: relative;
-  background: transparent;
-  background-color: transparent;
-  overflow: hidden;
-  pointer-events: none;
-}
-
-.bb-curve-svg {
-  width: 100%;
-  height: clamp(54px, 13.5vw, 62px);
   display: block;
-}
-
-/* Solid #FCEAE3 fill strictly identical to top layer */
-.bb-curve-fill {
-  fill: var(--bb-header-bg);
+  filter: drop-shadow(0 2px 4px rgba(140, 36, 62, 0.04));
 }
 
 /* ==========================================================================
@@ -257,10 +253,10 @@
   position: relative;
   z-index: 10;
   margin-top: auto;
-  margin-bottom: clamp(210px, 28vh, 275px);
+  margin-bottom: clamp(70px, calc(70px + (100vh - 667px) * 0.52), 245px);
   padding: 0 clamp(20px, 6vw, 28px);
   width: 100%;
-  max-width: 1200px;
+  max-width: 480px;
   margin-inline: auto;
   box-sizing: border-box;
 }
@@ -384,23 +380,23 @@
     background-position: 50% top;
   }
 
-  .bb-header-top-layer,
+  .bb-hero-header {
+    height: 94px;
+  }
+
   .bb-header-nav-row {
-    padding: 12px 28px 0;
-    min-height: 52px;
+    padding: 0 32px;
+    height: 64px;
   }
 
   .bb-brand-logo-img {
-    width: 110px;
-    height: 110px;
-  }
-
-  .bb-curve-svg {
-    height: 32px;
+    width: 90px;
+    height: 90px;
   }
 
   .bb-hero-content-layer {
     padding: 0 48px;
+    max-width: 1200px;
     margin-bottom: 190px;
   }
 
@@ -435,24 +431,25 @@
     background-position: center top;
   }
 
-  .bb-header-top-layer,
+  .bb-hero-header {
+    height: 104px;
+  }
+
   .bb-header-nav-row {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 14px 44px 0;
+    padding: 0 44px;
+    height: 72px;
   }
 
   .bb-brand-logo-img {
-    width: 120px;
-    height: 120px;
-  }
-
-  .bb-curve-svg {
-    height: 36px;
+    width: 100px;
+    height: 100px;
   }
 
   .bb-hero-content-layer {
     padding: 0 64px;
+    max-width: 1400px;
     margin-bottom: 210px;
   }
 

@@ -15,8 +15,11 @@ import HeroCurve from './HeroCurve';
 export default function HeroHeader({ cartCount = 0, onMenuClick, onCartClick }) {
   return (
     <header className="bb-hero-header" role="banner">
-      {/* Layer 1: Top Layer — Upper rectangular header */}
-      <div className="bb-header-top-layer bb-header-nav-row">
+      {/* Unified vector background with shallow centered curve */}
+      <HeroCurve />
+
+      {/* Navigation Row with controls and centered brand identity */}
+      <div className="bb-header-nav-row">
         <div className="bb-nav-left">
           <MobileMenuButton onClick={onMenuClick} />
         </div>
@@ -29,9 +32,6 @@ export default function HeroHeader({ cartCount = 0, onMenuClick, onCartClick }) 
           <ShoppingBagButton count={cartCount} onClick={onCartClick} />
         </div>
       </div>
-
-      {/* Layer 2: Middle Layer & Layer 3: Bottom Layer via HeroCurve component */}
-      <HeroCurve />
     </header>
   );
 }

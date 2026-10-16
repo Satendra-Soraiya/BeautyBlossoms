@@ -12,19 +12,19 @@ import React from 'react';
  */
 export default function HeroCurve() {
   return (
-    <div className="bb-curved-boundary" aria-hidden="true">
+    <div className="bb-header-bg-container" aria-hidden="true">
       <svg
-        className="bb-curve-svg"
-        viewBox="0 0 1000 60"
+        className="bb-header-bg-svg"
+        viewBox="0 0 1000 100"
         preserveAspectRatio="none"
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
           d="M 0 0
              L 1000 0
-             L 1000 24
-             C 700 24, 600 60, 500 60
-             C 400 60, 300 24, 0 24
+             L 1000 74
+             C 740 74, 640 100, 500 100
+             C 360 100, 260 74, 0 74
              Z"
           className="bb-curve-fill"
           fill="var(--bb-header-bg, #FCEAE3)"
