@@ -13,4 +13,7 @@ export const BRAND_ASSETS = {
 
   // Original design specification reference for QA and visual comparison
   referenceHeader: '/reference header .png',
+
+  // Target mobile hero design reference specification (440x956)
+  targetReference: '/Beauty Blossoms Lehenga Collection.png',
 };

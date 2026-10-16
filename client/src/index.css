@@ -1,8 +1,11 @@
 /* Beauty Blossoms - Production Design System & Global Styles */
 :root {
   /* Brand Color Palette */
+  /* Header Uniform Blush-Cream */
+  --bb-header-bg: #FFF1EB;
+
   --bb-cream-light: #FDF5F2;
-  --bb-cream-warm: #FAF0EB;
+  --bb-cream-warm: #FFF1EB;
   --bb-cream-shade: #F5E6E0;
   --bb-blush-soft: #FDE8E3;
   --bb-blush-accent: #F9D8D2;

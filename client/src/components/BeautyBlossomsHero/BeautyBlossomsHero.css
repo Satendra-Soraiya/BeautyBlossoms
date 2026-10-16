@@ -1,10 +1,18 @@
 /* ==========================================================================
    Beauty Blossoms — Mobile Hero Section Styles
-   Pixel-accurate recreation of the authoritative reference design.
+   Final Mobile Hero Refinement:
+   - Compact floral header with reduced footprint and centered logo
+   - Shallow symmetrical downward scoop curve (reduced depth by ~40%)
+   - Balanced right-aligned model composition (breathing room on right edge)
+   - Integrated lower-left typography moved upward by ~30px
+   - No excessive dead space, seamless single solid #FFF1EB background
    ========================================================================== */
 
 :root {
-  /* Brand Color Palette */
+  /* Uniform Header Solid Blush-Cream Color matching hero bg asset */
+  --bb-header-bg: #FCEAE3;
+
+  /* Brand Palette */
   --bb-warm-ivory: #FFF7F0;
   --bb-blush-pink: #FCE6E3;
   --bb-soft-rose: #F5B8C4;
@@ -14,9 +22,6 @@
   --bb-eyebrow-color: #4A1E29;
   --bb-warm-charcoal: #2C2423;
   --bb-badge-red: #C41E3A;
-
-  /* Header Solid Blush-Cream Color (Uniform on Top and Middle layers) */
-  --bb-header-solid-bg: #FFF1EB;
 
   /* Typography */
   --font-serif-headline: 'Playfair Display', Georgia, 'Times New Roman', serif;
@@ -34,46 +39,48 @@
 .bb-hero-wrapper {
   position: relative;
   width: 100%;
+  max-width: 480px;
   min-height: 100svh;
+  height: 100svh;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  background-color: var(--bb-blush-pink);
+  background-color: var(--bb-header-bg);
   user-select: none;
 }
 
-/* Edge-to-edge Photography Container — Model aligned toward the right */
+/* Edge-to-edge Photography Container — Model on right half with comfortable breathing room */
 .bb-hero-background {
   position: absolute;
-  inset: 0;
+  top: -60px;
+  left: 0;
   width: 100%;
-  height: 100%;
+  height: calc(100% + 60px);
   background-size: cover;
-  background-position: 78% center;
+  background-position: 66% top;
   background-repeat: no-repeat;
   z-index: 1;
 }
 
-/* Subtle atmospheric overlay protecting typography contrast */
+/* Subtle atmospheric protection around typography — zero milky wash at bottom */
 .bb-hero-atmospheric-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    180deg,
-    transparent 0%,
-    transparent 52%,
-    rgba(255, 245, 240, 0.35) 70%,
-    rgba(255, 240, 235, 0.65) 86%,
-    rgba(250, 236, 230, 0.82) 100%
+  background: radial-gradient(
+    circle at 22% 64%,
+    rgba(255, 245, 240, 0.22) 0%,
+    rgba(255, 245, 240, 0.08) 45%,
+    transparent 72%
   );
   pointer-events: none;
 }
 
 /* ==========================================================================
-   Curved Header Layout — Three Distinct Layers
+   Compact Curved Header Layout
    ========================================================================== */
 
-/* Header Root: 100% transparent so hero photograph is visible directly behind */
+/* Header Root: Transparent container positioned above hero */
 .bb-hero-header {
   position: absolute;
   top: 0;
@@ -85,7 +92,7 @@
   pointer-events: none;
 }
 
-/* Enable pointer events on interactive nav zones */
+/* Enable pointer events on interactive navigation zones */
 .bb-nav-left,
 .bb-nav-right,
 .bb-nav-center,
@@ -93,18 +100,18 @@
   pointer-events: auto;
 }
 
-/* Layer 1: Top Layer — Upper rectangular header */
+/* Layer 1: Compact Navigation Row — Solid #FCEAE3 */
 .bb-header-top-layer,
 .bb-header-nav-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  min-height: 54px;
-  padding: 12px 18px 0;
+  min-height: 52px;
+  padding: clamp(24px, 6.5vw, 30px) clamp(20px, 5.5vw, 26px) 0;
   position: relative;
   box-sizing: border-box;
-  background-color: var(--bb-header-solid-bg);
+  background-color: var(--bb-header-bg);
   pointer-events: auto;
 }
 
@@ -120,8 +127,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 44px;
-  height: 44px;
+  width: 38px;
+  height: 38px;
   border-radius: 50%;
   color: var(--bb-warm-charcoal);
   transition: var(--transition-smooth);
@@ -129,7 +136,7 @@
 
 .bb-nav-btn:hover {
   color: var(--bb-deep-burgundy);
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.45);
   transform: translateY(-1px);
 }
 
@@ -139,18 +146,18 @@
 
 /* Left Hamburger Icon */
 .bb-hamburger-btn {
-  margin-left: -6px;
+  margin-left: 0;
 }
 
 .bb-hamburger-svg {
-  width: 22px;
+  width: 21px;
   height: 16px;
   stroke: var(--bb-warm-charcoal);
 }
 
 /* Right Shopping Bag Icon & Circular Badge */
 .bb-shopping-bag-btn {
-  margin-right: -6px;
+  margin-right: 0;
 }
 
 .bb-bag-icon-wrapper {
@@ -161,23 +168,23 @@
 }
 
 .bb-shopping-bag-svg {
-  width: 21px;
+  width: 20px;
   height: 22px;
   stroke: var(--bb-warm-charcoal);
 }
 
 .bb-cart-notification-badge {
   position: absolute;
-  top: -6px;
-  right: -8px;
+  top: -5px;
+  right: -7px;
   background-color: var(--bb-badge-red);
   color: #FFFFFF;
   font-family: var(--font-sans-body);
-  font-size: 10px;
+  font-size: 9.5px;
   font-weight: 700;
   line-height: 1;
-  width: 16px;
-  height: 16px;
+  width: 15px;
+  height: 15px;
   border-radius: 9999px;
   display: flex;
   align-items: center;
@@ -189,7 +196,7 @@
 .bb-nav-center {
   position: absolute;
   left: 50%;
-  top: 6px;
+  top: clamp(2px, 0.6vh, 5px);
   transform: translateX(-50%);
   z-index: 12;
   pointer-events: none;
@@ -212,57 +219,46 @@
 }
 
 .bb-brand-logo-img {
-  width: 122px;
-  height: 122px;
+  width: clamp(100px, 25vw, 112px);
+  height: clamp(100px, 25vw, 112px);
   object-fit: contain;
-  filter: drop-shadow(0 2px 6px rgba(140, 36, 62, 0.05));
+  filter: drop-shadow(0 2px 4px rgba(140, 36, 62, 0.04));
 }
 
-/* Layer 2: Middle Layer — Central logo region extending vertically around logo */
+/* Layer 2: Shallow Symmetrical Curved Transition (Reduced Depth by ~40%) */
 .bb-header-middle-layer,
 .bb-curved-boundary {
   width: 100%;
   line-height: 0;
-  margin-top: -1px; /* Seamless connection with top layer, eliminating horizontal gap */
+  margin-top: -1px; /* Seamless connection with nav row, 0 gap */
   position: relative;
   background: transparent;
   background-color: transparent;
-  overflow: visible;
+  overflow: hidden;
   pointer-events: none;
 }
 
 .bb-curve-svg {
   width: 100%;
-  height: 72px;
+  height: clamp(54px, 13.5vw, 62px);
   display: block;
 }
 
+/* Solid #FCEAE3 fill strictly identical to top layer */
 .bb-curve-fill {
-  fill: var(--bb-header-solid-bg);
-}
-
-/* Layer 3: Bottom Layer — Completely transparent U-shaped edge revealing the hero */
-.bb-header-bottom-layer {
-  position: relative;
-  width: 100%;
-  height: 0;
-  background: transparent !important;
-  background-color: transparent !important;
-  box-shadow: none !important;
-  filter: none !important;
-  backdrop-filter: none !important;
-  pointer-events: none;
+  fill: var(--bb-header-bg);
 }
 
 /* ==========================================================================
-   Editorial Fashion Typography Layer
+   Editorial Fashion Typography Layer (Positioned Higher in Lower-Left)
    ========================================================================== */
 
 .bb-hero-content-layer {
   position: relative;
   z-index: 10;
   margin-top: auto;
-  padding: 0 24px 34px;
+  margin-bottom: clamp(210px, 28vh, 275px);
+  padding: 0 clamp(20px, 6vw, 28px);
   width: 100%;
   max-width: 1200px;
   margin-inline: auto;
@@ -270,7 +266,7 @@
 }
 
 .bb-hero-editorial-block {
-  max-width: 320px;
+  max-width: clamp(270px, 72vw, 315px);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -280,21 +276,21 @@
 /* Eyebrow: TRADITIONAL ELEGANCE */
 .bb-hero-eyebrow {
   font-family: var(--font-serif-eyebrow);
-  font-size: 11.5px;
+  font-size: clamp(10.5px, 2.7vw, 12px);
   font-weight: 600;
   letter-spacing: 0.18em;
   color: var(--bb-eyebrow-color);
   text-transform: uppercase;
-  margin-bottom: 6px;
+  margin-bottom: 5px;
   text-shadow: 0 1px 2px rgba(255, 255, 255, 0.6);
 }
 
-/* Main Heading: Lehenga Collection */
+/* Main Heading: Lehenga Collection (Two Deliberate Lines) */
 .bb-hero-heading {
   font-family: var(--font-serif-headline);
   font-style: italic;
   font-weight: 600;
-  font-size: clamp(38px, 11vw, 46px);
+  font-size: clamp(34px, 9.5vw, 44px);
   line-height: 1.05;
   color: var(--bb-deep-burgundy);
   margin: 0 0 10px 0;
@@ -314,11 +310,11 @@
 /* Description Tagline */
 .bb-hero-description {
   font-family: var(--font-sans-body);
-  font-size: 14px;
+  font-size: clamp(13px, 3.4vw, 14.5px);
   font-weight: 450;
-  line-height: 1.35;
+  line-height: 1.36;
   color: #382126;
-  margin-bottom: 18px;
+  margin-bottom: clamp(14px, 2vh, 18px);
   text-shadow: 0 1px 2px rgba(255, 255, 255, 0.7);
 }
 
@@ -343,13 +339,13 @@
   gap: 8px;
   background: linear-gradient(135deg, var(--bb-primary-rose) 0%, var(--bb-primary-rose-dark) 100%);
   color: #FFFFFF;
-  padding: 10px 22px;
+  padding: clamp(10px, 2.6vw, 12px) clamp(20px, 5.5vw, 24px);
   border-radius: 9999px;
   font-family: var(--font-sans-body);
-  font-size: 13.5px;
+  font-size: clamp(13px, 3.3vw, 14px);
   font-weight: 600;
   letter-spacing: 0.02em;
-  box-shadow: 0 6px 16px rgba(207, 42, 82, 0.35);
+  box-shadow: 0 6px 18px rgba(207, 42, 82, 0.38);
   transition: var(--transition-smooth);
 }
 
@@ -373,14 +369,25 @@
 }
 
 /* ==========================================================================
-   Responsive Adaptations (Narrow Mobile, Tablet & Desktop)
+   Responsive Adaptations
+   The base mobile styles use fluid clamp() calculations that automatically scale
+   from 320px up to 767px. Tablet and desktop queries override for large screens.
    ========================================================================== */
 
-@media (max-width: 360px) {
+/* Tablet (768px+) */
+@media (min-width: 768px) {
+  .bb-hero-wrapper {
+    max-width: 100%;
+  }
+
+  .bb-hero-background {
+    background-position: 50% top;
+  }
+
   .bb-header-top-layer,
   .bb-header-nav-row {
-    padding: 10px 12px 0;
-    min-height: 50px;
+    padding: 12px 28px 0;
+    min-height: 52px;
   }
 
   .bb-brand-logo-img {
@@ -389,44 +396,12 @@
   }
 
   .bb-curve-svg {
-    height: 56px;
+    height: 32px;
   }
 
   .bb-hero-content-layer {
-    padding: 0 18px 24px;
-  }
-
-  .bb-hero-heading {
-    font-size: 34px;
-  }
-
-  .bb-hero-description {
-    font-size: 13px;
-  }
-}
-
-@media (min-width: 768px) {
-  .bb-hero-background {
-    background-position: 75% 20%;
-  }
-
-  .bb-header-top-layer,
-  .bb-header-nav-row {
-    padding: 16px 32px 0;
-    min-height: 60px;
-  }
-
-  .bb-brand-logo-img {
-    width: 138px;
-    height: 138px;
-  }
-
-  .bb-curve-svg {
-    height: 76px;
-  }
-
-  .bb-hero-content-layer {
-    padding: 0 48px 56px;
+    padding: 0 48px;
+    margin-bottom: 190px;
   }
 
   .bb-hero-editorial-block {
@@ -439,35 +414,46 @@
   }
 
   .bb-hero-heading {
-    font-size: 58px;
-    margin-bottom: 12px;
+    font-size: 56px;
+    margin-bottom: 14px;
   }
 
   .bb-hero-description {
     font-size: 16px;
-    margin-bottom: 22px;
+    margin-bottom: 24px;
   }
 
   .bb-collection-cta-btn {
-    padding: 12px 26px;
+    padding: 13px 28px;
     font-size: 15px;
   }
 }
 
+/* Desktop (1024px+) */
 @media (min-width: 1024px) {
   .bb-hero-background {
-    background-position: center 20%;
+    background-position: center top;
   }
 
   .bb-header-top-layer,
   .bb-header-nav-row {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 18px 48px 0;
+    padding: 14px 44px 0;
+  }
+
+  .bb-brand-logo-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .bb-curve-svg {
+    height: 36px;
   }
 
   .bb-hero-content-layer {
-    padding: 0 64px 72px;
+    padding: 0 64px;
+    margin-bottom: 210px;
   }
 
   .bb-hero-editorial-block {
