@@ -104,34 +104,32 @@ export default function ProductDetailPage({
         <section className="bb-product-info-section" aria-label="Product overview">
           <div className="bb-product-title-row">
             <h1 className="bb-product-name">{product.name}</h1>
-            <span className="bb-product-code-pill">({product.productCode})</span>
+            <span className="bb-product-code-text">({product.productCode})</span>
           </div>
 
-          {/* Slay Callout */}
-          <div className="bb-detail-slay-banner" aria-label="Rent for Garba night and slay">
-            <span className="bb-detail-slay-sparkle" aria-hidden="true">✨</span>
+          {/* Slay Callout (Editorial Typography, No Pill Badge) */}
+          <div className="bb-detail-slay-row" aria-label="Rent for Garba night and slay">
+            <span className="bb-detail-slay-star" aria-hidden="true">✦</span>
             <span className="bb-detail-slay-text">Rent for Garba night and slay</span>
-            <span className="bb-detail-slay-badge">Rent & Buy Available</span>
+            <span className="bb-detail-rent-buy-note">· Rent &amp; Buy Available</span>
           </div>
 
-          {/* Dual Pricing Card (Rent for Garba vs Direct Purchase) */}
+          {/* Pricing Card: 1-Day Rental Rate with Rent & Buy Indicator */}
           <div className="bb-detail-pricing-card">
             <div className="bb-pricing-tier bb-tier-rental">
               <span className="bb-tier-tag">1-DAY GARBA RENTAL</span>
               <div className="bb-tier-price-row">
                 <span className="bb-tier-price">{product.formattedRentPrice || '₹799 / day'}</span>
               </div>
-              <span className="bb-tier-sub">₹500 to ₹1,000 for 1-day Dandiya & Garba events</span>
+              <span className="bb-tier-sub">1-day festive rental (₹500 to ₹1,000) for Garba &amp; Dandiya nights</span>
             </div>
 
             <div className="bb-pricing-divider" aria-hidden="true" />
 
             <div className="bb-pricing-tier bb-tier-buy">
-              <span className="bb-tier-tag bb-tag-buy">DIRECT PURCHASE</span>
-              <div className="bb-tier-price-row">
-                <span className="bb-tier-price bb-price-buy">{product.formattedPrice}</span>
-              </div>
-              <span className="bb-tier-sub">Buy to own · Authentic handloom craftsmanship</span>
+              <span className="bb-tier-tag bb-tag-buy">RENT &amp; BUY</span>
+              <div className="bb-tier-buy-status">Available to Own</div>
+              <span className="bb-tier-sub">Direct purchase option available · Enquire at Bhopal studio</span>
             </div>
           </div>
 
@@ -198,7 +196,10 @@ export default function ProductDetailPage({
                   <div className="bb-related-info">
                     <span className="bb-related-code">{rel.productCode}</span>
                     <h4 className="bb-related-title">{rel.name}</h4>
-                    <span className="bb-related-price">{rel.formattedPrice}</span>
+                    <div className="bb-related-pricing">
+                      <span className="bb-related-price">Rent: {rel.formattedRentPrice || '₹799 / day'}</span>
+                      <span className="bb-related-buy-note">Rent &amp; Buy</span>
+                    </div>
                   </div>
                 </article>
               ))}

@@ -216,8 +216,8 @@
   font-size: 11.5px;
   font-weight: 600;
   letter-spacing: 0.05em;
-  padding: 4px 10px;
-  border-radius: 9999px;
+  padding: 3px 8px;
+  border-radius: 4px;
   backdrop-filter: blur(4px);
   z-index: 3;
 }
@@ -311,28 +311,25 @@
   letter-spacing: -0.01em;
 }
 
-.bb-product-code-pill {
+.bb-product-code-text {
   font-family: var(--font-sans-body);
   font-size: 13px;
   font-weight: 600;
   color: #8C6A72;
 }
 
-/* Slay Callout Banner */
-.bb-detail-slay-banner {
-  display: inline-flex;
+/* Slay Callout Row (Editorial Typography, No Pill Badge) */
+.bb-detail-slay-row {
+  display: flex;
   align-items: center;
-  gap: 8px;
-  background: linear-gradient(135deg, rgba(207, 34, 80, 0.1) 0%, rgba(140, 25, 53, 0.05) 100%);
-  border: 1px solid rgba(207, 42, 82, 0.25);
-  padding: 6px 14px;
-  border-radius: 9999px;
-  width: fit-content;
-  margin: 2px 0 6px 0;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 3px 0 8px 0;
 }
 
-.bb-detail-slay-sparkle {
-  font-size: 13px;
+.bb-detail-slay-star {
+  font-size: 11px;
+  color: #CF2A52;
 }
 
 .bb-detail-slay-text {
@@ -343,23 +340,19 @@
   letter-spacing: 0.02em;
 }
 
-.bb-detail-slay-badge {
+.bb-detail-rent-buy-note {
   font-family: var(--font-sans-body);
-  font-size: 11px;
-  font-weight: 600;
-  color: #5C232F;
-  background: rgba(255, 255, 255, 0.8);
-  padding: 2px 8px;
-  border-radius: 9999px;
-  border: 1px solid rgba(140, 25, 53, 0.15);
+  font-size: 11.5px;
+  font-weight: 500;
+  color: #6E3240;
 }
 
-/* Dual Pricing Card (Rent for Garba vs Direct Purchase) */
+/* Pricing Card (Rent for Garba + Rent & Buy Indicator) */
 .bb-detail-pricing-card {
   display: flex;
   background: #FFFFFF;
   border: 1px solid #F4E2DC;
-  border-radius: 16px;
+  border-radius: 12px;
   padding: 14px 16px;
   box-shadow: 0 4px 16px rgba(100, 21, 39, 0.05);
   gap: 16px;
@@ -401,8 +394,13 @@
   line-height: 1.1;
 }
 
-.bb-price-buy {
-  color: #4A1E29;
+.bb-tier-buy-status {
+  font-family: var(--font-serif-headline);
+  font-size: clamp(17px, 4.4vw, 20px);
+  font-weight: 600;
+  color: #5C232F;
+  line-height: 1.25;
+  margin: 3px 0 2px 0;
 }
 
 .bb-tier-sub {
@@ -433,10 +431,10 @@
 .bb-product-status-tag {
   display: inline-flex;
   align-items: center;
-  padding: 4px 10px;
-  border-radius: 9999px;
+  padding: 3px 8px;
+  border-radius: 4px;
   font-family: var(--font-sans-body);
-  font-size: 11.5px;
+  font-size: 11px;
   font-weight: 600;
 }
 
@@ -730,10 +728,23 @@
   white-space: nowrap;
 }
 
+.bb-related-pricing {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
 .bb-related-price {
-  font-size: 12px;
+  font-size: 11.5px;
   font-weight: 700;
   color: #8C243E;
+}
+
+.bb-related-buy-note {
+  font-family: var(--font-sans-body);
+  font-size: 10px;
+  color: #8C6A72;
+  font-weight: 500;
 }
 
 /* ==========================================================================

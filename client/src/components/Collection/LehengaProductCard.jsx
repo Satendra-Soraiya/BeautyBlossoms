@@ -19,7 +19,6 @@ export default function LehengaProductCard({
   const {
     productCode,
     name,
-    formattedPrice,
     thumbnail,
   } = product;
 
@@ -93,11 +92,6 @@ export default function LehengaProductCard({
             <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
           </svg>
         </button>
-
-        {/* Availability Badge */}
-        <span className="bb-product-badge bb-badge-rent-and-buy">
-          Rent & Buy
-        </span>
       </div>
 
       {/* Product Card Information */}
@@ -105,13 +99,11 @@ export default function LehengaProductCard({
         <span className="bb-card-code">{productCode}</span>
         <h3 className="bb-card-title">{name}</h3>
         <div className="bb-card-footer-row">
-          <div className="bb-card-pricing-dual">
+          <div className="bb-card-pricing-block">
             <span className="bb-card-rent-price">
               <span className="bb-rent-lbl">Rent</span> {product.formattedRentPrice || '₹799 / day'}
             </span>
-            <span className="bb-card-buy-price">
-              <span className="bb-buy-lbl">Buy</span> {formattedPrice}
-            </span>
+            <span className="bb-card-rent-buy-note">Rent &amp; Buy</span>
           </div>
           <span className="bb-card-view-btn" aria-hidden="true">
             View →

@@ -88,8 +88,10 @@ export default function WishlistDrawer({
                     >
                       {product.name}
                     </h4>
-                    <span className="bb-drawer-item-price">{product.formattedPrice}</span>
-                    <span className="bb-drawer-badge">{product.availability}</span>
+                    <span className="bb-drawer-item-price">
+                      Rent: {product.formattedRentPrice || '₹799 / day'}
+                    </span>
+                    <span className="bb-drawer-item-type">Rent &amp; Buy</span>
                   </div>
                   <button
                     type="button"

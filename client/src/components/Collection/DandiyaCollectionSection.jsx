@@ -42,10 +42,10 @@ export default function DandiyaCollectionSection({
       return matchesCategory && matchesSearch;
     }).sort((a, b) => {
       if (sortBy === 'price-asc') {
-        return (a.price || 0) - (b.price || 0);
+        return (a.rentPrice || 0) - (b.rentPrice || 0);
       }
       if (sortBy === 'price-desc') {
-        return (b.price || 0) - (a.price || 0);
+        return (b.rentPrice || 0) - (a.rentPrice || 0);
       }
       return 0; // Default order
     });
@@ -74,14 +74,15 @@ export default function DandiyaCollectionSection({
           
           <h2 className="bb-collection-title">Dandiya Night Lehengas</h2>
 
-          {/* Slay & Rental Banner */}
+          {/* Slay & Rental Banner (Editorial Typography, No Pill Badge) */}
           <div className="bb-collection-slay-banner" aria-label="Rent for Garba night and slay">
-            <div className="bb-slay-badge-tag">
-              <span className="bb-sparkle-icon" aria-hidden="true">✨</span>
-              <span className="bb-slay-headline">Rent for Garba night and slay</span>
+            <div className="bb-slay-title-row">
+              <span className="bb-slay-star" aria-hidden="true">✦</span>
+              <span className="bb-slay-banner-title">Rent for Garba night and slay</span>
+              <span className="bb-slay-star" aria-hidden="true">✦</span>
             </div>
             <p className="bb-slay-rental-info">
-              1-Day Garba Rentals from <strong>₹500 to ₹1,000 / day</strong> · Purchase options also available
+              1-Day Garba Rentals from <strong>₹500 to ₹1,000 / day</strong> · Rent &amp; Buy available in Bhopal studio
             </p>
           </div>
           
@@ -126,8 +127,8 @@ export default function DandiyaCollectionSection({
                 aria-label="Sort lehengas by price or featured"
               >
                 <option value="featured">Sort: Featured</option>
-                <option value="price-asc">Price: Low to High</option>
-                <option value="price-desc">Price: High to Low</option>
+                <option value="price-asc">Rent: Low to High</option>
+                <option value="price-desc">Rent: High to Low</option>
               </select>
             </div>
           </div>
