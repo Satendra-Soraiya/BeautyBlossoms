@@ -2,10 +2,10 @@
 :root {
   /* Brand Color Palette */
   /* Header Uniform Blush-Cream */
-  --bb-header-bg: #FFF1EB;
+  --bb-header-bg: #FCEDE7;
 
   --bb-cream-light: #FDF5F2;
-  --bb-cream-warm: #FFF1EB;
+  --bb-cream-warm: #FCEDE7;
   --bb-cream-shade: #F5E6E0;
   --bb-blush-soft: #FDE8E3;
   --bb-blush-accent: #F9D8D2;
@@ -84,3 +84,91 @@ img, svg {
   display: block;
   max-width: 100%;
 }
+
+/* Synchronized Page Ready Transition */
+.bb-homepage-wrapper {
+  opacity: 0;
+  transition: opacity 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+  width: 100%;
+}
+
+.bb-homepage-wrapper.is-ready {
+  opacity: 1;
+}
+
+/* Elegant Royal Veil Loader */
+.bb-screen-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background-color: var(--bb-header-bg, #FCEDE7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  animation: bbFadeIn 0.15s ease-out;
+}
+
+.bb-loader-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.bb-loader-flourish {
+  font-size: 26px;
+  color: var(--bb-primary-rose, #CF2A52);
+  animation: bbPulse 1.2s infinite ease-in-out;
+}
+
+.bb-loader-brand {
+  font-family: var(--font-serif-headline, 'Playfair Display', serif);
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--bb-deep-burgundy, #8C243E);
+  letter-spacing: -0.01em;
+}
+
+.bb-loader-sub {
+  font-family: var(--font-serif-eyebrow, 'Cinzel', serif);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  color: var(--bb-eyebrow-color, #4A1E29);
+  text-transform: uppercase;
+}
+
+.bb-loader-bar {
+  width: 130px;
+  height: 2.5px;
+  background: rgba(140, 36, 62, 0.15);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-top: 8px;
+}
+
+.bb-loader-progress {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #CF2A52, #8C243E);
+  border-radius: 999px;
+  animation: bbProgress 1.0s infinite ease-in-out;
+}
+
+@keyframes bbProgress {
+  0% { transform: translateX(-100%); }
+  50% { transform: translateX(0%); }
+  100% { transform: translateX(100%); }
+}
+
+@keyframes bbPulse {
+  0%, 100% { transform: scale(1); opacity: 0.85; }
+  50% { transform: scale(1.18); opacity: 1; }
+}
+
+@keyframes bbFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+

@@ -4,6 +4,7 @@ import morgan from 'morgan';
 import dotenv from 'dotenv';
 import healthRouter from './routes/health.js';
 import apiRouter from './routes/api.js';
+import productsRouter from './routes/products.js';
 
 dotenv.config();
 
@@ -23,6 +24,7 @@ app.use(morgan('dev'));
 // Routes
 app.use('/api', healthRouter);
 app.use('/api', apiRouter);
+app.use('/api/products', productsRouter);
 
 // 404 Handler
 app.use((req, res) => {

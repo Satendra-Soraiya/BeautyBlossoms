@@ -15,26 +15,27 @@ export default function HeroContent({ onExploreClick }) {
   return (
     <div className="bb-hero-content-layer">
       <div className="bb-hero-editorial-block">
+        {/* Localized dreamy blush-white glow layer behind text */}
+        <div className="bb-hero-text-haze" aria-hidden="true" />
+
         {/* Eyebrow Label */}
-        <p className="bb-hero-eyebrow" aria-label="Category: Traditional Elegance">
-          TRADITIONAL ELEGANCE
+        <p className="bb-hero-eyebrow" aria-label="Category: Dandiya Nights">
+          DANDIYA NIGHTS
         </p>
 
         {/* Main Editorial Heading */}
         <h1 className="bb-hero-heading">
-          <span className="bb-heading-line bb-heading-line1">Lehenga</span>
-          <span className="bb-heading-line bb-heading-line2">Collection</span>
+          <span className="bb-heading-line bb-heading-line1">Navratri</span>
+          <span className="bb-heading-line bb-heading-line2">Lehenga</span>
         </h1>
 
-        {/* Two-line Description with Heart */}
+        {/* Subtitle / Description */}
         <p className="bb-hero-description">
-          Every occasion deserves
-          <br />
-          a Blooming You <span className="bb-heart-glyph" aria-hidden="true">♡</span>
+          Tradition in Every Twirl <span className="bb-heart-glyph" aria-hidden="true">♡</span>
         </p>
 
         {/* Primary Call-to-Action */}
-        <CollectionCTA onClick={onExploreClick} />
+        <CollectionCTA onClick={onExploreClick} label="Explore Collection" />
       </div>
     </div>
   );

@@ -22,12 +22,12 @@ export default function HeroCurve() {
         <path
           d="M 0 0
              L 1000 0
-             L 1000 74
-             C 740 74, 640 100, 500 100
-             C 360 100, 260 74, 0 74
+             L 1000 56
+             C 750 56, 640 100, 500 100
+             C 360 100, 250 56, 0 56
              Z"
           className="bb-curve-fill"
-          fill="var(--bb-header-bg, #FCEAE3)"
+          fill="var(--bb-header-bg, #FCEDE7)"
         />
       </svg>
     </div>

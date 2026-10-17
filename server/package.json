@@ -6,9 +6,16 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "seed:supabase": "node src/scripts/seedSupabase.js",
+    "generate:sql": "node src/scripts/generateSeedSql.js"
   },
-  "keywords": ["express", "supabase", "mern", "beautyblossoms"],
+  "keywords": [
+    "express",
+    "supabase",
+    "mern",
+    "beautyblossoms"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -16,9 +23,11 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "pg": "^8.23.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.9",
+    "sharp": "^0.35.5"
   }
 }

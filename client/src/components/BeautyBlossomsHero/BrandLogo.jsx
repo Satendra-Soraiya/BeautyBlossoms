@@ -20,8 +20,8 @@ export default function BrandLogo({ logoSrc = '/logo.svg' }) {
           alt="Beauty Blossoms Logo"
           className="bb-brand-logo-img"
           loading="eager"
-          width="80"
-          height="80"
+          width="96"
+          height="96"
         />
       </a>
     </div>

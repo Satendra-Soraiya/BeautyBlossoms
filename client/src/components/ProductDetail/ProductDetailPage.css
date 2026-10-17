@@ -1,0 +1,878 @@
+/* ==========================================================================
+   Beauty Blossoms — Product Detail Page Styles (Screen 3 Reference)
+   ========================================================================== */
+
+.bb-product-page-root {
+  position: relative;
+  width: 100%;
+  min-height: 100svh;
+  background-color: #FFF9F6;
+  color: #3D262B;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ==========================================================================
+   Top Navigation Header (Back arrow + Centered Logo + Wishlist)
+   ========================================================================== */
+
+.bb-product-nav-header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  background-color: rgba(253, 245, 242, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid #F2DDD6;
+  z-index: 40;
+  box-sizing: border-box;
+}
+
+.bb-product-back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #641527;
+  font-family: var(--font-sans-body);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 8px;
+  border-radius: 8px;
+  transition: var(--transition-smooth);
+}
+
+.bb-product-back-btn:hover {
+  background-color: rgba(207, 42, 82, 0.08);
+  color: #CF2A52;
+}
+
+.bb-back-arrow-svg {
+  width: 20px;
+  height: 20px;
+}
+
+.bb-product-logo-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bb-product-header-logo {
+  height: 38px;
+  width: auto;
+  object-fit: contain;
+}
+
+.bb-product-nav-fav-btn {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  border: 1px solid #F2DDD6;
+  transition: var(--transition-smooth);
+}
+
+.bb-product-nav-fav-btn:hover {
+  transform: scale(1.08);
+}
+
+.bb-product-nav-fav-btn.is-active {
+  background-color: #FFF0F3;
+  border-color: #F8B4C4;
+}
+
+.bb-nav-heart-svg {
+  width: 18px;
+  height: 18px;
+}
+
+/* ==========================================================================
+   Main Content Layout
+   ========================================================================== */
+
+.bb-product-page-main {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 14px 16px clamp(90px, 14vh, 120px);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* Breadcrumb */
+.bb-product-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-sans-body);
+  font-size: 11.5px;
+  color: #8C6A72;
+}
+
+.bb-breadcrumb-link {
+  color: #8C243E;
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.bb-breadcrumb-sep {
+  opacity: 0.5;
+}
+
+.bb-breadcrumb-current {
+  color: #55353C;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ==========================================================================
+   Section A: Product Image Gallery
+   ========================================================================== */
+
+.bb-gallery-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bb-gallery-stage {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  border-radius: 18px;
+  overflow: hidden;
+  background-color: #FCEDE7;
+  box-shadow: 0 6px 20px rgba(100, 21, 39, 0.08);
+  cursor: zoom-in;
+}
+
+.bb-gallery-main-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Nav arrows on gallery */
+.bb-gallery-nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(4px);
+  border: none;
+  font-size: 22px;
+  line-height: 1;
+  color: #4A1E29;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: var(--transition-smooth);
+  z-index: 3;
+}
+
+.bb-gallery-prev {
+  left: 10px;
+}
+
+.bb-gallery-next {
+  right: 10px;
+}
+
+.bb-gallery-nav-btn:hover {
+  background-color: #FFFFFF;
+  transform: translateY(-50%) scale(1.1);
+}
+
+/* Counter Badge (Screen 3: 1/5) */
+.bb-gallery-counter-badge {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  background-color: rgba(26, 16, 20, 0.72);
+  color: #FFFFFF;
+  font-family: var(--font-sans-body);
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  backdrop-filter: blur(4px);
+  z-index: 3;
+}
+
+/* Zoom hint in top left */
+.bb-gallery-zoom-hint {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #641527;
+  z-index: 3;
+}
+
+.bb-gallery-zoom-hint svg {
+  width: 14px;
+  height: 14px;
+}
+
+/* Thumbnails Strip */
+.bb-gallery-thumbnails-strip {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 4px 2px;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.bb-gallery-thumbnails-strip::-webkit-scrollbar {
+  display: none;
+}
+
+.bb-gallery-thumb-btn {
+  flex-shrink: 0;
+  width: 64px;
+  height: 78px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid transparent;
+  background-color: #F8ECE7;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.bb-gallery-thumb-btn.is-active {
+  border-color: #CF2A52;
+  box-shadow: 0 2px 8px rgba(207, 42, 82, 0.25);
+  transform: translateY(-1px);
+}
+
+.bb-gallery-thumb-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ==========================================================================
+   Section B: Product Overview & Highlights
+   ========================================================================== */
+
+.bb-product-info-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 4px;
+}
+
+.bb-product-title-row {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.bb-product-name {
+  font-family: var(--font-serif-headline);
+  font-size: clamp(24px, 6.5vw, 30px);
+  font-weight: 700;
+  color: #641527;
+  line-height: 1.15;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+.bb-product-code-pill {
+  font-family: var(--font-sans-body);
+  font-size: 13px;
+  font-weight: 600;
+  color: #8C6A72;
+}
+
+.bb-product-price-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.bb-product-price-amount {
+  font-family: var(--font-serif-headline);
+  font-size: clamp(24px, 6.5vw, 28px);
+  font-weight: 700;
+  color: #72162B;
+}
+
+.bb-product-status-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  font-family: var(--font-sans-body);
+  font-size: 11.5px;
+  font-weight: 600;
+}
+
+.bb-product-description-text {
+  font-family: var(--font-sans-body);
+  font-size: clamp(13px, 3.4vw, 14.5px);
+  line-height: 1.5;
+  color: #4A3338;
+  margin: 4px 0 6px 0;
+}
+
+/* Quick Specifications Grid */
+.bb-quick-specs-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.bb-quick-spec-card {
+  background-color: #FFFFFF;
+  border: 1px solid #F2DDD6;
+  border-radius: 12px;
+  padding: 8px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.bb-spec-label {
+  font-family: var(--font-sans-body);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: #8C6A72;
+  text-transform: uppercase;
+}
+
+.bb-spec-value {
+  font-family: var(--font-sans-body);
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #4A1E29;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ==========================================================================
+   Section C: Expandable Information Accordions (Screen 3)
+   ========================================================================== */
+
+.bb-product-accordions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.bb-accordion-item {
+  background-color: #FFFFFF;
+  border: 1px solid #F0D5CD;
+  border-radius: 14px;
+  overflow: hidden;
+  transition: var(--transition-smooth);
+}
+
+.bb-accordion-item.is-open {
+  border-color: #E6B5A6;
+  box-shadow: 0 4px 12px rgba(100, 21, 39, 0.04);
+}
+
+.bb-accordion-header-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 16px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  text-align: left;
+}
+
+.bb-accordion-title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bb-accordion-icon-wrap {
+  width: 26px;
+  height: 26px;
+  border-radius: 8px;
+  background-color: #FDF0EB;
+  color: #CF2A52;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bb-accordion-icon {
+  width: 15px;
+  height: 15px;
+}
+
+.bb-accordion-title-text {
+  font-family: var(--font-sans-body);
+  font-size: 13.5px;
+  font-weight: 600;
+  color: #4A1E29;
+}
+
+.bb-accordion-chevron {
+  width: 16px;
+  height: 16px;
+  color: #8C6A72;
+  transition: transform 0.25s ease;
+}
+
+.bb-accordion-chevron.is-rotated {
+  transform: rotate(180deg);
+  color: #CF2A52;
+}
+
+.bb-accordion-panel {
+  padding: 0 16px 14px 16px;
+  border-top: 1px dashed #F8E4DE;
+  animation: bbFadeDown 0.2s ease-out;
+}
+
+@keyframes bbFadeDown {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.bb-details-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 10px;
+}
+
+.bb-detail-row {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.bb-detail-row dt {
+  font-family: var(--font-sans-body);
+  font-size: 11px;
+  font-weight: 600;
+  color: #8C6A72;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.bb-detail-row dd {
+  font-family: var(--font-sans-body);
+  font-size: 13px;
+  color: #3D262B;
+  line-height: 1.4;
+  margin-left: 0;
+}
+
+.bb-highlight-text {
+  color: #2E7D32 !important;
+  font-weight: 600;
+}
+
+/* Reservation Advisory Box */
+.bb-booking-guidance-card {
+  display: flex;
+  gap: 12px;
+  background: linear-gradient(135deg, #FFF4F0 0%, #FDEEE9 100%);
+  border: 1px solid #F4D3C9;
+  border-radius: 14px;
+  padding: 14px 16px;
+  margin-top: 6px;
+}
+
+.bb-guidance-icon-wrap {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #CF2A52;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bb-guidance-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.bb-guidance-text h4 {
+  font-family: var(--font-sans-body);
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #641527;
+  margin: 0 0 3px 0;
+}
+
+.bb-guidance-text p {
+  font-family: var(--font-sans-body);
+  font-size: 11.5px;
+  line-height: 1.45;
+  color: #5A3D44;
+  margin: 0;
+}
+
+/* ==========================================================================
+   More from Collection Carousel
+   ========================================================================== */
+
+.bb-related-products-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.bb-related-heading {
+  font-family: var(--font-serif-headline);
+  font-style: italic;
+  font-size: 18px;
+  color: #641527;
+  margin: 0;
+}
+
+.bb-related-scroll-row {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding-bottom: 6px;
+  scrollbar-width: none;
+}
+
+.bb-related-scroll-row::-webkit-scrollbar {
+  display: none;
+}
+
+.bb-related-card {
+  flex-shrink: 0;
+  width: 140px;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #F0D5CD;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.bb-related-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(100, 21, 39, 0.08);
+}
+
+.bb-related-img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  display: block;
+}
+
+.bb-related-info {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.bb-related-code {
+  font-size: 9.5px;
+  font-weight: 600;
+  color: #8C6A72;
+}
+
+.bb-related-title {
+  font-family: var(--font-serif-headline);
+  font-size: 12px;
+  font-weight: 600;
+  color: #4A1E29;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bb-related-price {
+  font-size: 12px;
+  font-weight: 700;
+  color: #8C243E;
+}
+
+/* ==========================================================================
+   Section D: Sticky Non-eCommerce Booking Actions Bar
+   ========================================================================== */
+
+.bb-booking-bar-wrapper {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-top: 1px solid #F2DDD6;
+  box-shadow: 0 -4px 18px rgba(100, 21, 39, 0.08);
+  padding: 10px 14px calc(10px + env(safe-area-inset-bottom, 10px));
+}
+
+.bb-booking-bar-inner {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.bb-booking-fav-btn {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #FFF3F0;
+  border: 1px solid #F4D3C9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition-smooth);
+}
+
+.bb-booking-fav-btn:hover {
+  transform: scale(1.06);
+}
+
+.bb-booking-fav-btn.is-active {
+  background-color: #FFF0F3;
+  border-color: #CF2A52;
+}
+
+.bb-booking-heart-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.bb-booking-call-btn {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  height: 44px;
+  padding: 0 12px;
+  border-radius: 9999px;
+  background-color: #FFFFFF;
+  border: 1.5px solid #8C243E;
+  color: #8C243E;
+  font-family: var(--font-sans-body);
+  font-size: 13px;
+  font-weight: 600;
+  transition: var(--transition-smooth);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.bb-booking-call-btn:hover {
+  background-color: #FCEDE7;
+}
+
+.bb-booking-whatsapp-btn {
+  flex: 1.35;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  height: 44px;
+  padding: 0 14px;
+  border-radius: 9999px;
+  background: linear-gradient(135deg, #CF2250 0%, #A8153A 100%);
+  color: #FFFFFF;
+  font-family: var(--font-sans-body);
+  font-size: 13px;
+  font-weight: 600;
+  box-shadow: 0 4px 14px rgba(207, 34, 80, 0.35);
+  transition: var(--transition-smooth);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.bb-booking-whatsapp-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(207, 34, 80, 0.42);
+}
+
+.bb-booking-btn-icon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+/* ==========================================================================
+   Full-Screen Lightbox Modal
+   ========================================================================== */
+
+.bb-lightbox-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background-color: rgba(18, 10, 14, 0.96);
+  display: flex;
+  flex-direction: column;
+  animation: bbFadeIn 0.2s ease-out;
+}
+
+@keyframes bbFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.bb-lightbox-header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  color: #FFFFFF;
+}
+
+.bb-lightbox-title-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.bb-lightbox-product-name {
+  font-family: var(--font-serif-headline);
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.bb-lightbox-counter {
+  font-family: var(--font-sans-body);
+  font-size: 12px;
+  color: #F8B4C4;
+}
+
+.bb-lightbox-close-btn {
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  color: #FFFFFF;
+  font-size: 20px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition-smooth);
+}
+
+.bb-lightbox-close-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.bb-lightbox-stage {
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  overflow: hidden;
+}
+
+.bb-lightbox-img {
+  max-width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.bb-lightbox-nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: #FFFFFF;
+  font-size: 30px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.bb-lightbox-prev {
+  left: 20px;
+}
+
+.bb-lightbox-next {
+  right: 20px;
+}
+
+.bb-lightbox-caption {
+  padding: 12px 20px calc(12px + env(safe-area-inset-bottom, 12px));
+  text-align: center;
+  color: #F5E6E0;
+  font-family: var(--font-sans-body);
+  font-size: 13px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Tablet & Desktop Adjustments */
+@media (min-width: 768px) {
+  .bb-product-nav-header,
+  .bb-product-page-main,
+  .bb-booking-bar-inner {
+    max-width: 760px;
+  }
+
+  .bb-quick-specs-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

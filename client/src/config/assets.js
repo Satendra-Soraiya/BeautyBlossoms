@@ -8,8 +8,8 @@ export const BRAND_ASSETS = {
   // Brand Logo (transparent vector SVG with circular floral wreath)
   logo: '/logo.svg',
 
-  // Hero Section Background Image (dummy image for production layout; replace with new photoshoot)
-  heroBackground: '/hero bg.png',
+  // Hero Section Background Image — Definitive approved bridal portrait
+  heroBackground: '/Dreamy Pink Garden Bridal Portrait.png',
 
   // Original design specification reference for QA and visual comparison
   referenceHeader: '/reference header .png',
