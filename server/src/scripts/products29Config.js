@@ -544,33 +544,6 @@ export function buildProductRecord(item) {
         });
       }
 
-      const choliFile = path.resolve(__dirname, `../../../client/public/products/${id}-choli.jpg`);
-      if (fs.existsSync(choliFile)) {
-        imgList.push({
-          url: `/products/${id}-choli.jpg`,
-          title: 'Embroidered Choli Blouse Detail',
-          alt: `${item.name} (${productCode}) — Handcrafted Choli Blouse Detail`,
-        });
-      }
-
-      const embFile = path.resolve(__dirname, `../../../client/public/products/${id}-embroidery.jpg`);
-      if (fs.existsSync(embFile)) {
-        imgList.push({
-          url: `/products/${id}-embroidery.jpg`,
-          title: 'Artisan Border & Mirrorwork Craft',
-          alt: `${item.name} (${productCode}) — Authentic Handcrafted Embroidery & Mirrors`,
-        });
-      }
-
-      const backFile = path.resolve(__dirname, `../../../client/public/products/${id}-back.jpg`);
-      if (fs.existsSync(backFile)) {
-        imgList.push({
-          url: `/products/${id}-back.jpg`,
-          title: 'Back Silhouette & Tie-up Latkans',
-          alt: `${item.name} (${productCode}) — Back Tassels & Latkan Finish`,
-        });
-      }
-
       return imgList;
     })(),
     description: `A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.`,

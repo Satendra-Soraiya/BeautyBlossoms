@@ -1159,21 +1159,6 @@ export const LEHENGA_PRODUCTS = [
         "url": "/products/bb-21-flatlay.webp",
         "title": "Luxury Gift Box Ensemble & Details",
         "alt": "BB-21 Shyamali Charcoal Festive Lehenga (BB-21) — Luxury Gift Box Packaging & Choli Flat Lay"
-      },
-      {
-        "url": "/products/bb-21-choli.jpg",
-        "title": "Embroidered Choli Blouse Detail",
-        "alt": "BB-21 Shyamali Charcoal Festive Lehenga (BB-21) — Handcrafted Choli Blouse Detail"
-      },
-      {
-        "url": "/products/bb-21-embroidery.jpg",
-        "title": "Artisan Border & Mirrorwork Craft",
-        "alt": "BB-21 Shyamali Charcoal Festive Lehenga (BB-21) — Authentic Handcrafted Embroidery & Mirrors"
-      },
-      {
-        "url": "/products/bb-21-back.jpg",
-        "title": "Back Silhouette & Tie-up Latkans",
-        "alt": "BB-21 Shyamali Charcoal Festive Lehenga (BB-21) — Back Tassels & Latkan Finish"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
