@@ -1,1385 +1,1289 @@
 /**
- * Beauty Blossoms — Luxury Dandiya Night Lehenga Catalog (30 Products)
+ * Beauty Blossoms — Luxury Dandiya Night Lehenga Catalog (29 Authentic Products)
  * 
  * Non-commercial boutique showcase catalog:
- * - 30 authentic handcrafted lehengas across 6 signature collections
- * - Rich attributes: zardozi work, raw silk fabrics, 5m+ flares, latkans
- * - High-res portrait gallery references with safe fallbacks
- * - Bespoke concierge booking metadata (trials, alterations, whatsapp enquiries)
+ * - 29 authentic original handcrafted lehengas from Gujarat & Rajasthan artisan clusters
+ * - High-fidelity WebP photography with instant synchronized loading
+ * - Direct in-studio trial and booking experience in Bhopal
  */
 
 export const LEHENGA_PRODUCTS = [
-  // --- RANI PINK COLLECTION (BB-01 to BB-05 & BB-21) ---
   {
-    id: 'bb-01',
-    slug: 'noorani-rani-pink-lehenga',
-    productCode: 'BB-01',
-    name: 'Noorani Rani Pink Lehenga',
-    collection: 'Dandiya Night Lehengas',
-    tagline: 'Luminous rani pink silk illuminated with heritage gota patti and zardozi arches',
-    price: 31999,
-    formattedPrice: '₹31,999',
-    availability: 'In Stock',
-    availabilityBadge: 'in-stock',
-    category: 'rani-pink',
-    categoryLabel: 'Rani Pink',
-    featured: true,
-    thumbnail: '/products/bb-01-front.jpg',
-    images: [
+    "id": "bb-01",
+    "slug": "bb-01",
+    "productCode": "BB-01",
+    "name": "BB-01 Patola Twirl Dandiya Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Ivory kalidar silk with heritage red Patola arches and hand-stitched gota patti",
+    "price": 34999,
+    "formattedPrice": "₹34,999",
+    "availability": "In Stock",
+    "availabilityBadge": "in-stock",
+    "category": "festive-special",
+    "categoryLabel": "Festive Special",
+    "featured": true,
+    "thumbnail": "/products/bb-01.webp",
+    "images": [
       {
-        url: '/products/bb-01-front.jpg',
-        title: 'Full Front Silhouette',
-        alt: 'Noorani Rani Pink Lehenga with zardozi arches and floral twirl flare',
-      },
-      {
-        url: '/products/bb-21-embroidery.jpg',
-        title: 'Embroidery Detail',
-        alt: 'Close-up of golden zardozi work on rani pink silk',
-      },
+        "url": "/products/bb-01.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-01 Patola Twirl Dandiya Lehenga (BB-01) — Dandiya Night Lehenga"
+      }
     ],
-    description:
-      'A majestic rani pink creation featuring 20 kali flared raw silk adorned with antique golden gota patti, kundan stones, and delicate resham flora. Handcrafted for breathtaking twirls under Dandiya night lights.',
-    details: {
-      colour: 'Deep Rani Pink with Champagne Gold Zari',
-      fabric: 'Pure Raw Silk with Sheer Organza Dupatta',
-      work: 'Handcrafted Zardozi, Gota Patti & Cut-work Sequins',
-      lining: 'Heavy Shantoon with Stiffened Can-Can Net',
-      flare: '5.2 meters full twirl flare',
-      components: 'Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta',
-      closure: 'Concealed Side Zipper with Hand-knotted Latkans',
-      care: 'Strictly Dry Clean Only. Store in muslin wrap.',
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "details": {
+      "colour": "Ivory Cream & Sindoor Red with Gold Zari",
+      "fabric": "Pure Raw Silk with Bandhani Chiffon Dupatta",
+      "work": "Traditional Patola Print Arches, Gota Patti Borders & Mirror Accents",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "5.5 meters full 360° twirl flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
     },
-    sizeFitting: {
-      standardSizes: 'XS, S, M, L, XL (Bespoke Tailoring Available)',
-      skirtLength: '42 inches standard (Customizable)',
-      waistFitting: 'Adjustable up to 40 inches with drawstring tie-up',
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
-    bookingInfo: {
-      status: 'Ready for studio trial & express dispatch.',
-      trials: 'Available for viewing & trials at our Bhopal studio.',
+    "bookingInfo": {
+      "status": "Ready for studio trial & in-person purchase.",
+      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
+    "sortOrder": 1
   },
   {
-    id: 'bb-02',
-    slug: 'gulab-mahal-rani-lehenga',
-    productCode: 'BB-02',
-    name: 'Gulab Mahal Rani Lehenga',
-    collection: 'Dandiya Night Lehengas',
-    tagline: 'Palatial rose motifs rendered in dense sequins and golden threadwork',
-    price: 33499,
-    formattedPrice: '₹33,499',
-    availability: 'In Stock',
-    availabilityBadge: 'in-stock',
-    category: 'rani-pink',
-    categoryLabel: 'Rani Pink',
-    featured: false,
-    thumbnail: '/products/bb-02-front.jpg',
-    images: [
+    "id": "bb-02",
+    "slug": "bb-02",
+    "productCode": "BB-02",
+    "name": "BB-02 Haldi Bandhani Twirl Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Sunshine yellow flared silk with scarlet Bandhani dupatta and kundan accents",
+    "price": 33499,
+    "formattedPrice": "₹33,499",
+    "availability": "In Stock",
+    "availabilityBadge": "in-stock",
+    "category": "sunshine-yellow",
+    "categoryLabel": "Sunshine Yellow",
+    "featured": true,
+    "thumbnail": "/products/bb-02.webp",
+    "images": [
       {
-        url: '/products/bb-02-front.jpg',
-        title: 'Full Front Silhouette',
-        alt: 'Gulab Mahal Rani Lehenga with dense floral sequin borders',
-      },
+        "url": "/products/bb-02.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-02 Haldi Bandhani Twirl Lehenga (BB-02) — Dandiya Night Lehenga"
+      }
     ],
-    description:
-      'Inspired by the grand frescoed rose courtyards of Rajasthan, this vibrant rani pink lehenga features intricate metallic sequin clusters, hand-embossed floral kalis, and a scalloped embroidered hem.',
-    details: {
-      colour: 'Vibrant Rani Pink with Antique Brass Accents',
-      fabric: 'Fine Mulberry Silk with Butterfly Net Dupatta',
-      work: 'Sequin Floral Motifs, Antique Zari & Pearl Seed Highlights',
-      lining: 'Premium Shantoon with Double Layer Can-Can',
-      flare: '5.5 meters circular flare',
-      components: 'Embroidered Skirt, Padded Choli Blouse, Four-Sided Border Dupatta',
-      closure: 'Side Zipper with Silk Tassels',
-      care: 'Professional Dry Clean Only.',
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "details": {
+      "colour": "Sunshine Yellow & Scarlet Red with Antique Brass Zari",
+      "fabric": "Fine Mulberry Silk with Authentic Bandhani Dupatta",
+      "work": "Hand-done Bandhej Dots, Zardozi Kalis & Scalloped Hem",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "5.4 meters circular flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
     },
-    sizeFitting: {
-      standardSizes: 'S, M, L, XL',
-      skirtLength: '42.5 inches',
-      waistFitting: 'Comfortable waist with customizable ease',
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
-    bookingInfo: {
-      status: 'In stock for immediate studio reservation.',
-      trials: 'Available for viewing & trials at our Bhopal studio.',
+    "bookingInfo": {
+      "status": "Ready for studio trial & in-person purchase.",
+      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
+    "sortOrder": 2
   },
   {
-    id: 'bb-03',
-    slug: 'sitara-twirl-rani-lehenga',
-    productCode: 'BB-03',
-    name: 'Sitara Twirl Rani Lehenga',
-    collection: 'Dandiya Night Lehengas',
-    tagline: 'Featherlight movement meets thousands of sparkling micro-mirrors and sequins',
-    price: 29999,
-    formattedPrice: '₹29,999',
-    availability: 'In Stock',
-    availabilityBadge: 'in-stock',
-    category: 'rani-pink',
-    categoryLabel: 'Rani Pink',
-    featured: false,
-    thumbnail: '/products/bb-03-front.jpg',
-    images: [
+    "id": "bb-03",
+    "slug": "bb-03",
+    "productCode": "BB-03",
+    "name": "BB-03 Midnight Sitara Dandiya Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Midnight velvet-silk blend with multi-hued resham florals and dazzling mirror work",
+    "price": 36999,
+    "formattedPrice": "₹36,999",
+    "availability": "In Stock",
+    "availabilityBadge": "in-stock",
+    "category": "festive-special",
+    "categoryLabel": "Festive Special",
+    "featured": false,
+    "thumbnail": "/products/bb-03.webp",
+    "images": [
       {
-        url: '/products/bb-03-front.jpg',
-        title: 'Full Front Twirl View',
-        alt: 'Sitara Twirl Rani Lehenga shimmering with micro-mirrors',
-      },
+        "url": "/products/bb-03.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-03 Midnight Sitara Dandiya Lehenga (BB-03) — Dandiya Night Lehenga"
+      }
     ],
-    description:
-      'Engineered specifically for non-stop Dandiya dancing, the Sitara Twirl lehenga balances lightweight flow with dazzling light reflection. Features micro-mirror scatter and golden chevron kali borders.',
-    details: {
-      colour: 'Fiery Rani Magenta with Gold Mirror Accents',
-      fabric: 'Flowing Georgette with Shimmer Chiffon Dupatta',
-      work: 'Kutchi Micro Mirror-work, Resham Borders & Golden Mukaish',
-      lining: 'Breathable Cotton Silk with Flexible Lightweight Can-Can',
-      flare: '6.0 meters high-volume dance flare',
-      components: 'Flared Skirt, Backless Dori Choli Blouse, Mirror-edged Dupatta',
-      closure: 'Braided Drawstring with Bell Latkans',
-      care: 'Gentle Dry Clean Only.',
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "details": {
+      "colour": "Midnight Black & Multi-Color Resham with Silver Mirror",
+      "fabric": "Micro-Velvet & Heavy Georgette with Embellished Net Dupatta",
+      "work": "Authentic Hand-Cut Mirror Work, Kutchi Thread Embroidery",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "5.2 meters full twirl flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
     },
-    sizeFitting: {
-      standardSizes: 'XS, S, M, L, XL',
-      skirtLength: '42 inches',
-      waistFitting: 'Flexible drawstring waist up to 38 inches',
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
-    bookingInfo: {
-      status: 'Festive favorite in high demand.',
-      trials: 'Available for viewing & trials at our Bhopal studio.',
+    "bookingInfo": {
+      "status": "Ready for studio trial & in-person purchase.",
+      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
+    "sortOrder": 3
   },
   {
-    id: 'bb-04',
-    slug: 'chand-roshni-rani-lehenga',
-    productCode: 'BB-04',
-    name: 'Chand Roshni Rani Lehenga',
-    collection: 'Dandiya Night Lehengas',
-    tagline: 'Moonlit silver-gold zari embroidery framing deep jewel-tone rani magenta',
-    price: 34999,
-    formattedPrice: '₹34,999',
-    availability: 'Low Stock',
-    availabilityBadge: 'low-stock',
-    category: 'rani-pink',
-    categoryLabel: 'Rani Pink',
-    featured: false,
-    thumbnail: '/products/bb-04-front.jpg',
-    images: [
+    "id": "bb-04",
+    "slug": "bb-04",
+    "productCode": "BB-04",
+    "name": "BB-04 Royal Kutch Heritage Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Generational Gujarati Kutch motif panels with abhala mirror craftsmanship",
+    "price": 35999,
+    "formattedPrice": "₹35,999",
+    "availability": "In Stock",
+    "availabilityBadge": "in-stock",
+    "category": "festive-special",
+    "categoryLabel": "Festive Special",
+    "featured": false,
+    "thumbnail": "/products/bb-04.webp",
+    "images": [
       {
-        url: '/products/bb-04-front.jpg',
-        title: 'Full Front Silhouette',
-        alt: 'Chand Roshni Rani Lehenga with dual tone silver gold embroidery',
-      },
+        "url": "/products/bb-04.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-04 Royal Kutch Heritage Lehenga (BB-04) — Dandiya Night Lehenga"
+      }
     ],
-    description:
-      'An exquisite contrast of silver badla and warm gold zari across deep rani silk. Features crescent moon motifs along the waistband and layered scalloped hems that sway gracefully with every step.',
-    details: {
-      colour: 'Deep Rani Pink with Silver & Gold Dual-Tone Zari',
-      fabric: 'Brocade Raw Silk with Organza Tissue Dupatta',
-      work: 'Badla Work, Fine Wire Zardozi & Hand-embroidered Borders',
-      lining: 'Heavy Shantoon with Triple Crinoline Can-Can',
-      flare: '5.6 meters ballroom twirl cut',
-      components: 'Kalidar Skirt, Sweetheart Choli Blouse, Bordered Tissue Dupatta',
-      closure: 'Side Zipper & Metallic Latkans',
-      care: 'Specialized Heritage Dry Clean.',
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "details": {
+      "colour": "Deep Charcoal & Vibrant Jewel Tones",
+      "fabric": "Pure Silk Dupion with Banarasi Weave Dupatta",
+      "work": "Abhala Mirror Work, Hand-Knotted Tassels & Fine Resham Flora",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "5.6 meters full kalidar flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
     },
-    sizeFitting: {
-      standardSizes: 'S, M, L',
-      skirtLength: '43 inches',
-      waistFitting: 'Tailored fit with internal reinforcement',
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
-    bookingInfo: {
-      status: 'Only 3 pieces left in this colorway.',
-      trials: 'Available for viewing & trials at our Bhopal studio.',
+    "bookingInfo": {
+      "status": "Ready for studio trial & in-person purchase.",
+      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
+    "sortOrder": 4
   },
   {
-    id: 'bb-05',
-    slug: 'suraj-rani-gota-lehenga',
-    productCode: 'BB-05',
-    name: 'Suraj Rani Gota Lehenga',
-    collection: 'Dandiya Night Lehengas',
-    tagline: 'Traditional sunburst gota patti ribbons handcrafted on rich rani silk base',
-    price: 32499,
-    formattedPrice: '₹32,499',
-    availability: 'In Stock',
-    availabilityBadge: 'in-stock',
-    category: 'rani-pink',
-    categoryLabel: 'Rani Pink',
-    featured: false,
-    thumbnail: '/products/bb-05-front.jpg',
-    images: [
+    "id": "bb-05",
+    "slug": "bb-05",
+    "productCode": "BB-05",
+    "name": "BB-05 Neelambari Indigo Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Deep indigo-plum kalis accented with silver gota and antique threadwork",
+    "price": 37999,
+    "formattedPrice": "₹37,999",
+    "availability": "In Stock",
+    "availabilityBadge": "in-stock",
+    "category": "royal-plum",
+    "categoryLabel": "Royal Plum",
+    "featured": false,
+    "thumbnail": "/products/bb-05.webp",
+    "images": [
       {
-        url: '/products/bb-05-front.jpg',
-        title: 'Full Front Silhouette',
-        alt: 'Suraj Rani Gota Lehenga with radiating sunburst ribbons',
-      },
+        "url": "/products/bb-05.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-05 Neelambari Indigo Lehenga (BB-05) — Dandiya Night Lehenga"
+      }
     ],
-    description:
-      'Celebrates the royal craft of Rajasthani Gota Patti. 24 vertical panels radiating outward like sun rays, finished with handcrafted peacock and floral medallions at the hem.',
-    details: {
-      colour: 'Rani Pink with Luminous Gold Gota',
-      fabric: 'Chanderi Silk Skirt with Banarasi Silk Choli',
-      work: 'Authentic Hand-cut Gota Patti, Resham Butis & Dori Piping',
-      lining: 'Soft Pure Cotton Shantoon with Structured Can-Can',
-      flare: '5.0 meters flared skirt',
-      components: 'Gota Skirt, Handcrafted Blouse, Sheer Gota Dupatta',
-      closure: 'Side Concealed Zip & Gota Flower Tassels',
-      care: 'Dry Clean Only.',
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "details": {
+      "colour": "Royal Indigo Plum with Antique Silver Filigree",
+      "fabric": "Chanderi Silk with Sheer Organza Embellished Dupatta",
+      "work": "Silver Zari Gota Patti, Resham Borders & Hand Tassels",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "5.2 meters circular flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
     },
-    sizeFitting: {
-      standardSizes: 'XS, S, M, L, XL',
-      skirtLength: '42 inches',
-      waistFitting: 'Adjustable 28 to 38 inches',
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
-    bookingInfo: {
-      status: 'Available for private preview & trial.',
-      trials: 'Available for viewing & trials at our Bhopal studio.',
+    "bookingInfo": {
+      "status": "Ready for studio trial & in-person purchase.",
+      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
+    "sortOrder": 5
   },
   {
-    id: 'bb-21',
-    slug: 'rani-pink-lehenga',
-    productCode: 'BB-21',
-    name: 'Rani Pink Lehenga',
-    collection: 'Dandiya Night Lehengas',
-    tagline: 'A stunning blend of traditional embroidery and contemporary elegance',
-    price: 32999,
-    formattedPrice: '₹32,999',
-    availability: 'In Stock',
-    availabilityBadge: 'in-stock',
-    category: 'rani-pink',
-    categoryLabel: 'Rani Pink',
-    featured: true,
-    thumbnail: '/products/bb-21-front.jpg',
-    images: [
+    "id": "bb-06",
+    "slug": "bb-06",
+    "productCode": "BB-06",
+    "name": "BB-06 Mayur Pankh Festive Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Peacock-inspired indigo flare with shimmering antique sequins and resham",
+    "price": 38499,
+    "formattedPrice": "₹38,499",
+    "availability": "In Stock",
+    "availabilityBadge": "in-stock",
+    "category": "royal-plum",
+    "categoryLabel": "Royal Plum",
+    "featured": false,
+    "thumbnail": "/products/bb-06.webp",
+    "images": [
       {
-        url: '/products/bb-21-front.jpg',
-        title: 'Full Front Silhouette',
-        alt: 'Rani Pink Lehenga with intricate golden zardozi embroidery and flower garden arch',
-      },
-      {
-        url: '/products/bb-21-back.jpg',
-        title: 'Back View & Latkan Dori',
-        alt: 'Back view of Rani Pink designer blouse featuring handcrafted dori latkan tassels',
-      },
-      {
-        url: '/products/bb-21-embroidery.jpg',
-        title: 'Zardozi Embroidery Close-up',
-        alt: 'Macro view of golden zardozi threadwork, sequins, and scalloped hem border',
-      },
-      {
-        url: '/products/bb-21-choli.jpg',
-        title: 'Choli Blouse & Neckline Detail',
-        alt: 'Close-up of sweetheart neckline embroidered choli with kundan jewelry',
-      },
+        "url": "/products/bb-06.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-06 Mayur Pankh Festive Lehenga (BB-06) — Dandiya Night Lehenga"
+      }
     ],
-    description:
-      'A breathtaking rani pink masterpiece crafted for unforgettable Navratri dandiya celebrations. Features 24-kali flared raw silk silhouette adorned with handcrafted antique golden zardozi, shimmering sequins, and fine resham embroidery that catches every beam of light as you twirl.',
-    details: {
-      colour: 'Rani Pink with Antique Gold Accents',
-      fabric: 'Pure Raw Silk with Micro-Shimmer Georgette Dupatta',
-      work: 'Authentic Handcrafted Zardozi, Golden Resham & Sequins',
-      lining: 'Heavy Shantoon with Double Layer Can-Can Net for dramatic flare',
-      flare: 'Approximately 5.5 meters full 360-degree twirl',
-      components: 'Flared Lehenga Skirt, Embroidered Choli Blouse Fabric, Hand-finished Dupatta, Handcrafted Latkan Tassels',
-      closure: 'Concealed Side Zip with Traditional Drawstring & Latkans',
-      care: 'Strictly Dry Clean Only. Store in breathable muslin bag provided.',
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "details": {
+      "colour": "Deep Royal Indigo with Emerald & Teal Undertones",
+      "fabric": "Pure Mulberry Silk with Organza Dupatta",
+      "work": "Dense Sequins, Zardozi Arches & Cut-Work Border",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "5.5 meters full twirl flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
     },
-    sizeFitting: {
-      standardSizes: 'XS, S, M, L, XL, XXL (Custom Tailoring Available)',
-      skirtLength: 'Standard 42 inches (Customizable up to 45 inches)',
-      waistFitting: 'Adjustable up to 40 inches with drawstring tie-ups',
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
-    bookingInfo: {
-      status: 'Ready for studio trial & express dispatch.',
-      trials: 'Available for viewing & trials at our Bhopal studio.',
+    "bookingInfo": {
+      "status": "Ready for studio trial & in-person purchase.",
+      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
-  },
-
-  // --- SUNSHINE YELLOW COLLECTION (BB-06 to BB-10 & BB-22) ---
-  {
-    id: 'bb-06',
-    slug: 'kesar-keshariya-yellow-lehenga',
-    productCode: 'BB-06',
-    name: 'Kesar Keshariya Yellow Lehenga',
-    collection: 'Dandiya Night Lehengas',
-    tagline: 'Warm saffron-yellow chanderi silk embellished with sparkling mirror discs',
-    price: 33999,
-    formattedPrice: '₹33,999',
-    availability: 'In Stock',
-    availabilityBadge: 'in-stock',
-    category: 'sunshine-yellow',
-    categoryLabel: 'Sunshine Yellow',
-    featured: false,
-    thumbnail: '/products/bb-06-front.jpg',
-    images: [
-      {
-        url: '/products/bb-06-front.jpg',
-        title: 'Full Front Silhouette',
-        alt: 'Kesar Keshariya Yellow Lehenga glowing in palace courtyard',
-      },
-    ],
-    description:
-      'Reflecting the golden glow of Navratri diyas, this rich kesar yellow lehenga features authentic Kutchi hand-stitched mirror work and multi-color silk resham borders on lustrous chanderi silk.',
-    details: {
-      colour: 'Warm Kesar Saffron Yellow with Gold Zari',
-      fabric: 'Chanderi Silk with Light Organza Dupatta',
-      work: 'Hand-sewn Mirrors, Resham Floral Trellis & Gota Borders',
-      lining: 'Soft Cotton Silk with High-Density Can-Can',
-      flare: '5.2 meters twirl flare',
-      components: 'Flared Skirt, Padded Blouse, Bordered Dupatta',
-      closure: 'Side Zipper with Mirror-work Latkans',
-      care: 'Dry Clean Only. Avoid direct perfume spray on mirrors.',
-    },
-    sizeFitting: {
-      standardSizes: 'XS, S, M, L, XL',
-      skirtLength: '42 inches',
-      waistFitting: 'Drawstring adjustable fit',
-    },
-    bookingInfo: {
-      status: 'In stock for studio trials.',
-      trials: 'Available for viewing & trials at our Bhopal studio.',
-    },
+    "sortOrder": 6
   },
   {
-    id: 'bb-07',
-    slug: 'marigold-blossom-yellow-lehenga',
-    productCode: 'BB-07',
-    name: 'Marigold Blossom Yellow Lehenga',
-    collection: 'Dandiya Night Lehengas',
-    tagline: 'Festive marigold floral embroidery with delicate golden sequin sprinkles',
-    price: 31499,
-    formattedPrice: '₹31,499',
-    availability: 'In Stock',
-    availabilityBadge: 'in-stock',
-    category: 'sunshine-yellow',
-    categoryLabel: 'Sunshine Yellow',
-    featured: false,
-    thumbnail: '/products/bb-07-front.jpg',
-    images: [
+    "id": "bb-07",
+    "slug": "bb-07",
+    "productCode": "BB-07",
+    "name": "BB-07 Noor-e-Bahar Ivory Blush Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Ethereal pastel ivory silk illuminated with champagne gota and pearl seedwork",
+    "price": 39999,
+    "formattedPrice": "₹39,999",
+    "availability": "In Stock",
+    "availabilityBadge": "in-stock",
+    "category": "blush-pink",
+    "categoryLabel": "Blush Dream",
+    "featured": true,
+    "thumbnail": "/products/bb-07.webp",
+    "images": [
       {
-        url: '/products/bb-07-front.jpg',
-        title: 'Full Front Silhouette',
-        alt: 'Marigold Blossom Yellow Lehenga with golden floral kalis',
-      },
+        "url": "/products/bb-07.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-07 Noor-e-Bahar Ivory Blush Lehenga (BB-07) — Dandiya Night Lehenga"
+      }
     ],
-    description:
-      'Inspired by auspicious marigold garlands of Indian festivities. Featuring 18 flared kalis with cascading golden zari floral vines and a broad embroidered border that dances with movement.',
-    details: {
-      colour: 'Bright Marigold Yellow with Champagne Gold',
-      fabric: 'Fine Raw Silk with Sheer Georgette Dupatta',
-      work: 'Floral Zari Vines, Sequin Detailing & Scalloped Hem',
-      lining: 'Pure Shantoon with Double Layer Can-Can',
-      flare: '5.0 meters circular flare',
-      components: 'Kalidar Skirt, Sweetheart Choli, Embellished Dupatta',
-      closure: 'Concealed Side Zip & Dori Tassels',
-      care: 'Dry Clean Only.',
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "details": {
+      "colour": "Soft Ivory Cream & Champagne Gold",
+      "fabric": "Fine Georgette with Organza Silk Dupatta",
+      "work": "Champagne Gota Patti, Pearl Seeds & Crystal Highlights",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "5.8 meters royal twirl flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
     },
-    sizeFitting: {
-      standardSizes: 'S, M, L, XL',
-      skirtLength: '42 inches',
-      waistFitting: 'Tailored fit with waist drawstrings',
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
-    bookingInfo: {
-      status: 'Ready for studio booking.',
-      trials: 'Available for viewing & trials at our Bhopal studio.',
+    "bookingInfo": {
+      "status": "Ready for studio trial & in-person purchase.",
+      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
+    "sortOrder": 7
   },
   {
-    id: 'bb-08',
-    slug: 'surya-kiran-mirror-lehenga',
-    productCode: 'BB-08',
-    name: 'Surya Kiran Mirror Lehenga',
-    collection: 'Dandiya Night Lehengas',
-    tagline: 'Intense geometric mirror artistry catching every spotlight on the dance floor',
-    price: 35499,
-    formattedPrice: '₹35,499',
-    availability: 'Low Stock',
-    availabilityBadge: 'low-stock',
-    category: 'sunshine-yellow',
-    categoryLabel: 'Sunshine Yellow',
-    featured: false,
-    thumbnail: '/products/bb-08-front.jpg',
-    images: [
+    "id": "bb-08",
+    "slug": "bb-08",
+    "productCode": "BB-08",
+    "name": "BB-08 Kesar Chand Sunshine Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Radiant kesar mustard silk adorned with real mirror discs and scarlet border",
+    "price": 32499,
+    "formattedPrice": "₹32,499",
+    "availability": "In Stock",
+    "availabilityBadge": "in-stock",
+    "category": "sunshine-yellow",
+    "categoryLabel": "Sunshine Yellow",
+    "featured": true,
+    "thumbnail": "/products/bb-08.webp",
+    "images": [
       {
-        url: '/products/bb-08-front.jpg',
-        title: 'Full Front Silhouette',
-        alt: 'Surya Kiran Mirror Lehenga with dense mirror embroidery',
-      },
+        "url": "/products/bb-08.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-08 Kesar Chand Sunshine Lehenga (BB-08) — Dandiya Night Lehenga"
+      }
     ],
-    description:
-      'An absolute showstopper for Dandiya and Garba enthusiasts. Dense geometric mirror constellations adorn every kali, paired with an intricately embellished designer choli.',
-    details: {
-      colour: 'Sunshine Lemon & Gold',
-      fabric: 'Heavy Georgette with Pure Silk Borders',
-      work: 'All-over Mirror Embroidery, Resham Outlining & Gota Work',
-      lining: 'Heavy Shantoon with Full Can-Can Support',
-      flare: '5.8 meters twirl volume',
-      components: 'Heavy Mirror Skirt, Embellished Blouse, Mirror-edged Dupatta',
-      closure: 'Side Zipper with Hand-knotted Mirror Latkans',
-      care: 'Professional Dry Clean Only.',
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "details": {
+      "colour": "Mustard Saffron Yellow & Crimson Red",
+      "fabric": "Pure Silk with Bandhej Print Dupatta",
+      "work": "Real Glass Mirror Work, Gota Kiran & Resham Threadwork",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "5.3 meters circular flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
     },
-    sizeFitting: {
-      standardSizes: 'XS, S, M, L',
-      skirtLength: '42.5 inches',
-      waistFitting: 'Adjustable up to 38 inches',
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
-    bookingInfo: {
-      status: 'Limited 2 pieces left for this festive run.',
-      trials: 'Available for viewing & trials at our Bhopal studio.',
+    "bookingInfo": {
+      "status": "Ready for studio trial & in-person purchase.",
+      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
+    "sortOrder": 8
   },
   {
-    id: 'bb-09',
-    slug: 'amrapali-mustard-silk-lehenga',
-    productCode: 'BB-09',
-    name: 'Amrapali Mustard Silk Lehenga',
-    collection: 'Dandiya Night Lehengas',
-    tagline: 'Regal mustard gold brocade silk infused with antique temple border motifs',
-    price: 36499,
-    formattedPrice: '₹36,499',
-    availability: 'Made to Order',
-    availabilityBadge: 'made-to-order',
-    category: 'sunshine-yellow',
-    categoryLabel: 'Sunshine Yellow',
-    featured: false,
-    thumbnail: '/products/bb-09-front.jpg',
-    images: [
+    "id": "bb-09",
+    "slug": "bb-09",
+    "productCode": "BB-09",
+    "name": "BB-09 Marigold Utsav Flare Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Celebratory marigold yellow flare with geometric mirror borders and bandhani choli",
+    "price": 31999,
+    "formattedPrice": "₹31,999",
+    "availability": "In Stock",
+    "availabilityBadge": "in-stock",
+    "category": "sunshine-yellow",
+    "categoryLabel": "Sunshine Yellow",
+    "featured": false,
+    "thumbnail": "/products/bb-09.webp",
+    "images": [
       {
-        url: '/products/bb-09-front.jpg',
-        title: 'Full Front Silhouette',
-        alt: 'Amrapali Mustard Silk Lehenga with antique temple zari border',
-      },
+        "url": "/products/bb-09.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-09 Marigold Utsav Flare Lehenga (BB-09) — Dandiya Night Lehenga"
+      }
     ],
-    description:
-      'A masterpiece of regal Indian heritage. Woven in royal mustard brocade silk with antique gold temple motifs along the hem, complemented by a delicate organza tissue dupatta.',
-    details: {
-      colour: 'Deep Mustard Gold with Antique Copper Zari',
-      fabric: 'Heritage Banarasi Brocade Silk with Tissue Dupatta',
-      work: 'Woven Zari Brocade, Hand Zardozi Highlights & Pearl Accents',
-      lining: 'Pure Silk Shantoon with Structured Can-Can',
-      flare: '5.4 meters majestic flare',
-      components: 'Brocade Skirt, Embroidered Choli, Tissue Veil Dupatta',
-      closure: 'Side Zipper with Traditional Brocade Latkans',
-      care: 'Museum Quality Dry Clean Only.',
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "details": {
+      "colour": "Deep Marigold Gold with Vermilion Accents",
+      "fabric": "Raw Silk with Chiffon Leheriya Dupatta",
+      "work": "Geometric Mirror Work, Zari Kalis & Hand-Knotted Latkans",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "5.2 meters full twirl flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
     },
-    sizeFitting: {
-      standardSizes: 'Made to Client Measurements',
-      skirtLength: 'Bespoke custom length',
-      waistFitting: 'Custom tailored',
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
-    bookingInfo: {
-      status: 'Handcrafted on order.',
-      trials: 'Available for viewing & trials at our Bhopal studio.',
+    "bookingInfo": {
+      "status": "Ready for studio trial & in-person purchase.",
+      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
+    "sortOrder": 9
   },
   {
-    id: 'bb-10',
-    slug: 'chandani-haldi-flare-lehenga',
-    productCode: 'BB-10',
-    name: 'Chandani Haldi Flare Lehenga',
-    collection: 'Dandiya Night Lehengas',
-    tagline: 'Lively haldi yellow shade tailored in effortless breezy lightweight silk',
-    price: 30999,
-    formattedPrice: '₹30,999',
-    availability: 'In Stock',
-    availabilityBadge: 'in-stock',
-    category: 'sunshine-yellow',
-    categoryLabel: 'Sunshine Yellow',
-    featured: false,
-    thumbnail: '/products/bb-10-front.jpg',
-    images: [
+    "id": "bb-10",
+    "slug": "bb-10",
+    "productCode": "BB-10",
+    "name": "BB-10 Gulab Vilas Rani Pink Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Classic Rajasthani rani pink silk featuring leheriya stripes and heavy mirror waistband",
+    "price": 36499,
+    "formattedPrice": "₹36,499",
+    "availability": "In Stock",
+    "availabilityBadge": "in-stock",
+    "category": "rani-pink",
+    "categoryLabel": "Rani Pink",
+    "featured": true,
+    "thumbnail": "/products/bb-10.webp",
+    "images": [
       {
-        url: '/products/bb-10-front.jpg',
-        title: 'Full Front Silhouette',
-        alt: 'Chandani Haldi Flare Lehenga with delicate golden butis',
-      },
+        "url": "/products/bb-10.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-10 Gulab Vilas Rani Pink Lehenga (BB-10) — Dandiya Night Lehenga"
+      }
     ],
-    description:
-      'Created for spirited celebrations, the Chandani Haldi lehenga pairs cheerful sunshine energy with micro-sequin florals and a lightweight tiered can-can for easy movement and dancing.',
-    details: {
-      colour: 'Bright Haldi Yellow with Muted Gold',
-      fabric: 'Silk Georgette with Lightweight Chiffon Dupatta',
-      work: 'Micro-sequin Embroidery, Resham Butis & Gota Hem',
-      lining: 'Soft Cotton Silk with Featherlight Can-Can',
-      flare: '5.2 meters circular umbrella flare',
-      components: 'Flared Skirt, Sleeveless Embroidered Choli, Dupatta',
-      closure: 'Side Zipper & Silk Tassels',
-      care: 'Dry Clean Only.',
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "details": {
+      "colour": "Deep Rani Pink & Sun Gold with Mustard Dupatta",
+      "fabric": "Handwoven Raw Silk with Pure Georgette Dupatta",
+      "work": "Leheriya Zari Striations, Kutchi Choli Embroidery & Glass Mirrors",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "5.5 meters full circular flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
     },
-    sizeFitting: {
-      standardSizes: 'XS, S, M, L, XL',
-      skirtLength: '42 inches',
-      waistFitting: 'Drawstring waist up to 39 inches',
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
-    bookingInfo: {
-      status: 'Available for immediate booking.',
-      trials: 'Available for viewing & trials at our Bhopal studio.',
+    "bookingInfo": {
+      "status": "Ready for studio trial & in-person purchase.",
+      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
+    "sortOrder": 10
   },
   {
-    id: 'bb-22',
-    slug: 'sunshine-lehenga',
-    productCode: 'BB-22',
-    name: 'Sunshine Lehenga',
-    collection: 'Dandiya Night Lehengas',
-    tagline: 'Vibrant sunshine warmth adorned with colorful authentic mirror work',
-    price: 34999,
-    formattedPrice: '₹34,999',
-    availability: 'In Stock',
-    availabilityBadge: 'in-stock',
-    category: 'sunshine-yellow',
-    categoryLabel: 'Sunshine Yellow',
-    featured: true,
-    thumbnail: '/products/bb-22-front.jpg',
-    images: [
+    "id": "bb-11",
+    "slug": "bb-11",
+    "productCode": "BB-11",
+    "name": "BB-11 Amber Sitara Dandiya Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Warm amber tones intertwined with intricate tribal resham borders",
+    "price": 34999,
+    "formattedPrice": "₹34,999",
+    "availability": "In Stock",
+    "availabilityBadge": "in-stock",
+    "category": "festive-special",
+    "categoryLabel": "Festive Special",
+    "featured": false,
+    "thumbnail": "/products/bb-11.webp",
+    "images": [
       {
-        url: '/products/bb-22-front.jpg',
-        title: 'Full Front Silhouette',
-        alt: 'Sunshine Yellow Dandiya Lehenga with colorful mirror work and golden border in palace courtyard',
-      },
+        "url": "/products/bb-11.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-11 Amber Sitara Dandiya Lehenga (BB-11) — Dandiya Night Lehenga"
+      }
     ],
-    description:
-      'Radiate joyous festive energy in this vivid sunshine yellow lehenga. Handcrafted with traditional Kutchi mirror work, delicate gota patti borders, and multi-hued resham embroidery, it is the quintessence of authentic Dandiya night tradition.',
-    details: {
-      colour: 'Sunshine Yellow & Mustard Gold',
-      fabric: 'Chanderi Silk with Lightweight Organza Dupatta',
-      work: 'Authentic Mirror Work, Gota Patti & Multi-Color Resham Embroidery',
-      lining: 'Soft Cotton Silk with High-Density Can-Can',
-      flare: 'Approximately 5 meters circular flare',
-      components: 'Embroidered Lehenga Skirt, Matching Choli Blouse, Bordered Dupatta',
-      closure: 'Side Zipper with Handcrafted Mirror-Work Latkan',
-      care: 'Dry Clean Only. Avoid direct perfume spray on mirror elements.',
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "details": {
+      "colour": "Warm Amber & Rust Gold with Dark Olive Borders",
+      "fabric": "Pure Tussar Silk with Banarasi Border Dupatta",
+      "work": "Tribal Threadwork, Antique Gota & Coin Latkans",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "5.0 meters twirl flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
     },
-    sizeFitting: {
-      standardSizes: 'S, M, L, XL (Made-to-measure on request)',
-      skirtLength: '42 inches standard (Customizable)',
-      waistFitting: 'Tailored fit with comfortable adjustable drawstring',
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
-    bookingInfo: {
-      status: 'Limited festive pieces available for reservation.',
-      trials: 'Available for viewing & trials at our Bhopal studio.',
+    "bookingInfo": {
+      "status": "Ready for studio trial & in-person purchase.",
+      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
-  },
-
-  // --- ROYAL PLUM COLLECTION (BB-11 to BB-15 & BB-23) ---
-  {
-    id: 'bb-11',
-    slug: 'noor-e-khwab-plum-lehenga',
-    productCode: 'BB-11',
-    name: 'Noor-e-Khwab Plum Lehenga',
-    collection: 'Dandiya Night Lehengas',
-    tagline: 'Enchanting deep jewel plum velvet framed with antique dabka zardozi',
-    price: 38499,
-    formattedPrice: '₹38,499',
-    availability: 'In Stock',
-    availabilityBadge: 'in-stock',
-    category: 'royal-plum',
-    categoryLabel: 'Royal Plum',
-    featured: false,
-    thumbnail: '/products/bb-11-front.jpg',
-    images: [
-      {
-        url: '/products/bb-11-front.jpg',
-        title: 'Full Front Silhouette',
-        alt: 'Noor-e-Khwab Plum Lehenga in majestic velvet finish',
-      },
-    ],
-    description:
-      'A nocturnal royal reverie in plush micro-velvet. Shimmering antique dabka and zardozi threadwork trace intricate Mughal arched jali motifs down the dramatic kalis.',
-    details: {
-      colour: 'Deep Jewel Plum with Antique Burnished Gold',
-      fabric: 'Plush Micro-Velvet with Shimmer Tissue Dupatta',
-      work: 'Dabka Zardozi, Golden Kasab & Muted Micro-Sequins',
-      lining: 'Pure Shantoon with Dual Stiffened Can-Can',
-      flare: '5.6 meters majestic royal flare',
-      components: 'Velvet Kalidar Skirt, Embroidered Choli, Scalloped Dupatta',
-      closure: 'Concealed Side Zipper with Velvet Ball Latkans',
-      care: 'Specialized Heritage Dry Clean Only.',
-    },
-    sizeFitting: {
-      standardSizes: 'S, M, L, XL',
-      skirtLength: '43 inches',
-      waistFitting: 'Structured corset-style waistband',
-    },
-    bookingInfo: {
-      status: 'Exclusive boutique edition.',
-      trials: 'Available for viewing & trials at our Bhopal studio.',
-    },
+    "sortOrder": 11
   },
   {
-    id: 'bb-12',
-    slug: 'shehzadi-berry-plum-lehenga',
-    productCode: 'BB-12',
-    name: 'Shehzadi Berry Plum Lehenga',
-    collection: 'Dandiya Night Lehengas',
-    tagline: 'Lustrous berry-plum raw silk with intricate silver and antique gold filigree',
-    price: 35999,
-    formattedPrice: '₹35,999',
-    availability: 'In Stock',
-    availabilityBadge: 'in-stock',
-    category: 'royal-plum',
-    categoryLabel: 'Royal Plum',
-    featured: false,
-    thumbnail: '/products/bb-12-front.jpg',
-    images: [
+    "id": "bb-12",
+    "slug": "bb-12",
+    "productCode": "BB-12",
+    "name": "BB-12 Padma Rani Festive Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Vibrant ruby-rani pink kalidar skirt with dense floral threadwork and gota arches",
+    "price": 38999,
+    "formattedPrice": "₹38,999",
+    "availability": "In Stock",
+    "availabilityBadge": "in-stock",
+    "category": "rani-pink",
+    "categoryLabel": "Rani Pink",
+    "featured": true,
+    "thumbnail": "/products/bb-12.webp",
+    "images": [
       {
-        url: '/products/bb-12-front.jpg',
-        title: 'Full Front Silhouette',
-        alt: 'Shehzadi Berry Plum Lehenga with silver and gold filigree',
-      },
+        "url": "/products/bb-12.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-12 Padma Rani Festive Lehenga (BB-12) — Dandiya Night Lehenga"
+      }
     ],
-    description:
-      'Embodying true princely grandeur, the Shehzadi lehenga features a deep berry-plum raw silk base covered with delicate leafy vines and antique gold zardozi arches.',
-    details: {
-      colour: 'Rich Berry Plum with Antique Gold & Silver Filigree',
-      fabric: 'Mulberry Raw Silk with Organza Bordered Dupatta',
-      work: 'Zardozi Filigree, Sequined Clusters & Pearl Pipings',
-      lining: 'Heavy Shantoon with Full Volume Can-Can',
-      flare: '5.4 meters wide twirl flare',
-      components: 'Embroidered Skirt, Padded Blouse, Finished Dupatta',
-      closure: 'Side Zipper with Metallic Tassels',
-      care: 'Dry Clean Only.',
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "details": {
+      "colour": "Ruby Rani Pink with Champagne Threadwork",
+      "fabric": "Mulberry Silk with Organza Border Dupatta",
+      "work": "Dense Resham Embroidery, Golden Zari Arches & Kundan Highlights",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "5.6 meters full twirl flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
     },
-    sizeFitting: {
-      standardSizes: 'XS, S, M, L, XL',
-      skirtLength: '42.5 inches',
-      waistFitting: 'Adjustable drawstring with internal waist-tape',
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
-    bookingInfo: {
-      status: 'Ready for studio trial & reservation.',
-      trials: 'Available for viewing & trials at our Bhopal studio.',
+    "bookingInfo": {
+      "status": "Ready for studio trial & in-person purchase.",
+      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
+    "sortOrder": 12
   },
   {
-    id: 'bb-13',
-    slug: 'zarina-plum-zari-lehenga',
-    productCode: 'BB-13',
-    name: 'Zarina Plum Zari Lehenga',
-    collection: 'Dandiya Night Lehengas',
-    tagline: 'Regal ballroom cut with dense antique gold zari floral borders',
-    price: 37499,
-    formattedPrice: '₹37,499',
-    availability: 'Low Stock',
-    availabilityBadge: 'low-stock',
-    category: 'royal-plum',
-    categoryLabel: 'Royal Plum',
-    featured: false,
-    thumbnail: '/products/bb-13-front.jpg',
-    images: [
+    "id": "bb-13",
+    "slug": "bb-13",
+    "productCode": "BB-13",
+    "name": "BB-13 Lalita Crimson Twirl Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Festive scarlet-rani silk skirt crafted for dramatic spinning Navratri evenings",
+    "price": 37499,
+    "formattedPrice": "₹37,499",
+    "availability": "In Stock",
+    "availabilityBadge": "in-stock",
+    "category": "rani-pink",
+    "categoryLabel": "Rani Pink",
+    "featured": false,
+    "thumbnail": "/products/bb-13.webp",
+    "images": [
       {
-        url: '/products/bb-13-front.jpg',
-        title: 'Full Front Silhouette',
-        alt: 'Zarina Plum Zari Lehenga with broad antique border',
-      },
+        "url": "/products/bb-13.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-13 Lalita Crimson Twirl Lehenga (BB-13) — Dandiya Night Lehenga"
+      }
     ],
-    description:
-      'Crafted for evening receptions and Dandiya galas, featuring 24 kalis woven with dense botanical medallions and framed by an ornate 10-inch hand-finished border.',
-    details: {
-      colour: 'Royal Plum Purple with Antique Gold Zari',
-      fabric: 'Heritage Brocade Silk with Tissue Georgette Dupatta',
-      work: 'Dense Zari Weave, Hand Zardozi Embroidery & Muted Sequins',
-      lining: 'Triple-layer Shantoon with Reinforced Crinoline Can-Can',
-      flare: '5.8 meters royal twirling flare',
-      components: 'Flared Skirt, Structured Sweetheart Choli, Embroidered Veil',
-      closure: 'Concealed Side Zipper with Heavy Brocade Latkans',
-      care: 'Heritage Dry Clean Only.',
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "details": {
+      "colour": "Crimson Rani Red with Gold Foil & Zari",
+      "fabric": "Heavy Silk with Four-Sided Border Organza Dupatta",
+      "work": "Foil Zari Kalis, Hand-Stitched Mirrors & Padded Blouse",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "5.4 meters full twirl flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
     },
-    sizeFitting: {
-      standardSizes: 'S, M, L',
-      skirtLength: '43 inches standard',
-      waistFitting: 'Structured waist with supportive boning',
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
-    bookingInfo: {
-      status: 'Only 2 pieces remaining for this festive season.',
-      trials: 'Available for viewing & trials at our Bhopal studio.',
+    "bookingInfo": {
+      "status": "Ready for studio trial & in-person purchase.",
+      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
+    "sortOrder": 13
   },
   {
-    id: 'bb-14',
-    slug: 'badshahi-wine-velvet-lehenga',
-    productCode: 'BB-14',
-    name: 'Badshahi Wine Velvet Lehenga',
-    collection: 'Dandiya Night Lehengas',
-    tagline: 'Opulent deep wine-plum micro velvet with hand-cut French wire zardozi',
-    price: 39999,
-    formattedPrice: '₹39,999',
-    availability: 'Made to Order',
-    availabilityBadge: 'made-to-order',
-    category: 'royal-plum',
-    categoryLabel: 'Royal Plum',
-    featured: false,
-    thumbnail: '/products/bb-14-front.jpg',
-    images: [
+    "id": "bb-14",
+    "slug": "bb-14",
+    "productCode": "BB-14",
+    "name": "BB-14 Badshahi Sapphire Plum Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Regal sapphire-plum velvet kalis adorned with silver antique zardozi",
+    "price": 41999,
+    "formattedPrice": "₹41,999",
+    "availability": "In Stock",
+    "availabilityBadge": "in-stock",
+    "category": "royal-plum",
+    "categoryLabel": "Royal Plum",
+    "featured": false,
+    "thumbnail": "/products/bb-14.webp",
+    "images": [
       {
-        url: '/products/bb-14-front.jpg',
-        title: 'Full Front Silhouette',
-        alt: 'Badshahi Wine Velvet Lehenga with ornate zardozi embroidery',
-      },
+        "url": "/products/bb-14.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-14 Badshahi Sapphire Plum Lehenga (BB-14) — Dandiya Night Lehenga"
+      }
     ],
-    description:
-      'The pinnacle of nocturnal opulence. Rich wine velvet skirt embellished with 3D French wire zardozi, micro seed pearls, and an antique gold scalloped veil dupatta.',
-    details: {
-      colour: 'Deep Wine Plum with Antique Champagne Gold',
-      fabric: 'Pure Silk Velvet with Net & Tissue Dual Dupatta',
-      work: 'French Wire Zardozi, Seed Pearl Applique & Resham Shading',
-      lining: 'Pure Silk Shantoon with Heavy Ball-Gown Can-Can',
-      flare: '6.0 meters ballroom flare',
-      components: 'Velvet Skirt, Embroidered Blouse, Two Dupattas (Shoulder & Veil)',
-      closure: 'Side Zipper with Hand-embroidered Royal Latkans',
-      care: 'Museum Quality Dry Clean Only.',
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "details": {
+      "colour": "Deep Royal Sapphire Plum with Antique Silver Work",
+      "fabric": "Silk Velvet & Dupion with Butterfly Net Dupatta",
+      "work": "Heavy Antique Zardozi, Cut-dana & Silver Gota Patti",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "5.2 meters flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
     },
-    sizeFitting: {
-      standardSizes: 'Bespoke Custom Fitting',
-      skirtLength: 'Custom fit to client specifications',
-      waistFitting: 'Custom tailored with interior grip-tape waist',
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
-    bookingInfo: {
-      status: 'Handcrafted on order by master artisans.',
-      trials: 'Available for viewing & trials at our Bhopal studio.',
+    "bookingInfo": {
+      "status": "Ready for studio trial & in-person purchase.",
+      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
+    "sortOrder": 14
   },
   {
-    id: 'bb-15',
-    slug: 'shabnam-plum-georgette-lehenga',
-    productCode: 'BB-15',
-    name: 'Shabnam Plum Georgette Lehenga',
-    collection: 'Dandiya Night Lehengas',
-    tagline: 'Breezy dance-friendly georgette in deep plum accented with mirror work',
-    price: 31999,
-    formattedPrice: '₹31,999',
-    availability: 'In Stock',
-    availabilityBadge: 'in-stock',
-    category: 'royal-plum',
-    categoryLabel: 'Royal Plum',
-    featured: false,
-    thumbnail: '/products/bb-15-front.jpg',
-    images: [
+    "id": "bb-15",
+    "slug": "bb-15",
+    "productCode": "BB-15",
+    "name": "BB-15 Shweta Ras Festive Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Pristine pearl-white silk with multi-color Rajasthani border accents",
+    "price": 35999,
+    "formattedPrice": "₹35,999",
+    "availability": "In Stock",
+    "availabilityBadge": "in-stock",
+    "category": "blush-pink",
+    "categoryLabel": "Blush Dream",
+    "featured": false,
+    "thumbnail": "/products/bb-15.webp",
+    "images": [
       {
-        url: '/products/bb-15-front.jpg',
-        title: 'Full Front Silhouette',
-        alt: 'Shabnam Plum Georgette Lehenga twirling with mirror accents',
-      },
+        "url": "/products/bb-15.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-15 Shweta Ras Festive Lehenga (BB-15) — Dandiya Night Lehenga"
+      }
     ],
-    description:
-      'Engineered for effortless twirling through late Dandiya night rhythms. Weightless plum georgette adorned with silver mukaish dots and reflective mirror borders.',
-    details: {
-      colour: 'Deep Jewel Plum with Silver Mirror Accents',
-      fabric: 'Flowing Pure Georgette with Chiffon Dupatta',
-      work: 'Mirror Embroidery, Silver Mukaish Sprinkles & Threadwork',
-      lining: 'Soft Shantoon with Lightweight Flexible Can-Can',
-      flare: '5.5 meters circular flare',
-      components: 'Flared Skirt, Padded Choli, Bordered Dupatta',
-      closure: 'Concealed Side Zip with Dori Latkans',
-      care: 'Dry Clean Only.',
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "details": {
+      "colour": "Pristine Pearl White & Multi-Hued Resham",
+      "fabric": "Pure Georgette with Chanderi Silk Dupatta",
+      "work": "Multi-Color Thread Flora, Real Mirror Waistband & Tassels",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "5.5 meters circular flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
     },
-    sizeFitting: {
-      standardSizes: 'XS, S, M, L, XL',
-      skirtLength: '42 inches',
-      waistFitting: 'Drawstring adjustable fit',
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
-    bookingInfo: {
-      status: 'In stock for immediate reservation.',
-      trials: 'Available for viewing & trials at our Bhopal studio.',
+    "bookingInfo": {
+      "status": "Ready for studio trial & in-person purchase.",
+      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
+    "sortOrder": 15
   },
   {
-    id: 'bb-23',
-    slug: 'royal-blossom-lehenga',
-    productCode: 'BB-23',
-    name: 'Royal Blossom Lehenga',
-    collection: 'Dandiya Night Lehengas',
-    tagline: 'Regal plum grandeur with heritage antique gold zari craftsmanship',
-    price: 36999,
-    formattedPrice: '₹36,999',
-    availability: 'In Stock',
-    availabilityBadge: 'in-stock',
-    category: 'royal-plum',
-    categoryLabel: 'Royal Plum',
-    featured: true,
-    thumbnail: '/products/bb-23-front.jpg',
-    images: [
+    "id": "bb-16",
+    "slug": "bb-16",
+    "productCode": "BB-16",
+    "name": "BB-16 Sundari Terracotta Festive Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Earth-toned terracotta rust silk with authentic Gujarati mirror motifs",
+    "price": 33999,
+    "formattedPrice": "₹33,999",
+    "availability": "In Stock",
+    "availabilityBadge": "in-stock",
+    "category": "festive-special",
+    "categoryLabel": "Festive Special",
+    "featured": false,
+    "thumbnail": "/products/bb-16.webp",
+    "images": [
       {
-        url: '/products/bb-23-front.jpg',
-        title: 'Full Front Silhouette',
-        alt: 'Royal Plum Purple Lehenga with heavy gold zari embroidery in royal palace corridor',
-      },
+        "url": "/products/bb-16.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-16 Sundari Terracotta Festive Lehenga (BB-16) — Dandiya Night Lehenga"
+      }
     ],
-    description:
-      'Indulge in the regal drama of deep royal plum. Featuring rich brocade silk embellished with dense antique gold zari, shimmering sequins clusters, and intricate floral kalis, designed for unforgettable royal evening presence.',
-    details: {
-      colour: 'Royal Plum Purple with Antique Gold Zari',
-      fabric: 'Heritage Brocade Velvet Silk with Silk-Tissue Dupatta',
-      work: 'Heavy Antique Gold Zari, Muted Sequin Clusters & Resham Motifs',
-      lining: 'Dual Layer Shantoon with Reinforced Crinoline Can-Can',
-      flare: 'Over 5.8 meters royal ballroom flare',
-      components: 'Flared Kalidar Skirt, Structured Sweetheart Choli, Embellished Veil Dupatta',
-      closure: 'Concealed Side Zipper with Heavy Brocade Tassels',
-      care: 'Specialized Heritage Dry Clean Only.',
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "details": {
+      "colour": "Terracotta Rust & Antique Gold with Teal Accents",
+      "fabric": "Raw Silk with Chiffon Dupatta",
+      "work": "Gujarati Mirror Motifs, Gota Borders & Hand-Made Latkans",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "5.3 meters circular flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
     },
-    sizeFitting: {
-      standardSizes: 'XS, S, M, L, XL',
-      skirtLength: '43 inches standard',
-      waistFitting: 'Structured waist with supportive internal boning',
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
-    bookingInfo: {
-      status: 'Exclusive boutique edition available for reservation.',
-      trials: 'Available for viewing & trials at our Bhopal studio.',
+    "bookingInfo": {
+      "status": "Ready for studio trial & in-person purchase.",
+      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
-  },
-
-  // --- BLUSH PINK COLLECTION (BB-16 to BB-20 & BB-24) ---
-  {
-    id: 'bb-16',
-    slug: 'afreen-blush-organza-lehenga',
-    productCode: 'BB-16',
-    name: 'Afreen Blush Organza Lehenga',
-    collection: 'Dandiya Night Lehengas',
-    tagline: 'Ethereal pastel blush organza with whispering pearl floral vines',
-    price: 33999,
-    formattedPrice: '₹33,999',
-    availability: 'In Stock',
-    availabilityBadge: 'in-stock',
-    category: 'blush-pink',
-    categoryLabel: 'Blush Pink',
-    featured: false,
-    thumbnail: '/products/bb-16-front.jpg',
-    images: [
-      {
-        url: '/products/bb-16-front.jpg',
-        title: 'Full Front Silhouette',
-        alt: 'Afreen Blush Organza Lehenga floating in palace garden',
-      },
-    ],
-    description:
-      'Soft and romantic as a petal at dawn. Layered sheer organza over a champagne satin base, embellished with delicate tone-on-tone resham embroidery, pearl butis, and a scalloped floral border.',
-    details: {
-      colour: 'Blush Rose with Champagne Pearl Accents',
-      fabric: 'Fine Shimmer Organza with Soft Net Dupatta',
-      work: 'Resham Floral Threadwork, Pearl Seed Applique & Rose-Gold Sequins',
-      lining: 'Heavy Satin Shantoon with Lightweight Can-Can',
-      flare: '5.5 meters romantic umbrella cut',
-      components: 'Twirling Skirt, Embroidered Choli, Scalloped Pearl Dupatta',
-      closure: 'Side Zipper & Pearl Beaded Latkans',
-      care: 'Delicate Dry Clean Only.',
-    },
-    sizeFitting: {
-      standardSizes: 'XS, S, M, L, XL',
-      skirtLength: '42 inches',
-      waistFitting: 'Comfortable waist with customizable fit',
-    },
-    bookingInfo: {
-      status: 'In stock for private studio trial.',
-      trials: 'Available for viewing & trials at our Bhopal studio.',
-    },
+    "sortOrder": 16
   },
   {
-    id: 'bb-17',
-    slug: 'mehrunissa-rose-gold-lehenga',
-    productCode: 'BB-17',
-    name: 'Mehrunissa Rose Gold Lehenga',
-    collection: 'Dandiya Night Lehengas',
-    tagline: 'Gleaming rose-gold foil work and crystal beads on tender blush silk',
-    price: 36499,
-    formattedPrice: '₹36,499',
-    availability: 'In Stock',
-    availabilityBadge: 'in-stock',
-    category: 'blush-pink',
-    categoryLabel: 'Blush Pink',
-    featured: false,
-    thumbnail: '/products/bb-17-front.jpg',
-    images: [
+    "id": "bb-17",
+    "slug": "bb-17",
+    "productCode": "BB-17",
+    "name": "BB-17 Kaali Sitara Night Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Dramatic jet black silk kalis glittering with silver mirrors under festive lamps",
+    "price": 39499,
+    "formattedPrice": "₹39,499",
+    "availability": "In Stock",
+    "availabilityBadge": "in-stock",
+    "category": "festive-special",
+    "categoryLabel": "Festive Special",
+    "featured": false,
+    "thumbnail": "/products/bb-17.webp",
+    "images": [
       {
-        url: '/products/bb-17-front.jpg',
-        title: 'Full Front Silhouette',
-        alt: 'Mehrunissa Rose Gold Lehenga catching sunset light',
-      },
+        "url": "/products/bb-17.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-17 Kaali Sitara Night Lehenga (BB-17) — Dandiya Night Lehenga"
+      }
     ],
-    description:
-      'A poetic dream created for modern brides and festive celebrations. Radiates an incandescent blush glow with hand-pressed rose gold metallic elements and fine Swarovski crystal accents.',
-    details: {
-      colour: 'Blush Pink with Rose-Gold Metallic Highlights',
-      fabric: 'Pure Mulberry Silk with Organza Tissue Dupatta',
-      work: 'Rose-gold Foil Work, Hand Zardozi & Crystal Bead Borders',
-      lining: 'Mulberry Silk Lining with Triple Can-Can Framework',
-      flare: '5.8 meters royal twirl flare',
-      components: 'Embroidered Skirt, Sweetheart Choli, Embellished Veil',
-      closure: 'Side Concealed Zip & Crystal Beaded Latkans',
-      care: 'Museum Quality Dry Clean Only.',
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "details": {
+      "colour": "Jet Black with Pure Silver Mirror Sparkle",
+      "fabric": "Pure Georgette with Embellished Organza Dupatta",
+      "work": "Dense Real Mirror Embroidery, Silver Zari & Scalloped Hem",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "5.6 meters full 360° flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
     },
-    sizeFitting: {
-      standardSizes: 'S, M, L, XL',
-      skirtLength: '42.5 inches',
-      waistFitting: 'Tailored fit with waist drawstrings',
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
-    bookingInfo: {
-      status: 'Limited boutique edition.',
-      trials: 'Available for viewing & trials at our Bhopal studio.',
+    "bookingInfo": {
+      "status": "Ready for studio trial & in-person purchase.",
+      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
+    "sortOrder": 17
   },
   {
-    id: 'bb-18',
-    slug: 'gulposh-pastel-choli-lehenga',
-    productCode: 'BB-18',
-    name: 'Gulposh Pastel Choli Lehenga',
-    collection: 'Dandiya Night Lehengas',
-    tagline: 'Delicate pastel garden florals blossoming on pale powder blush base',
-    price: 32999,
-    formattedPrice: '₹32,999',
-    availability: 'In Stock',
-    availabilityBadge: 'in-stock',
-    category: 'blush-pink',
-    categoryLabel: 'Blush Pink',
-    featured: false,
-    thumbnail: '/products/bb-18-front.jpg',
-    images: [
+    "id": "bb-18",
+    "slug": "bb-18",
+    "productCode": "BB-18",
+    "name": "BB-18 Roohani Rust Gold Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Warm spice rust silk with golden temple arches and artisan handwork",
+    "price": 34499,
+    "formattedPrice": "₹34,499",
+    "availability": "In Stock",
+    "availabilityBadge": "in-stock",
+    "category": "festive-special",
+    "categoryLabel": "Festive Special",
+    "featured": false,
+    "thumbnail": "/products/bb-18.webp",
+    "images": [
       {
-        url: '/products/bb-18-front.jpg',
-        title: 'Full Front Silhouette',
-        alt: 'Gulposh Pastel Choli Lehenga with 3D floral threadwork',
-      },
+        "url": "/products/bb-18.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-18 Roohani Rust Gold Lehenga (BB-18) — Dandiya Night Lehenga"
+      }
     ],
-    description:
-      'A fresh modern interpretation of timeless Indian florals. Features 3D embroidered chiffon petals, delicate silver threadwork, and an effortless lightweight silhouette.',
-    details: {
-      colour: 'Powder Blush with Soft Sage & Peach Petals',
-      fabric: 'Fine Georgette with Organza Veil Dupatta',
-      work: '3D Floral Applique, Silver Resham Work & Micro-Sequins',
-      lining: 'Soft Shantoon with Double Layer Can-Can',
-      flare: '5.2 meters circular umbrella flare',
-      components: 'Floral Skirt, Embroidered Blouse, Finished Dupatta',
-      closure: 'Side Zipper with Silk Tassels',
-      care: 'Delicate Dry Clean Only.',
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "details": {
+      "colour": "Spiced Rust & Antique Brass with Crimson Trim",
+      "fabric": "Chanderi Silk with Leheriya Dupatta",
+      "work": "Temple Arch Zari, Cut-Work Sequins & Drawstring Tassels",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "5.1 meters full flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
     },
-    sizeFitting: {
-      standardSizes: 'XS, S, M, L, XL',
-      skirtLength: '42 inches',
-      waistFitting: 'Adjustable drawstring waist',
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
-    bookingInfo: {
-      status: 'Ready for studio booking.',
-      trials: 'Available for viewing & trials at our Bhopal studio.',
+    "bookingInfo": {
+      "status": "Ready for studio trial & in-person purchase.",
+      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
+    "sortOrder": 18
   },
   {
-    id: 'bb-19',
-    slug: 'roshni-shimmer-blush-lehenga',
-    productCode: 'BB-19',
-    name: 'Roshni Shimmer Blush Lehenga',
-    collection: 'Dandiya Night Lehengas',
-    tagline: 'High-sparkle micro sequins woven over dreamy pastel pink net',
-    price: 34499,
-    formattedPrice: '₹34,499',
-    availability: 'Low Stock',
-    availabilityBadge: 'low-stock',
-    category: 'blush-pink',
-    categoryLabel: 'Blush Pink',
-    featured: false,
-    thumbnail: '/products/bb-19-front.jpg',
-    images: [
+    "id": "bb-19",
+    "slug": "bb-19",
+    "productCode": "BB-19",
+    "name": "BB-19 Gulposh Rani Couture Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Exquisite deep rani silk with dense lotus and peacock threadwork",
+    "price": 42999,
+    "formattedPrice": "₹42,999",
+    "availability": "In Stock",
+    "availabilityBadge": "in-stock",
+    "category": "rani-pink",
+    "categoryLabel": "Rani Pink",
+    "featured": true,
+    "thumbnail": "/products/bb-19.webp",
+    "images": [
       {
-        url: '/products/bb-19-front.jpg',
-        title: 'Full Front Silhouette',
-        alt: 'Roshni Shimmer Blush Lehenga sparkling with light reflection',
-      },
+        "url": "/products/bb-19.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-19 Gulposh Rani Couture Lehenga (BB-19) — Dandiya Night Lehenga"
+      }
     ],
-    description:
-      'Gleams like starlight on a calm palace pond. Tens of thousands of tonal micro-sequins shimmer continuously as you dance, paired with an elegant backless designer blouse.',
-    details: {
-      colour: 'Pale Shimmer Blush with Champagne Highlights',
-      fabric: 'Butterfly Shimmer Net over Micro-Satin',
-      work: 'All-over Sequin Geometry, Pearl Borders & Resham Outlining',
-      lining: 'Dense Shantoon with High-Volume Can-Can',
-      flare: '5.6 meters ballroom twirl flare',
-      components: 'Sequin Skirt, Designer Blouse, Scalloped Border Dupatta',
-      closure: 'Side Zipper with Crystal Drop Latkans',
-      care: 'Specialized Dry Clean Only.',
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "details": {
+      "colour": "Deep Royal Rani Pink with Vintage Gold Accents",
+      "fabric": "Pure Mulberry Silk with Heavy Net Dupatta",
+      "work": "Zardozi Peacock Motifs, Real Glass Mirror Work & Pearl Trim",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "6.0 meters royal twirl flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
     },
-    sizeFitting: {
-      standardSizes: 'S, M, L',
-      skirtLength: '42.5 inches',
-      waistFitting: 'Tailored fit with drawstring ease',
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
-    bookingInfo: {
-      status: 'Only 2 pieces remaining.',
-      trials: 'Available for viewing & trials at our Bhopal studio.',
+    "bookingInfo": {
+      "status": "Ready for studio trial & in-person purchase.",
+      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
+    "sortOrder": 19
   },
   {
-    id: 'bb-20',
-    slug: 'nazneen-blush-kali-lehenga',
-    productCode: 'BB-20',
-    name: 'Nazneen Blush Kali Lehenga',
-    collection: 'Dandiya Night Lehengas',
-    tagline: 'Classical 24-kali raw silk architecture with silver zari borders',
-    price: 35499,
-    formattedPrice: '₹35,499',
-    availability: 'In Stock',
-    availabilityBadge: 'in-stock',
-    category: 'blush-pink',
-    categoryLabel: 'Blush Pink',
-    featured: false,
-    thumbnail: '/products/bb-20-front.jpg',
-    images: [
+    "id": "bb-20",
+    "slug": "bb-20",
+    "productCode": "BB-20",
+    "name": "BB-20 Sitara Rang Rani Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Bright celebratory rani pink flare with circular bandhej and sparkling sequins",
+    "price": 36999,
+    "formattedPrice": "₹36,999",
+    "availability": "In Stock",
+    "availabilityBadge": "in-stock",
+    "category": "rani-pink",
+    "categoryLabel": "Rani Pink",
+    "featured": true,
+    "thumbnail": "/products/bb-20.webp",
+    "images": [
       {
-        url: '/products/bb-20-front.jpg',
-        title: 'Full Front Silhouette',
-        alt: 'Nazneen Blush Kali Lehenga with silver zari border',
-      },
+        "url": "/products/bb-20.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-20 Sitara Rang Rani Lehenga (BB-20) — Dandiya Night Lehenga"
+      }
     ],
-    description:
-      'A tribute to timeless royal court costumes. Featuring 24 slender kalis alternating between matte raw silk and gleaming brocade, edged with hand-embroidered silver dabka borders.',
-    details: {
-      colour: 'Tender Blush Pink with Muted Silver Zari',
-      fabric: 'Raw Silk & Tissue Brocade with Organza Dupatta',
-      work: 'Silver Dabka Zardozi, Resham Vines & Scalloped Borders',
-      lining: 'Pure Shantoon with Full Structured Can-Can',
-      flare: '5.5 meters structured kali flare',
-      components: 'Kalidar Skirt, Structured Choli, Bordered Dupatta',
-      closure: 'Side Zipper & Traditional Latkans',
-      care: 'Heritage Dry Clean Only.',
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "details": {
+      "colour": "Vibrant Rani Pink & Gold with Orange Accents",
+      "fabric": "Raw Silk with Bandhej Dupatta",
+      "work": "Circular Bandhani Patterns, Gota Lace & Heavy Latkans",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "5.4 meters full flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
     },
-    sizeFitting: {
-      standardSizes: 'XS, S, M, L, XL',
-      skirtLength: '43 inches',
-      waistFitting: 'Adjustable drawstring waist up to 40 inches',
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
-    bookingInfo: {
-      status: 'Ready for studio trial.',
-      trials: 'Available for viewing & trials at our Bhopal studio.',
+    "bookingInfo": {
+      "status": "Ready for studio trial & in-person purchase.",
+      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
+    "sortOrder": 20
   },
   {
-    id: 'bb-24',
-    slug: 'blush-dream-lehenga',
-    productCode: 'BB-24',
-    name: 'Blush Dream Lehenga',
-    collection: 'Dandiya Night Lehengas',
-    tagline: 'Dreamy pastel poetry with shimmering rose-gold floral accents',
-    price: 35999,
-    formattedPrice: '₹35,999',
-    availability: 'Low Stock',
-    availabilityBadge: 'low-stock',
-    category: 'blush-pink',
-    categoryLabel: 'Blush Pink',
-    featured: true,
-    thumbnail: '/products/bb-24-front.jpg',
-    images: [
+    "id": "bb-21",
+    "slug": "bb-21",
+    "productCode": "BB-21",
+    "name": "BB-21 Shyamali Charcoal Festive Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Smoky charcoal silk with vivid scarlet and saffron Gujarati geometric motifs",
+    "price": 35499,
+    "formattedPrice": "₹35,499",
+    "availability": "In Stock",
+    "availabilityBadge": "in-stock",
+    "category": "festive-special",
+    "categoryLabel": "Festive Special",
+    "featured": false,
+    "thumbnail": "/products/bb-21.webp",
+    "images": [
       {
-        url: '/products/bb-24-front.jpg',
-        title: 'Full Front Twirl Silhouette',
-        alt: 'Blush Dream Lehenga twirling in palace garden with flower petals',
-      },
-      {
-        url: '/Dreamy Pink Garden Bridal Portrait.png',
-        title: 'Close Floral Setting Portrait',
-        alt: 'Model seated in romantic floral arch wearing delicate blush embroidered lehenga',
-      },
+        "url": "/products/bb-21.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-21 Shyamali Charcoal Festive Lehenga (BB-21) — Dandiya Night Lehenga"
+      }
     ],
-    description:
-      'Soft as a twilight blossom, this ethereal blush pink lehenga is crafted in whispering organza and butterfly net. Delicately decorated with 3D floral thread embroidery, light-reflecting sequins, and scalloped rose-gold borders.',
-    details: {
-      colour: 'Blush Pink with Rose-Gold Highlights',
-      fabric: 'Sheer Shimmer Organza & Butterfly Net with Satin Base',
-      work: 'Thread Floral Applique, Pearl Accents & Rose-Gold Gota Work',
-      lining: 'Triple-layer Soft Silk with Featherlight Can-Can',
-      flare: 'Full 6-meter dramatic twirling umbrella cut',
-      components: 'Twirling Skirt, Embroidered Choli Blouse, Shimmer Organza Dupatta',
-      closure: 'Side Zipper with Crystal-beaded Tassels',
-      care: 'Delicate Dry Clean Only.',
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "details": {
+      "colour": "Smoky Charcoal with Scarlet & Saffron Trim",
+      "fabric": "Pure Dupion Silk with Embroidered Dupatta",
+      "work": "Kutchi Geometric Threadwork, Mirror Kalis & Hand Tassels",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "5.3 meters circular flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
     },
-    sizeFitting: {
-      standardSizes: 'XS, S, M, L',
-      skirtLength: '42 inches standard',
-      waistFitting: 'Comfortable waist with customizable ease',
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
-    bookingInfo: {
-      status: 'Only 2 handcrafted pieces remaining for this festive season.',
-      trials: 'Available for viewing & trials at our Bhopal studio.',
+    "bookingInfo": {
+      "status": "Ready for studio trial & in-person purchase.",
+      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
-  },
-
-  // --- FESTIVE DANDIYA SPECIALS (BB-25, BB-27, BB-28) ---
-  {
-    id: 'bb-25',
-    slug: 'dandiya-celebration-lehenga',
-    productCode: 'BB-25',
-    name: 'Dandiya Celebration Lehenga',
-    collection: 'Dandiya Night Lehengas',
-    tagline: 'High-energy festive flair with dramatic golden twirling borders',
-    price: 38999,
-    formattedPrice: '₹38,999',
-    availability: 'Made to Order',
-    availabilityBadge: 'made-to-order',
-    category: 'festive-special',
-    categoryLabel: 'Festive Special',
-    featured: false,
-    thumbnail: '/Pink-Gold Dandiya Celebration.png',
-    images: [
-      {
-        url: '/Pink-Gold Dandiya Celebration.png',
-        title: 'Festive Celebration Pose',
-        alt: 'Model dancing with dandiya sticks in pink and gold lehenga with palace backdrop',
-      },
-    ],
-    description:
-      'The iconic centerpiece of our Dandiya Night series, worn by our campaign muse. A majestic fusion of hot pink silk and luminous gold borders engineered specifically for comfort and high-impact movement during Garba and Dandiya nights.',
-    details: {
-      colour: 'Festive Pink & Luminous Champagne Gold',
-      fabric: 'Pure Georgette with Heavy Silk Broad Border',
-      work: 'Traditional Kutchi Mirror Work, Zardozi Borders & Golden Sequins',
-      lining: 'Breathable Cotton Silk with Full-Volume Can-Can',
-      flare: '6.2 meters maximum ballroom twirl flare',
-      components: 'High-Twirl Skirt, Backless Dori Choli, Hand-finished Dupatta',
-      closure: 'Heavy Dori Drawstring with Bell-shaped Latkans',
-      care: 'Professional Dry Clean Only.',
-    },
-    sizeFitting: {
-      standardSizes: 'Tailored to your exact measurements',
-      skirtLength: 'Custom measured to your height with footwear',
-      waistFitting: 'Custom tailored',
-    },
-    bookingInfo: {
-      status: 'Handcrafted on order by senior master artisans.',
-      trials: 'Available for viewing & trials at our Bhopal studio.',
-    },
+    "sortOrder": 21
   },
   {
-    id: 'bb-27',
-    slug: 'garba-ras-festive-lehenga',
-    productCode: 'BB-27',
-    name: 'Garba Ras Festive Lehenga',
-    collection: 'Dandiya Night Lehengas',
-    tagline: 'Vibrant bandhani print silk accented with mirror work and broad gota borders',
-    price: 34999,
-    formattedPrice: '₹34,999',
-    availability: 'In Stock',
-    availabilityBadge: 'in-stock',
-    category: 'festive-special',
-    categoryLabel: 'Festive Special',
-    featured: false,
-    thumbnail: '/products/bb-27-front.jpg',
-    images: [
+    "id": "bb-22",
+    "slug": "bb-22",
+    "productCode": "BB-22",
+    "name": "BB-22 Kasturi Dark Jewel Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Rich dark espresso-wine silhouette featuring antique gold gotta accents",
+    "price": 37999,
+    "formattedPrice": "₹37,999",
+    "availability": "In Stock",
+    "availabilityBadge": "in-stock",
+    "category": "festive-special",
+    "categoryLabel": "Festive Special",
+    "featured": false,
+    "thumbnail": "/products/bb-22.webp",
+    "images": [
       {
-        url: '/products/bb-27-front.jpg',
-        title: 'Full Front Silhouette',
-        alt: 'Garba Ras Festive Lehenga twirling with bandhani and mirrors',
-      },
-      {
-        url: '/Pink-Gold Dandiya Celebration.png',
-        title: 'Campaign Styling',
-        alt: 'Festive celebration pose with dandiya sticks',
-      },
+        "url": "/products/bb-22.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-22 Kasturi Dark Jewel Lehenga (BB-22) — Dandiya Night Lehenga"
+      }
     ],
-    description:
-      'Celebrates Gujarat and Rajasthan heritage with authentic artisanal bandhej dots, heavy real-mirror embellishments, and dramatic concentric gota borders designed for peak festive exuberance.',
-    details: {
-      colour: 'Festive Fuchsia & Saffron Orange with Gold',
-      fabric: 'Pure Silk Bandhani with Georgette Dupatta',
-      work: 'Hand-tied Bandhani, Authentic Kutchi Mirrors & Broad Gota Borders',
-      lining: 'Heavy Cotton Shantoon with Dual Can-Can',
-      flare: '6.0 meters high-volume Garba flare',
-      components: 'Flared Bandhani Skirt, Embroidered Choli, Mirror-edged Dupatta',
-      closure: 'Handcrafted Braided Dori with Bell Latkans',
-      care: 'Dry Clean Only.',
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "details": {
+      "colour": "Deep Espresso Wine with Antique Gold Gota",
+      "fabric": "Raw Silk with Organza Border Dupatta",
+      "work": "Antique Gold Gota Patti, Resham Borders & Mirror Highlights",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "5.2 meters twirl flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
     },
-    sizeFitting: {
-      standardSizes: 'XS, S, M, L, XL',
-      skirtLength: '42.5 inches',
-      waistFitting: 'Comfortable drawstring fit up to 40 inches',
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
-    bookingInfo: {
-      status: 'In stock for studio reservation.',
-      trials: 'Available for viewing & trials at our Bhopal studio.',
+    "bookingInfo": {
+      "status": "Ready for studio trial & in-person purchase.",
+      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
+    "sortOrder": 22
   },
   {
-    id: 'bb-28',
-    slug: 'utsav-kiran-festive-lehenga',
-    productCode: 'BB-28',
-    name: 'Utsav Kiran Festive Lehenga',
-    collection: 'Dandiya Night Lehengas',
-    tagline: 'Kaleidoscopic festive palette with shimmering golden foil and threadwork',
-    price: 33999,
-    formattedPrice: '₹33,999',
-    availability: 'In Stock',
-    availabilityBadge: 'in-stock',
-    category: 'festive-special',
-    categoryLabel: 'Festive Special',
-    featured: false,
-    thumbnail: '/products/bb-28-front.jpg',
-    images: [
+    "id": "bb-23",
+    "slug": "bb-23",
+    "productCode": "BB-23",
+    "name": "BB-23 Chandani Indigo Twirl Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Dark midnight indigo adorned with silver mirror constellations",
+    "price": 38999,
+    "formattedPrice": "₹38,999",
+    "availability": "In Stock",
+    "availabilityBadge": "in-stock",
+    "category": "royal-plum",
+    "categoryLabel": "Royal Plum",
+    "featured": false,
+    "thumbnail": "/products/bb-23.webp",
+    "images": [
       {
-        url: '/products/bb-28-front.jpg',
-        title: 'Full Front Silhouette',
-        alt: 'Utsav Kiran Festive Lehenga with vibrant gold and resham kalis',
-      },
+        "url": "/products/bb-23.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-23 Chandani Indigo Twirl Lehenga (BB-23) — Dandiya Night Lehenga"
+      }
     ],
-    description:
-      'Bursting with festive energy, this multi-kali celebration lehenga features contrasting borders in crimson, emerald, and turmeric gold, finished with shimmering golden mukaish work.',
-    details: {
-      colour: 'Multi-hue Festive Coral, Rani & Golden Yellow',
-      fabric: 'Fine Raw Silk with Silk Tissue Dupatta',
-      work: 'Mukaish Hand-embroidery, Resham Kalis & Gota Patti Borders',
-      lining: 'Pure Shantoon with Structured Can-Can',
-      flare: '5.6 meters circular twirl flare',
-      components: 'Multi-kali Skirt, Embroidered Blouse, Tissue Dupatta',
-      closure: 'Concealed Side Zip & Hand-tied Tassels',
-      care: 'Dry Clean Only.',
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "details": {
+      "colour": "Midnight Indigo with Silver Zari & Mirror",
+      "fabric": "Fine Georgette with Organza Dupatta",
+      "work": "Silver Zari, Mirror Work & Heavy Double Can-Can",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "5.5 meters full flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
     },
-    sizeFitting: {
-      standardSizes: 'S, M, L, XL',
-      skirtLength: '42 inches',
-      waistFitting: 'Adjustable drawstring waist',
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
-    bookingInfo: {
-      status: 'Ready for studio booking.',
-      trials: 'Available for viewing & trials at our Bhopal studio.',
+    "bookingInfo": {
+      "status": "Ready for studio trial & in-person purchase.",
+      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
-  },
-
-  // --- BRIDAL & COUTURE FESTIVE (BB-26, BB-29, BB-30) ---
-  {
-    id: 'bb-26',
-    slug: 'gulabi-bagh-bridal-lehenga',
-    productCode: 'BB-26',
-    name: 'Gulabi Bagh Bridal Lehenga',
-    collection: 'Dandiya Night Lehengas',
-    tagline: 'Couture heritage bridal elegance inspired by royal Mughal flower gardens',
-    price: 42999,
-    formattedPrice: '₹42,999',
-    availability: 'Available to Book',
-    availabilityBadge: 'available',
-    category: 'bridal-festive',
-    categoryLabel: 'Bridal & Festive',
-    featured: false,
-    thumbnail: '/Beauty Blossoms Lehenga Collection.png',
-    images: [
-      {
-        url: '/Beauty Blossoms Lehenga Collection.png',
-        title: 'Bridal Garden Portrait',
-        alt: 'Model in delicate pink floral embroidered couture lehenga seated in floral pavilion',
-      },
-    ],
-    description:
-      'An heirloom creation inspired by the blooming royal gardens of Rajasthan. Every flower petal is rendered in subtle tonal silk threads, pearls, and hand-cut zardozi wire over blush-peach raw silk base.',
-    details: {
-      colour: 'Blush Peach with Soft Crimson Garden Florals',
-      fabric: 'Pure Mulberry Silk with Two Contrasting Dupattas',
-      work: '3D Floral Applique, Fine Resham Thread, Zardozi & Seed Pearls',
-      lining: 'Mulberry Silk Lining with Triple Can-Can Framework',
-      flare: '5.5 meters structural kali flare',
-      components: 'Kalidar Skirt, Heavily Embroidered Blouse, Shoulder Dupatta, Veil Dupatta',
-      closure: 'Side Zipper with Hand-embroidered Royal Latkans',
-      care: 'Museum Quality Dry Clean Only.',
-    },
-    sizeFitting: {
-      standardSizes: 'Bespoke Custom Fitting',
-      skirtLength: 'Custom fit to client specifications',
-      waistFitting: 'Custom tailored with interior grip-tape waist reinforcement',
-    },
-    bookingInfo: {
-      status: 'Available for private preview & bridal bookings.',
-      trials: 'Available for viewing & trials at our Bhopal studio.',
-    },
+    "sortOrder": 23
   },
   {
-    id: 'bb-29',
-    slug: 'mumtaz-mahal-couture-lehenga',
-    productCode: 'BB-29',
-    name: 'Mumtaz Mahal Couture Lehenga',
-    collection: 'Dandiya Night Lehengas',
-    tagline: 'Imperial heirloom bridal couture adorned with real dabka, kundan and pearls',
-    price: 46999,
-    formattedPrice: '₹46,999',
-    availability: 'Available to Book',
-    availabilityBadge: 'available',
-    category: 'bridal-festive',
-    categoryLabel: 'Bridal & Festive',
-    featured: false,
-    thumbnail: '/products/bb-29-front.jpg',
-    images: [
+    "id": "bb-24",
+    "slug": "bb-24",
+    "productCode": "BB-24",
+    "name": "BB-24 Kesar Kunj Ochre Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Heritage mustard ochre silk with traditional kalidar twirl and rich borders",
+    "price": 40999,
+    "formattedPrice": "₹40,999",
+    "availability": "In Stock",
+    "availabilityBadge": "in-stock",
+    "category": "bridal-festive",
+    "categoryLabel": "Bridal & Festive",
+    "featured": false,
+    "thumbnail": "/products/bb-24.webp",
+    "images": [
       {
-        url: '/products/bb-29-front.jpg',
-        title: 'Full Front Silhouette',
-        alt: 'Mumtaz Mahal Couture Lehenga with imperial zardozi and kundan work',
-      },
-      {
-        url: '/Beauty Blossoms Lehenga Collection.png',
-        title: 'Floral Pavilion Portrait',
-        alt: 'Couture lehenga portrait in palace garden pavilion',
-      },
+        "url": "/products/bb-24.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-24 Kesar Kunj Ochre Lehenga (BB-24) — Dandiya Night Lehenga"
+      }
     ],
-    description:
-      'A true museum-grade couture lehenga taking over 320 artisan hours to create. Dense Mughal jali arches, floral paisleys, and real kundan gemstones embroidered on deep rose raw silk.',
-    details: {
-      colour: 'Imperial Rose & Antique Mughal Gold',
-      fabric: 'Heaviest Weight Raw Silk with Dual Zari Organza Dupattas',
-      work: 'Real Kundan Setting, Antique Dabka Zardozi & Freshwater Seed Pearls',
-      lining: 'Pure Silk Lining with Triple Structural Can-Can Layers',
-      flare: '6.2 meters ballroom bridal flare',
-      components: 'Flared Skirt, Padded Sweetheart Blouse, Hand-embroidered Veil & Shoulder Dupatta',
-      closure: 'Concealed Side Zipper with Heirloom Latkans',
-      care: 'Specialized Museum Dry Clean Only.',
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "details": {
+      "colour": "Mustard Ochre & Antique Bronze with Emerald Highlights",
+      "fabric": "Pure Mulberry Silk with Four-Sided Border Dupatta",
+      "work": "Zardozi Embroidery, Kundan Stones & Full Flare Netting",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "5.6 meters circular flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
     },
-    sizeFitting: {
-      standardSizes: 'Completely Bespoke Made-to-Measure',
-      skirtLength: 'Custom tailored to client height & bridal footwear',
-      waistFitting: 'Custom tailored corset waist',
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
-    bookingInfo: {
-      status: 'Made exclusively on private bridal commission.',
-      trials: 'Available for viewing & trials at our Bhopal studio.',
+    "bookingInfo": {
+      "status": "Ready for studio trial & in-person purchase.",
+      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
+    "sortOrder": 24
   },
   {
-    id: 'bb-30',
-    slug: 'rajkumari-shringar-lehenga',
-    productCode: 'BB-30',
-    name: 'Rajkumari Shringar Lehenga',
-    collection: 'Dandiya Night Lehengas',
-    tagline: 'Royal court bridal majesty featuring heritage peacock motifs and antique zari',
-    price: 44999,
-    formattedPrice: '₹44,999',
-    availability: 'Available to Book',
-    availabilityBadge: 'available',
-    category: 'bridal-festive',
-    categoryLabel: 'Bridal & Festive',
-    featured: false,
-    thumbnail: '/products/bb-30-front.jpg',
-    images: [
+    "id": "bb-25",
+    "slug": "bb-25",
+    "productCode": "BB-25",
+    "name": "BB-25 Sindoori Rust Bridal Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Regal bridal-festive sindoor rust silhouette with hand-embroidered doli motifs",
+    "price": 43999,
+    "formattedPrice": "₹43,999",
+    "availability": "In Stock",
+    "availabilityBadge": "in-stock",
+    "category": "bridal-festive",
+    "categoryLabel": "Bridal & Festive",
+    "featured": true,
+    "thumbnail": "/products/bb-25.webp",
+    "images": [
       {
-        url: '/products/bb-30-front.jpg',
-        title: 'Full Front Silhouette',
-        alt: 'Rajkumari Shringar Lehenga with heritage peacock zari motifs',
-      },
-      {
-        url: '/Beauty Blossoms Lehenga Collection.png',
-        title: 'Bridal Setting',
-        alt: 'Royal lehenga with intricate golden border detail',
-      },
+        "url": "/products/bb-25.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-25 Sindoori Rust Bridal Lehenga (BB-25) — Dandiya Night Lehenga"
+      }
     ],
-    description:
-      'Inspired by the regal attire of Rajput princesses. 28 kalis featuring hand-embroidered royal peacocks, lotus blossoms in fine resham, and a grand 12-inch scalloped antique gold zardozi border.',
-    details: {
-      colour: 'Deep Crimson Rani with Antique Gold Zari',
-      fabric: 'Pure Mulberry Silk with Tissue Brocade Veil',
-      work: 'Antique Gold Zardozi, Resham Thread Peacocks & Cut-dana Embellishments',
-      lining: 'Pure Shantoon with Dual Stiffened Can-Can Frames',
-      flare: '6.0 meters majestic bridal twirl flare',
-      components: 'Embroidered Kalidar Skirt, Backless Dori Choli, Two Bordered Dupattas',
-      closure: 'Concealed Side Zipper with Handcrafted Peacock Latkans',
-      care: 'Museum Quality Dry Clean Only.',
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "details": {
+      "colour": "Sindoor Rust & Royal Gold with Crimson Dupatta",
+      "fabric": "Handwoven Raw Silk with Pure Silk Dupatta",
+      "work": "Heritage Zardozi, Fine Resham Flora & Heavy Latkans",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "5.8 meters bridal twirl flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
     },
-    sizeFitting: {
-      standardSizes: 'Bespoke Made-to-Measure',
-      skirtLength: 'Tailored precisely to measurement',
-      waistFitting: 'Tailored fit with internal reinforcement',
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
-    bookingInfo: {
-      status: 'Open for bridal appointments & reservations.',
-      trials: 'Available for viewing & trials at our Bhopal studio.',
+    "bookingInfo": {
+      "status": "Ready for studio trial & in-person purchase.",
+      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
+    "sortOrder": 25
   },
+  {
+    "id": "bb-26",
+    "slug": "bb-26",
+    "productCode": "BB-26",
+    "name": "BB-26 Tarangini Black Mirror Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Dramatic monochrome black silk sparkling with multi-color festive stitches",
+    "price": 36499,
+    "formattedPrice": "₹36,499",
+    "availability": "In Stock",
+    "availabilityBadge": "in-stock",
+    "category": "festive-special",
+    "categoryLabel": "Festive Special",
+    "featured": false,
+    "thumbnail": "/products/bb-26.webp",
+    "images": [
+      {
+        "url": "/products/bb-26.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-26 Tarangini Black Mirror Lehenga (BB-26) — Dandiya Night Lehenga"
+      }
+    ],
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "details": {
+      "colour": "Jet Black with Multi-Color Resham Accents",
+      "fabric": "Heavy Georgette with Embellished Net Dupatta",
+      "work": "Multi-Color Threadwork, Mirror Medallions & Gota Patti",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "5.4 meters full twirl flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
+    },
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
+    },
+    "bookingInfo": {
+      "status": "Ready for studio trial & in-person purchase.",
+      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+    },
+    "sortOrder": 26
+  },
+  {
+    "id": "bb-27",
+    "slug": "bb-27",
+    "productCode": "BB-27",
+    "name": "BB-27 Maru Desh Festive Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Authentic desert Rajasthan artistry with detailed kalis and antique zari",
+    "price": 39499,
+    "formattedPrice": "₹39,499",
+    "availability": "In Stock",
+    "availabilityBadge": "in-stock",
+    "category": "bridal-festive",
+    "categoryLabel": "Bridal & Festive",
+    "featured": false,
+    "thumbnail": "/products/bb-27.webp",
+    "images": [
+      {
+        "url": "/products/bb-27.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-27 Maru Desh Festive Lehenga (BB-27) — Dandiya Night Lehenga"
+      }
+    ],
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "details": {
+      "colour": "Deep Mahogany Rust with Antique Gold Work",
+      "fabric": "Pure Silk Dupion with Banarasi Dupatta",
+      "work": "Antique Zari Work, Mirror Highlights & Drawstring Latkans",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "5.3 meters circular flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
+    },
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
+    },
+    "bookingInfo": {
+      "status": "Ready for studio trial & in-person purchase.",
+      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+    },
+    "sortOrder": 27
+  },
+  {
+    "id": "bb-28",
+    "slug": "bb-28",
+    "productCode": "BB-28",
+    "name": "BB-28 Haldi Utsav Golden Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Luminous haldi gold flare with mirror medallions and scalloped red border",
+    "price": 35999,
+    "formattedPrice": "₹35,999",
+    "availability": "In Stock",
+    "availabilityBadge": "in-stock",
+    "category": "sunshine-yellow",
+    "categoryLabel": "Sunshine Yellow",
+    "featured": true,
+    "thumbnail": "/products/bb-28.webp",
+    "images": [
+      {
+        "url": "/products/bb-28.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-28 Haldi Utsav Golden Lehenga (BB-28) — Dandiya Night Lehenga"
+      }
+    ],
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "details": {
+      "colour": "Haldi Gold & Vermilion Red",
+      "fabric": "Mulberry Silk with Bandhani Chiffon Dupatta",
+      "work": "Mirror Medallions, Gota Kiran & Scalloped Embroidery",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "5.5 meters full 360° twirl flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
+    },
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
+    },
+    "bookingInfo": {
+      "status": "Ready for studio trial & in-person purchase.",
+      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+    },
+    "sortOrder": 28
+  },
+  {
+    "id": "bb-29",
+    "slug": "bb-29",
+    "productCode": "BB-29",
+    "name": "BB-29 Chandrakala Blush Ivory Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Soft pearl blush silk illuminated with delicate silver gota and rose gold thread",
+    "price": 41499,
+    "formattedPrice": "₹41,499",
+    "availability": "In Stock",
+    "availabilityBadge": "in-stock",
+    "category": "blush-pink",
+    "categoryLabel": "Blush Dream",
+    "featured": true,
+    "thumbnail": "/products/bb-29.webp",
+    "images": [
+      {
+        "url": "/products/bb-29.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-29 Chandrakala Blush Ivory Lehenga (BB-29) — Dandiya Night Lehenga"
+      }
+    ],
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "details": {
+      "colour": "Pearl Blush Ivory & Rose Gold",
+      "fabric": "Pure Georgette with Organza Silk Dupatta",
+      "work": "Rose Gold Zari, Gota Patti & Hand-Cut Mirror Accents",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "5.7 meters royal flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
+    },
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
+    },
+    "bookingInfo": {
+      "status": "Ready for studio trial & in-person purchase.",
+      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+    },
+    "sortOrder": 29
+  }
 ];
 
 /**
@@ -1402,12 +1306,24 @@ export function getProductBySlug(slugOrId, productsList = LEHENGA_PRODUCTS) {
   if (!slugOrId) return null;
   const search = String(slugOrId).toLowerCase().trim();
   const list = Array.isArray(productsList) && productsList.length > 0 ? productsList : LEHENGA_PRODUCTS;
+  
+  // Try direct match or numeric match (e.g. "1" matches "bb-01")
   return (
-    list.find(
-      (p) =>
-        p.slug?.toLowerCase() === search ||
-        p.id?.toLowerCase() === search ||
-        p.productCode?.toLowerCase() === search
-    ) || null
+    list.find((p) => {
+      const pId = p.id?.toLowerCase();
+      const pCode = p.productCode?.toLowerCase();
+      const pSlug = p.slug?.toLowerCase();
+      const numMatch = pId?.replace('bb-', '');
+      const numSearch = search.padStart(2, '0');
+
+      return (
+        pSlug === search ||
+        pId === search ||
+        pCode === search ||
+        numMatch === numSearch ||
+        pId === 'bb-' + numSearch ||
+        pCode === 'bb-' + numSearch
+      );
+    }) || null
   );
 }

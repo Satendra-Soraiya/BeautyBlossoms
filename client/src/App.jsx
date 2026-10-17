@@ -26,9 +26,9 @@ export default function App() {
   const [favorites, setFavorites] = useState(() => {
     try {
       const saved = localStorage.getItem('bb_shortlist_favorites');
-      return saved ? JSON.parse(saved) : ['bb-21']; // BB-21 pre-shortlisted for demonstration
+      return saved ? JSON.parse(saved) : ['bb-01']; // BB-01 pre-shortlisted for demonstration
     } catch {
-      return ['bb-21'];
+      return ['bb-01'];
     }
   });
   const [isWishlistOpen, setIsWishlistOpen] = useState(false);
