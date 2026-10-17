@@ -277,9 +277,8 @@ export default function AdminProductEditor({
                 <input
                   id="rent-price"
                   type="number"
-                  min="300"
-                  max="5000"
-                  step="50"
+                  min="0"
+                  step="any"
                   className="bb-input-field bb-rent-field"
                   value={rentPrice}
                   onChange={(e) => setRentPrice(e.target.value)}
@@ -311,8 +310,8 @@ export default function AdminProductEditor({
                   <input
                     id="buy-price"
                     type="number"
-                    min="1000"
-                    step="500"
+                    min="0"
+                    step="any"
                     className="bb-input-field"
                     value={buyPrice}
                     onChange={(e) => setBuyPrice(e.target.value)}
