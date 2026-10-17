@@ -1,21 +1,29 @@
 /* ==========================================================================
-   Beauty Blossoms — Brand Footer Styles (Matching Reference Banner)
+   Beauty Blossoms — Royal Haute Couture Brand Footer
+   Designed with Indian luxury boutique aesthetics:
+   - Velvet midnight plum & champagne gold color palette
+   - Feathered panoramic palace banner transition
+   - 3 structured luxury cards with interactive concierge pills
+   - Refined typography and delicate floral ornament divider
    ========================================================================== */
 
 .bb-brand-footer {
   position: relative;
   width: 100%;
-  background-color: #241419;
+  background: linear-gradient(180deg, #18090E 0%, #210E16 35%, #15060C 100%);
   color: #F8EDE9;
   z-index: 5;
+  overflow: hidden;
 }
 
-/* Panoramic Illuminated Palace Banner (Reference Bottom Bar) */
+/* --------------------------------------------------------------------------
+   1. Panoramic Illuminated Palace Banner
+   -------------------------------------------------------------------------- */
 .bb-footer-banner-wrapper {
   position: relative;
   width: 100%;
-  min-height: 220px;
-  max-height: 280px;
+  min-height: 250px;
+  max-height: 320px;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -28,7 +36,8 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 60%;
+  object-position: center 55%;
+  filter: brightness(0.85) contrast(1.05);
 }
 
 .bb-footer-banner-overlay {
@@ -36,9 +45,9 @@
   inset: 0;
   background: linear-gradient(
     180deg,
-    rgba(255, 245, 242, 0.45) 0%,
-    rgba(50, 18, 28, 0.75) 50%,
-    rgba(36, 20, 25, 0.95) 100%
+    rgba(252, 237, 231, 0.25) 0%,
+    rgba(40, 15, 24, 0.68) 45%,
+    rgba(24, 9, 14, 0.98) 100%
   );
 }
 
@@ -46,179 +55,424 @@
   position: relative;
   z-index: 2;
   text-align: center;
-  padding: 30px 20px;
+  padding: 36px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
+}
+
+.bb-banner-eyebrow {
+  font-family: var(--font-serif-eyebrow, 'Cinzel', serif);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.32em;
+  color: #E5C378;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
+  text-transform: uppercase;
 }
 
 .bb-footer-brand-title {
-  font-family: var(--font-serif-headline);
-  font-size: clamp(20px, 5.5vw, 28px);
+  font-family: var(--font-serif-headline, 'Playfair Display', serif);
+  font-size: clamp(22px, 6vw, 32px);
   font-weight: 700;
   letter-spacing: 0.22em;
-  color: #FFFFFF;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+  color: #FFF6F0;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.75);
+  margin: 0;
 }
 
 .bb-footer-flourish {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  max-width: 180px;
+  margin: 2px 0;
+}
+
+.bb-flourish-line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(229, 195, 120, 0.6), transparent);
+}
+
+.bb-flourish-glyph {
   color: #F8B4C4;
-  font-size: 15px;
+  font-size: 13px;
+  animation: bbPulse 2s infinite ease-in-out;
 }
 
 .bb-footer-tagline {
-  font-family: var(--font-serif-headline);
+  font-family: var(--font-serif-headline, 'Playfair Display', serif);
   font-style: italic;
-  font-size: clamp(14px, 3.8vw, 17px);
-  color: #FCE8E2;
-  margin: 0 0 10px 0;
-  letter-spacing: 0.05em;
-  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  font-size: clamp(14px, 4vw, 17px);
+  color: #FDE8E2;
+  margin: 0 0 14px 0;
+  letter-spacing: 0.04em;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
 }
 
 .bb-footer-about-btn {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 9px 22px;
+  padding: 10px 24px;
   border-radius: 9999px;
-  background-color: rgba(255, 255, 255, 0.22);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.45);
-  color: #FFFFFF;
-  font-family: var(--font-sans-body);
+  background: rgba(45, 18, 28, 0.6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(229, 195, 120, 0.6);
+  color: #FFF8F3;
+  font-family: var(--font-sans-body, sans-serif);
   font-size: 13px;
   font-weight: 600;
+  letter-spacing: 0.04em;
   text-decoration: none;
-  transition: var(--transition-smooth);
+  cursor: pointer;
+  transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+}
+
+.bb-btn-arrow {
+  color: #E5C378;
+  font-size: 14px;
+  transition: transform 0.22s ease;
 }
 
 .bb-footer-about-btn:hover {
-  background-color: #CF2A52;
+  background: #CF2A52;
   border-color: #CF2A52;
+  color: #FFFFFF;
   transform: translateY(-2px);
-  box-shadow: 0 4px 14px rgba(207, 42, 82, 0.4);
+  box-shadow: 0 6px 20px rgba(207, 42, 82, 0.45);
 }
 
-/* Footer Details Grid */
+.bb-footer-about-btn:hover .bb-btn-arrow {
+  color: #FFFFFF;
+  transform: translateX(3px);
+}
+
+/* --------------------------------------------------------------------------
+   2. Structured Luxury Cards Grid
+   -------------------------------------------------------------------------- */
 .bb-footer-details-container {
   max-width: 480px;
   margin: 0 auto;
-  padding: 30px 20px 40px;
+  padding: 32px 20px 40px;
   box-sizing: border-box;
 }
 
-.bb-footer-grid {
+.bb-footer-cards-grid {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 20px;
 }
 
-.bb-footer-col {
+.bb-footer-card {
+  background: rgba(38, 16, 24, 0.65);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(229, 195, 120, 0.22);
+  border-radius: 16px;
+  padding: 22px 20px;
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 14px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  transition: border-color 0.22s ease, transform 0.22s ease;
 }
 
-.bb-footer-heading {
-  font-family: var(--font-serif-headline);
-  font-size: 15px;
-  color: #F8B4C4;
-  letter-spacing: 0.06em;
-  margin: 0 0 4px 0;
+.bb-footer-card:hover {
+  border-color: rgba(229, 195, 120, 0.4);
+  transform: translateY(-1px);
+}
+
+.bb-card-highlight {
+  background: linear-gradient(135deg, rgba(46, 18, 28, 0.75) 0%, rgba(32, 12, 20, 0.8) 100%);
+  border-color: rgba(229, 195, 120, 0.32);
+}
+
+/* Card Header with Icon */
+.bb-card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.bb-card-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: rgba(229, 195, 120, 0.12);
+  border: 1px solid rgba(229, 195, 120, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #E5C378;
+  flex-shrink: 0;
+}
+
+.bb-card-icon svg {
+  width: 18px;
+  height: 18px;
+}
+
+.bb-card-eyebrow {
+  display: block;
+  font-family: var(--font-serif-eyebrow, 'Cinzel', serif);
+  font-size: 9.5px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  color: #E5C378;
   text-transform: uppercase;
 }
 
-.bb-footer-address {
-  font-style: normal;
-  font-family: var(--font-sans-body);
-  font-size: 13px;
-  line-height: 1.45;
-  color: #E2CFD4;
+.bb-card-title {
+  font-family: var(--font-serif-headline, 'Playfair Display', serif);
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFF2EE;
+  margin: 1px 0 0 0;
+  letter-spacing: 0.02em;
 }
 
-.bb-footer-address p {
+/* Studio Address & Timings */
+.bb-card-address {
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.bb-address-primary {
+  font-family: var(--font-sans-body, sans-serif);
+  font-size: 13.5px;
+  color: #F8E5DF;
+  font-weight: 500;
+  line-height: 1.4;
   margin: 0;
 }
 
-.bb-footer-timings,
-.bb-footer-bio {
-  font-family: var(--font-sans-body);
-  font-size: 12.5px;
-  color: #C8B3B9;
-  line-height: 1.45;
-  margin: 4px 0 0;
+.bb-address-secondary {
+  font-family: var(--font-sans-body, sans-serif);
+  font-size: 13px;
+  color: #D6BDC4;
+  margin: 0;
 }
 
-.bb-footer-note {
-  font-family: var(--font-sans-body);
+.bb-timing-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  background: rgba(229, 195, 120, 0.09);
+  border: 1px solid rgba(229, 195, 120, 0.2);
+  color: #F8DFC8;
+  font-family: var(--font-sans-body, sans-serif);
+  font-size: 12px;
+  font-weight: 500;
+  align-self: flex-start;
+}
+
+.bb-timing-icon {
+  width: 14px;
+  height: 14px;
+  color: #E5C378;
+}
+
+.bb-card-note {
+  font-family: var(--font-sans-body, sans-serif);
   font-size: 11.5px;
   font-style: italic;
-  color: #E098A8;
-  margin-top: 4px;
-}
-
-.bb-footer-contact-link {
-  font-family: var(--font-sans-body);
-  font-size: 13px;
+  color: #F09CAE;
   margin: 0;
-  color: #E2CFD4;
 }
 
-.bb-footer-contact-link a {
-  color: #F8B4C4;
-  text-decoration: underline;
-  text-underline-offset: 3px;
+/* Concierge Action Pills */
+.bb-concierge-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
 }
 
-.bb-footer-label {
-  color: #9C838A;
+.bb-action-pill {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-family: var(--font-sans-body, sans-serif);
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.22s ease;
 }
 
-/* Bottom Copyright Bar */
-.bb-footer-bottom-row {
-  margin-top: 30px;
-  padding-top: 18px;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+.bb-pill-icon {
+  width: 17px;
+  height: 17px;
+  flex-shrink: 0;
+}
+
+.bb-action-whatsapp {
+  background: rgba(37, 211, 102, 0.15);
+  border: 1px solid rgba(37, 211, 102, 0.45);
+  color: #A3F7C2;
+}
+
+.bb-action-whatsapp:hover {
+  background: rgba(37, 211, 102, 0.28);
+  border-color: #25D366;
+  color: #FFFFFF;
+  transform: translateX(2px);
+}
+
+.bb-action-call {
+  background: rgba(229, 195, 120, 0.12);
+  border: 1px solid rgba(229, 195, 120, 0.4);
+  color: #FFF2DF;
+}
+
+.bb-action-call:hover {
+  background: rgba(229, 195, 120, 0.22);
+  border-color: #E5C378;
+  color: #FFFFFF;
+  transform: translateX(2px);
+}
+
+/* Secondary Social & Email Row */
+.bb-secondary-contact-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-top: 4px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.bb-social-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 11px;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  color: #E8D3D8;
+  font-family: var(--font-sans-body, sans-serif);
+  font-size: 11.5px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.bb-chip-icon {
+  width: 13px;
+  height: 13px;
+  color: #E5C378;
+}
+
+.bb-social-chip:hover {
+  background: rgba(207, 42, 82, 0.25);
+  border-color: rgba(207, 42, 82, 0.5);
+  color: #FFFFFF;
+}
+
+/* Heritage Card Text & Trust Badges */
+.bb-heritage-text {
+  font-family: var(--font-sans-body, sans-serif);
+  font-size: 12.8px;
+  line-height: 1.5;
+  color: #E2CED4;
+  margin: 0;
+}
+
+.bb-heritage-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 2px;
+}
+
+.bb-tag-item {
+  font-family: var(--font-sans-body, sans-serif);
+  font-size: 11px;
+  color: #E5C378;
+  background: rgba(229, 195, 120, 0.08);
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: 1px solid rgba(229, 195, 120, 0.18);
+}
+
+/* --------------------------------------------------------------------------
+   3. Ornamental Divider
+   -------------------------------------------------------------------------- */
+.bb-footer-ornament-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin: 32px 0 20px;
+  width: 100%;
+}
+
+.bb-ornament-line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(229, 195, 120, 0.35), transparent);
+}
+
+.bb-ornament-motif {
+  color: #E5C378;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+}
+
+/* --------------------------------------------------------------------------
+   4. Refined Copyright & Studio Policy Bar
+   -------------------------------------------------------------------------- */
+.bb-footer-bottom-bar {
   display: flex;
   flex-direction: column;
   gap: 6px;
   text-align: center;
 }
 
-.bb-footer-copy {
-  font-family: var(--font-sans-body);
-  font-size: 11.5px;
-  color: #9C838A;
+.bb-footer-copyright {
+  font-family: var(--font-sans-body, sans-serif);
+  font-size: 12px;
+  color: #B59FA6;
   margin: 0;
+  letter-spacing: 0.02em;
 }
 
 .bb-footer-disclaimer {
-  font-family: var(--font-sans-body);
+  font-family: var(--font-sans-body, sans-serif);
   font-size: 11px;
-  color: #E098A8;
+  color: #E29CA9;
   margin: 0;
+  letter-spacing: 0.03em;
 }
 
-/* Tablet & Desktop */
+/* --------------------------------------------------------------------------
+   Tablet & Desktop Enhancements
+   -------------------------------------------------------------------------- */
 @media (min-width: 768px) {
   .bb-footer-details-container {
-    max-width: 900px;
-    padding: 40px 32px;
+    max-width: 860px;
+    padding: 44px 28px 50px;
   }
 
-  .bb-footer-grid {
+  .bb-footer-cards-grid {
     flex-direction: row;
-    justify-content: space-between;
+    align-items: stretch;
   }
 
-  .bb-footer-col {
+  .bb-footer-card {
     flex: 1;
   }
 
-  .bb-footer-bottom-row {
+  .bb-footer-bottom-bar {
     flex-direction: row;
     justify-content: space-between;
     text-align: left;
@@ -227,6 +481,6 @@
 
 @media (min-width: 1024px) {
   .bb-footer-details-container {
-    max-width: 1140px;
+    max-width: 1080px;
   }
 }
