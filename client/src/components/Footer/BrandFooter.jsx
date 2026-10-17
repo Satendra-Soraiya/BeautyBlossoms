@@ -79,13 +79,23 @@ export default function BrandFooter({ onAboutClick }) {
               <span className="bb-footer-label">Inquiries:</span>{' '}
               <a href={`mailto:${CONTACT_CONFIG.email}`}>{CONTACT_CONFIG.email}</a>
             </p>
+            <p className="bb-footer-contact-link">
+              <span className="bb-footer-label">Instagram:</span>{' '}
+              <a
+                href={CONTACT_CONFIG.socials.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                @beautyblossom878
+              </a>
+            </p>
           </div>
 
           {/* Column 3: The Collection */}
           <div className="bb-footer-col">
             <h4 className="bb-footer-heading">Navratri & Dandiya</h4>
             <p className="bb-footer-bio">
-              Each Beauty Blossoms lehenga is individually handcrafted by generational artisans in Rajasthan and Gujarat, featuring authentic resham, mirror work, and antique zardozi.
+              Our lehengas are specially curated from authentic heritage artisan regions of Gujarat and Rajasthan, featuring traditional resham, authentic mirror work, and exquisite zardozi craftsmanship.
             </p>
           </div>
         </div>
@@ -93,7 +103,7 @@ export default function BrandFooter({ onAboutClick }) {
         {/* Copyright & Disclaimer Bar */}
         <div className="bb-footer-bottom-row">
           <p className="bb-footer-copy">
-            © {CURRENT_YEAR} Beauty Blossoms Couture. All rights reserved.
+            © {CURRENT_YEAR} BeautyBlossoms. All rights reserved.
           </p>
           <p className="bb-footer-disclaimer">
             Catalogue & Studio Booking Experience • No Online Checkout

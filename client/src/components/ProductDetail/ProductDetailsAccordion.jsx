@@ -25,7 +25,7 @@ export default function ProductDetailsAccordion({ product }) {
     }));
   };
 
-  const { details = {}, sizeFitting = {}, bookingInfo = {} } = product;
+  const { details = {}, sizeFitting = {} } = product;
 
   const accordionItems = [
     {
@@ -130,58 +130,40 @@ export default function ProductDetailsAccordion({ product }) {
               <dd>{sizeFitting.waistFitting}</dd>
             </div>
           )}
-          {sizeFitting.alterations && (
-            <div className="bb-detail-row">
-              <dt>Alteration Policy:</dt>
-              <dd>{sizeFitting.alterations}</dd>
-            </div>
-          )}
-          {sizeFitting.consultation && (
-            <div className="bb-detail-row">
-              <dt>Fitting Consultation:</dt>
-              <dd>{sizeFitting.consultation}</dd>
-            </div>
-          )}
         </dl>
       ),
     },
     {
       key: 'booking',
-      title: 'Availability & Booking',
+      title: 'Studio Trials & In-Person Viewing',
       icon: (
         <svg className="bb-accordion-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-          <rect x="1" y="3" width="15" height="13" />
-          <polygon points="16 8 20 8 23 11 23 16 16 16 16 8" />
-          <circle cx="5.5" cy="18.5" r="2.5" />
-          <circle cx="18.5" cy="18.5" r="2.5" />
+          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+          <circle cx="12" cy="10" r="3" />
         </svg>
       ),
       content: (
         <dl className="bb-details-list">
-          {bookingInfo.status && (
-            <div className="bb-detail-row">
-              <dt>Reservation Status:</dt>
-              <dd className="bb-highlight-text">{bookingInfo.status}</dd>
-            </div>
-          )}
-          {bookingInfo.trials && (
-            <div className="bb-detail-row">
-              <dt>Studio Trials:</dt>
-              <dd>{bookingInfo.trials}</dd>
-            </div>
-          )}
-          {bookingInfo.deliveryTimeline && (
-            <div className="bb-detail-row">
-              <dt>Timeline:</dt>
-              <dd>{bookingInfo.deliveryTimeline}</dd>
-            </div>
-          )}
-          {bookingInfo.shipping && (
-            <div className="bb-detail-row">
-              <dt>Courier & Delivery:</dt>
-              <dd>{bookingInfo.shipping}</dd>
-            </div>
-          )}
+          <div className="bb-detail-row">
+            <dt>Trial & Viewing:</dt>
+            <dd className="bb-highlight-text">Available directly at our Bhopal Studio</dd>
+          </div>
+          <div className="bb-detail-row">
+            <dt>Studio Address:</dt>
+            <dd>184, Press Colony, Anand Nagar, Bhopal, Madhya Pradesh</dd>
+          </div>
+          <div className="bb-detail-row">
+            <dt>Visiting Hours:</dt>
+            <dd>10:00 AM – 7:00 PM</dd>
+          </div>
+          <div className="bb-detail-row">
+            <dt>How to Book:</dt>
+            <dd>Visit our studio directly or enquire on WhatsApp (+91 85160 51495) before your visit to confirm outfit availability.</dd>
+          </div>
+          <div className="bb-detail-row">
+            <dt>Purchase Policy:</dt>
+            <dd>Direct in-studio purchase only. No online courier or home delivery.</dd>
+          </div>
         </dl>
       ),
     },

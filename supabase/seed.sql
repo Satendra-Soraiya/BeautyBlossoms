@@ -43,8 +43,8 @@ INSERT INTO public.lehenga_products (
   '[{"url":"/products/bb-01-front.jpg","title":"Full Front Silhouette","alt":"Noorani Rani Pink Lehenga with zardozi arches and floral twirl flare"},{"url":"/products/bb-21-embroidery.jpg","title":"Embroidery Detail","alt":"Close-up of golden zardozi work on rani pink silk"}]'::jsonb,
   'A majestic rani pink creation featuring 20 kali flared raw silk adorned with antique golden gota patti, kundan stones, and delicate resham flora. Handcrafted for breathtaking twirls under Dandiya night lights.',
   '{"colour":"Deep Rani Pink with Champagne Gold Zari","fabric":"Pure Raw Silk with Sheer Organza Dupatta","work":"Handcrafted Zardozi, Gota Patti & Cut-work Sequins","lining":"Heavy Shantoon with Stiffened Can-Can Net","flare":"5.2 meters full twirl flare","components":"Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta","closure":"Concealed Side Zipper with Hand-knotted Latkans","care":"Strictly Dry Clean Only. Store in muslin wrap."}'::jsonb,
-  '{"standardSizes":"XS, S, M, L, XL (Bespoke Tailoring Available)","skirtLength":"42 inches standard (Customizable)","waistFitting":"Adjustable up to 40 inches with drawstring tie-up","alterations":"Complimentary in-studio alterations provided upon reservation.","consultation":"WhatsApp video fitting consultation available."}'::jsonb,
-  '{"status":"Ready for studio trial & express dispatch.","trials":"Private trials available at our Mumbai Flagship Studio.","deliveryTimeline":"Dispatch within 3–5 working days for standard sizing.","shipping":"Complimentary insured courier delivery across India."}'::jsonb,
+  '{"standardSizes":"XS, S, M, L, XL (Bespoke Tailoring Available)","skirtLength":"42 inches standard (Customizable)","waistFitting":"Adjustable up to 40 inches with drawstring tie-up"}'::jsonb,
+  '{"status":"Ready for studio trial & express dispatch.","trials":"Available for viewing & trials at our Bhopal studio."}'::jsonb,
   1
 ),
 (
@@ -65,8 +65,8 @@ INSERT INTO public.lehenga_products (
   '[{"url":"/products/bb-02-front.jpg","title":"Full Front Silhouette","alt":"Gulab Mahal Rani Lehenga with dense floral sequin borders"}]'::jsonb,
   'Inspired by the grand frescoed rose courtyards of Rajasthan, this vibrant rani pink lehenga features intricate metallic sequin clusters, hand-embossed floral kalis, and a scalloped embroidered hem.',
   '{"colour":"Vibrant Rani Pink with Antique Brass Accents","fabric":"Fine Mulberry Silk with Butterfly Net Dupatta","work":"Sequin Floral Motifs, Antique Zari & Pearl Seed Highlights","lining":"Premium Shantoon with Double Layer Can-Can","flare":"5.5 meters circular flare","components":"Embroidered Skirt, Padded Choli Blouse, Four-Sided Border Dupatta","closure":"Side Zipper with Silk Tassels","care":"Professional Dry Clean Only."}'::jsonb,
-  '{"standardSizes":"S, M, L, XL","skirtLength":"42.5 inches","waistFitting":"Comfortable waist with customizable ease","alterations":"Complimentary alteration service included.","consultation":"One-on-one virtual consultation with master tailor."}'::jsonb,
-  '{"status":"In stock for immediate studio reservation.","trials":"Studio appointments available Monday to Saturday.","deliveryTimeline":"4–6 working days pan-India.","shipping":"Insured express door-to-door transit."}'::jsonb,
+  '{"standardSizes":"S, M, L, XL","skirtLength":"42.5 inches","waistFitting":"Comfortable waist with customizable ease"}'::jsonb,
+  '{"status":"In stock for immediate studio reservation.","trials":"Available for viewing & trials at our Bhopal studio."}'::jsonb,
   2
 ),
 (
@@ -87,8 +87,8 @@ INSERT INTO public.lehenga_products (
   '[{"url":"/products/bb-03-front.jpg","title":"Full Front Twirl View","alt":"Sitara Twirl Rani Lehenga shimmering with micro-mirrors"}]'::jsonb,
   'Engineered specifically for non-stop Dandiya dancing, the Sitara Twirl lehenga balances lightweight flow with dazzling light reflection. Features micro-mirror scatter and golden chevron kali borders.',
   '{"colour":"Fiery Rani Magenta with Gold Mirror Accents","fabric":"Flowing Georgette with Shimmer Chiffon Dupatta","work":"Kutchi Micro Mirror-work, Resham Borders & Golden Mukaish","lining":"Breathable Cotton Silk with Flexible Lightweight Can-Can","flare":"6.0 meters high-volume dance flare","components":"Flared Skirt, Backless Dori Choli Blouse, Mirror-edged Dupatta","closure":"Braided Drawstring with Bell Latkans","care":"Gentle Dry Clean Only."}'::jsonb,
-  '{"standardSizes":"XS, S, M, L, XL","skirtLength":"42 inches","waistFitting":"Flexible drawstring waist up to 38 inches","alterations":"Complimentary hem adjustments.","consultation":"Quick video guidance on drape & styling."}'::jsonb,
-  '{"status":"Festive favorite in high demand.","trials":"Available at boutique studio lounge.","deliveryTimeline":"3–5 days dispatch.","shipping":"Free delivery across India."}'::jsonb,
+  '{"standardSizes":"XS, S, M, L, XL","skirtLength":"42 inches","waistFitting":"Flexible drawstring waist up to 38 inches"}'::jsonb,
+  '{"status":"Festive favorite in high demand.","trials":"Available for viewing & trials at our Bhopal studio."}'::jsonb,
   3
 ),
 (
@@ -109,8 +109,8 @@ INSERT INTO public.lehenga_products (
   '[{"url":"/products/bb-04-front.jpg","title":"Full Front Silhouette","alt":"Chand Roshni Rani Lehenga with dual tone silver gold embroidery"}]'::jsonb,
   'An exquisite contrast of silver badla and warm gold zari across deep rani silk. Features crescent moon motifs along the waistband and layered scalloped hems that sway gracefully with every step.',
   '{"colour":"Deep Rani Pink with Silver & Gold Dual-Tone Zari","fabric":"Brocade Raw Silk with Organza Tissue Dupatta","work":"Badla Work, Fine Wire Zardozi & Hand-embroidered Borders","lining":"Heavy Shantoon with Triple Crinoline Can-Can","flare":"5.6 meters ballroom twirl cut","components":"Kalidar Skirt, Sweetheart Choli Blouse, Bordered Tissue Dupatta","closure":"Side Zipper & Metallic Latkans","care":"Specialized Heritage Dry Clean."}'::jsonb,
-  '{"standardSizes":"S, M, L","skirtLength":"43 inches","waistFitting":"Tailored fit with internal reinforcement","alterations":"Full custom alteration included.","consultation":"Senior styling advisor available via WhatsApp."}'::jsonb,
-  '{"status":"Only 3 pieces left in this colorway.","trials":"Prior reservation recommended.","deliveryTimeline":"Express 48-hour dispatch for standard size S/M.","shipping":"Pan-India insured delivery."}'::jsonb,
+  '{"standardSizes":"S, M, L","skirtLength":"43 inches","waistFitting":"Tailored fit with internal reinforcement"}'::jsonb,
+  '{"status":"Only 3 pieces left in this colorway.","trials":"Available for viewing & trials at our Bhopal studio."}'::jsonb,
   4
 ),
 (
@@ -131,8 +131,8 @@ INSERT INTO public.lehenga_products (
   '[{"url":"/products/bb-05-front.jpg","title":"Full Front Silhouette","alt":"Suraj Rani Gota Lehenga with radiating sunburst ribbons"}]'::jsonb,
   'Celebrates the royal craft of Rajasthani Gota Patti. 24 vertical panels radiating outward like sun rays, finished with handcrafted peacock and floral medallions at the hem.',
   '{"colour":"Rani Pink with Luminous Gold Gota","fabric":"Chanderi Silk Skirt with Banarasi Silk Choli","work":"Authentic Hand-cut Gota Patti, Resham Butis & Dori Piping","lining":"Soft Pure Cotton Shantoon with Structured Can-Can","flare":"5.0 meters flared skirt","components":"Gota Skirt, Handcrafted Blouse, Sheer Gota Dupatta","closure":"Side Concealed Zip & Gota Flower Tassels","care":"Dry Clean Only."}'::jsonb,
-  '{"standardSizes":"XS, S, M, L, XL","skirtLength":"42 inches","waistFitting":"Adjustable 28 to 38 inches","alterations":"Complimentary boutique alterations.","consultation":"WhatsApp video measurement assistance."}'::jsonb,
-  '{"status":"Available for private preview & trial.","trials":"Mumbai Flagship Studio appointments.","deliveryTimeline":"3–5 working days.","shipping":"Complimentary shipping across India."}'::jsonb,
+  '{"standardSizes":"XS, S, M, L, XL","skirtLength":"42 inches","waistFitting":"Adjustable 28 to 38 inches"}'::jsonb,
+  '{"status":"Available for private preview & trial.","trials":"Available for viewing & trials at our Bhopal studio."}'::jsonb,
   5
 ),
 (
@@ -153,8 +153,8 @@ INSERT INTO public.lehenga_products (
   '[{"url":"/products/bb-21-front.jpg","title":"Full Front Silhouette","alt":"Rani Pink Lehenga with intricate golden zardozi embroidery and flower garden arch"},{"url":"/products/bb-21-back.jpg","title":"Back View & Latkan Dori","alt":"Back view of Rani Pink designer blouse featuring handcrafted dori latkan tassels"},{"url":"/products/bb-21-embroidery.jpg","title":"Zardozi Embroidery Close-up","alt":"Macro view of golden zardozi threadwork, sequins, and scalloped hem border"},{"url":"/products/bb-21-choli.jpg","title":"Choli Blouse & Neckline Detail","alt":"Close-up of sweetheart neckline embroidered choli with kundan jewelry"}]'::jsonb,
   'A breathtaking rani pink masterpiece crafted for unforgettable Navratri dandiya celebrations. Features 24-kali flared raw silk silhouette adorned with handcrafted antique golden zardozi, shimmering sequins, and fine resham embroidery that catches every beam of light as you twirl.',
   '{"colour":"Rani Pink with Antique Gold Accents","fabric":"Pure Raw Silk with Micro-Shimmer Georgette Dupatta","work":"Authentic Handcrafted Zardozi, Golden Resham & Sequins","lining":"Heavy Shantoon with Double Layer Can-Can Net for dramatic flare","flare":"Approximately 5.5 meters full 360-degree twirl","components":"Flared Lehenga Skirt, Embroidered Choli Blouse Fabric, Hand-finished Dupatta, Handcrafted Latkan Tassels","closure":"Concealed Side Zip with Traditional Drawstring & Latkans","care":"Strictly Dry Clean Only. Store in breathable muslin bag provided."}'::jsonb,
-  '{"standardSizes":"XS, S, M, L, XL, XXL (Custom Tailoring Available)","skirtLength":"Standard 42 inches (Customizable up to 45 inches)","waistFitting":"Adjustable up to 40 inches with drawstring tie-ups","alterations":"Complimentary in-studio alterations provided upon reservation.","consultation":"Our master artisans offer bespoke size consultations over WhatsApp video call."}'::jsonb,
-  '{"status":"Ready for studio trial & express dispatch.","trials":"Private trials available at our Mumbai Flagship Studio by prior appointment.","deliveryTimeline":"Dispatch within 3–5 working days for standard sizes; 10–14 days for custom stitching.","shipping":"Complimentary insured courier delivery across India. International express courier available on request."}'::jsonb,
+  '{"standardSizes":"XS, S, M, L, XL, XXL (Custom Tailoring Available)","skirtLength":"Standard 42 inches (Customizable up to 45 inches)","waistFitting":"Adjustable up to 40 inches with drawstring tie-ups"}'::jsonb,
+  '{"status":"Ready for studio trial & express dispatch.","trials":"Available for viewing & trials at our Bhopal studio."}'::jsonb,
   6
 ),
 (
@@ -175,8 +175,8 @@ INSERT INTO public.lehenga_products (
   '[{"url":"/products/bb-06-front.jpg","title":"Full Front Silhouette","alt":"Kesar Keshariya Yellow Lehenga glowing in palace courtyard"}]'::jsonb,
   'Reflecting the golden glow of Navratri diyas, this rich kesar yellow lehenga features authentic Kutchi hand-stitched mirror work and multi-color silk resham borders on lustrous chanderi silk.',
   '{"colour":"Warm Kesar Saffron Yellow with Gold Zari","fabric":"Chanderi Silk with Light Organza Dupatta","work":"Hand-sewn Mirrors, Resham Floral Trellis & Gota Borders","lining":"Soft Cotton Silk with High-Density Can-Can","flare":"5.2 meters twirl flare","components":"Flared Skirt, Padded Blouse, Bordered Dupatta","closure":"Side Zipper with Mirror-work Latkans","care":"Dry Clean Only. Avoid direct perfume spray on mirrors."}'::jsonb,
-  '{"standardSizes":"XS, S, M, L, XL","skirtLength":"42 inches","waistFitting":"Drawstring adjustable fit","alterations":"Complimentary fit adjustments included.","consultation":"Video styling consultation with designer."}'::jsonb,
-  '{"status":"In stock for studio trials.","trials":"Private appointment at Mumbai Flagship.","deliveryTimeline":"4–6 working days.","shipping":"Pan-India free shipping."}'::jsonb,
+  '{"standardSizes":"XS, S, M, L, XL","skirtLength":"42 inches","waistFitting":"Drawstring adjustable fit"}'::jsonb,
+  '{"status":"In stock for studio trials.","trials":"Available for viewing & trials at our Bhopal studio."}'::jsonb,
   7
 ),
 (
@@ -197,8 +197,8 @@ INSERT INTO public.lehenga_products (
   '[{"url":"/products/bb-07-front.jpg","title":"Full Front Silhouette","alt":"Marigold Blossom Yellow Lehenga with golden floral kalis"}]'::jsonb,
   'Inspired by auspicious marigold garlands of Indian festivities. Featuring 18 flared kalis with cascading golden zari floral vines and a broad embroidered border that dances with movement.',
   '{"colour":"Bright Marigold Yellow with Champagne Gold","fabric":"Fine Raw Silk with Sheer Georgette Dupatta","work":"Floral Zari Vines, Sequin Detailing & Scalloped Hem","lining":"Pure Shantoon with Double Layer Can-Can","flare":"5.0 meters circular flare","components":"Kalidar Skirt, Sweetheart Choli, Embellished Dupatta","closure":"Concealed Side Zip & Dori Tassels","care":"Dry Clean Only."}'::jsonb,
-  '{"standardSizes":"S, M, L, XL","skirtLength":"42 inches","waistFitting":"Tailored fit with waist drawstrings","alterations":"Complimentary alterations.","consultation":"WhatsApp fit consultation."}'::jsonb,
-  '{"status":"Ready for studio booking.","trials":"Available at Mumbai Studio.","deliveryTimeline":"3–5 working days.","shipping":"Complimentary doorstep transit."}'::jsonb,
+  '{"standardSizes":"S, M, L, XL","skirtLength":"42 inches","waistFitting":"Tailored fit with waist drawstrings"}'::jsonb,
+  '{"status":"Ready for studio booking.","trials":"Available for viewing & trials at our Bhopal studio."}'::jsonb,
   8
 ),
 (
@@ -219,8 +219,8 @@ INSERT INTO public.lehenga_products (
   '[{"url":"/products/bb-08-front.jpg","title":"Full Front Silhouette","alt":"Surya Kiran Mirror Lehenga with dense mirror embroidery"}]'::jsonb,
   'An absolute showstopper for Dandiya and Garba enthusiasts. Dense geometric mirror constellations adorn every kali, paired with an intricately embellished designer choli.',
   '{"colour":"Sunshine Lemon & Gold","fabric":"Heavy Georgette with Pure Silk Borders","work":"All-over Mirror Embroidery, Resham Outlining & Gota Work","lining":"Heavy Shantoon with Full Can-Can Support","flare":"5.8 meters twirl volume","components":"Heavy Mirror Skirt, Embellished Blouse, Mirror-edged Dupatta","closure":"Side Zipper with Hand-knotted Mirror Latkans","care":"Professional Dry Clean Only."}'::jsonb,
-  '{"standardSizes":"XS, S, M, L","skirtLength":"42.5 inches","waistFitting":"Adjustable up to 38 inches","alterations":"Complimentary fitting.","consultation":"One-on-one video assistance."}'::jsonb,
-  '{"status":"Limited 2 pieces left for this festive run.","trials":"Private trial by appointment.","deliveryTimeline":"Express 48-hour dispatch.","shipping":"Free insured courier."}'::jsonb,
+  '{"standardSizes":"XS, S, M, L","skirtLength":"42.5 inches","waistFitting":"Adjustable up to 38 inches"}'::jsonb,
+  '{"status":"Limited 2 pieces left for this festive run.","trials":"Available for viewing & trials at our Bhopal studio."}'::jsonb,
   9
 ),
 (
@@ -241,8 +241,8 @@ INSERT INTO public.lehenga_products (
   '[{"url":"/products/bb-09-front.jpg","title":"Full Front Silhouette","alt":"Amrapali Mustard Silk Lehenga with antique temple zari border"}]'::jsonb,
   'A masterpiece of regal Indian heritage. Woven in royal mustard brocade silk with antique gold temple motifs along the hem, complemented by a delicate organza tissue dupatta.',
   '{"colour":"Deep Mustard Gold with Antique Copper Zari","fabric":"Heritage Banarasi Brocade Silk with Tissue Dupatta","work":"Woven Zari Brocade, Hand Zardozi Highlights & Pearl Accents","lining":"Pure Silk Shantoon with Structured Can-Can","flare":"5.4 meters majestic flare","components":"Brocade Skirt, Embroidered Choli, Tissue Veil Dupatta","closure":"Side Zipper with Traditional Brocade Latkans","care":"Museum Quality Dry Clean Only."}'::jsonb,
-  '{"standardSizes":"Made to Client Measurements","skirtLength":"Bespoke custom length","waistFitting":"Custom tailored","alterations":"Full bespoke tailoring included.","consultation":"Bridal stylist video session."}'::jsonb,
-  '{"status":"Handcrafted on order.","trials":"Fabric swatches available at Mumbai Flagship.","deliveryTimeline":"10–12 business days.","shipping":"White-glove courier delivery."}'::jsonb,
+  '{"standardSizes":"Made to Client Measurements","skirtLength":"Bespoke custom length","waistFitting":"Custom tailored"}'::jsonb,
+  '{"status":"Handcrafted on order.","trials":"Available for viewing & trials at our Bhopal studio."}'::jsonb,
   10
 ),
 (
@@ -263,8 +263,8 @@ INSERT INTO public.lehenga_products (
   '[{"url":"/products/bb-10-front.jpg","title":"Full Front Silhouette","alt":"Chandani Haldi Flare Lehenga with delicate golden butis"}]'::jsonb,
   'Created for spirited celebrations, the Chandani Haldi lehenga pairs cheerful sunshine energy with micro-sequin florals and a lightweight tiered can-can for easy movement and dancing.',
   '{"colour":"Bright Haldi Yellow with Muted Gold","fabric":"Silk Georgette with Lightweight Chiffon Dupatta","work":"Micro-sequin Embroidery, Resham Butis & Gota Hem","lining":"Soft Cotton Silk with Featherlight Can-Can","flare":"5.2 meters circular umbrella flare","components":"Flared Skirt, Sleeveless Embroidered Choli, Dupatta","closure":"Side Zipper & Silk Tassels","care":"Dry Clean Only."}'::jsonb,
-  '{"standardSizes":"XS, S, M, L, XL","skirtLength":"42 inches","waistFitting":"Drawstring waist up to 39 inches","alterations":"Complimentary alterations.","consultation":"Virtual styling consultation."}'::jsonb,
-  '{"status":"Available for immediate booking.","trials":"Private trial appointments.","deliveryTimeline":"3–5 working days.","shipping":"Complimentary insured shipping."}'::jsonb,
+  '{"standardSizes":"XS, S, M, L, XL","skirtLength":"42 inches","waistFitting":"Drawstring waist up to 39 inches"}'::jsonb,
+  '{"status":"Available for immediate booking.","trials":"Available for viewing & trials at our Bhopal studio."}'::jsonb,
   11
 ),
 (
@@ -285,8 +285,8 @@ INSERT INTO public.lehenga_products (
   '[{"url":"/products/bb-22-front.jpg","title":"Full Front Silhouette","alt":"Sunshine Yellow Dandiya Lehenga with colorful mirror work and golden border in palace courtyard"}]'::jsonb,
   'Radiate joyous festive energy in this vivid sunshine yellow lehenga. Handcrafted with traditional Kutchi mirror work, delicate gota patti borders, and multi-hued resham embroidery, it is the quintessence of authentic Dandiya night tradition.',
   '{"colour":"Sunshine Yellow & Mustard Gold","fabric":"Chanderi Silk with Lightweight Organza Dupatta","work":"Authentic Mirror Work, Gota Patti & Multi-Color Resham Embroidery","lining":"Soft Cotton Silk with High-Density Can-Can","flare":"Approximately 5 meters circular flare","components":"Embroidered Lehenga Skirt, Matching Choli Blouse, Bordered Dupatta","closure":"Side Zipper with Handcrafted Mirror-Work Latkan","care":"Dry Clean Only. Avoid direct perfume spray on mirror elements."}'::jsonb,
-  '{"standardSizes":"S, M, L, XL (Made-to-measure on request)","skirtLength":"42 inches standard (Customizable)","waistFitting":"Tailored fit with comfortable adjustable drawstring","alterations":"Complimentary fit adjustments included.","consultation":"Personalized styling guidance via phone or WhatsApp."}'::jsonb,
-  '{"status":"Limited festive pieces available for reservation.","trials":"Available for studio viewing by appointment.","deliveryTimeline":"4–6 working days for domestic orders.","shipping":"Pan-India doorstep delivery with insured courier."}'::jsonb,
+  '{"standardSizes":"S, M, L, XL (Made-to-measure on request)","skirtLength":"42 inches standard (Customizable)","waistFitting":"Tailored fit with comfortable adjustable drawstring"}'::jsonb,
+  '{"status":"Limited festive pieces available for reservation.","trials":"Available for viewing & trials at our Bhopal studio."}'::jsonb,
   12
 ),
 (
@@ -307,8 +307,8 @@ INSERT INTO public.lehenga_products (
   '[{"url":"/products/bb-11-front.jpg","title":"Full Front Silhouette","alt":"Noor-e-Khwab Plum Lehenga in majestic velvet finish"}]'::jsonb,
   'A nocturnal royal reverie in plush micro-velvet. Shimmering antique dabka and zardozi threadwork trace intricate Mughal arched jali motifs down the dramatic kalis.',
   '{"colour":"Deep Jewel Plum with Antique Burnished Gold","fabric":"Plush Micro-Velvet with Shimmer Tissue Dupatta","work":"Dabka Zardozi, Golden Kasab & Muted Micro-Sequins","lining":"Pure Shantoon with Dual Stiffened Can-Can","flare":"5.6 meters majestic royal flare","components":"Velvet Kalidar Skirt, Embroidered Choli, Scalloped Dupatta","closure":"Concealed Side Zipper with Velvet Ball Latkans","care":"Specialized Heritage Dry Clean Only."}'::jsonb,
-  '{"standardSizes":"S, M, L, XL","skirtLength":"43 inches","waistFitting":"Structured corset-style waistband","alterations":"Complimentary custom alterations.","consultation":"WhatsApp video consultation with designer."}'::jsonb,
-  '{"status":"Exclusive boutique edition.","trials":"Private VIP suite trial at Mumbai studio.","deliveryTimeline":"4–7 working days.","shipping":"Insured express transit."}'::jsonb,
+  '{"standardSizes":"S, M, L, XL","skirtLength":"43 inches","waistFitting":"Structured corset-style waistband"}'::jsonb,
+  '{"status":"Exclusive boutique edition.","trials":"Available for viewing & trials at our Bhopal studio."}'::jsonb,
   13
 ),
 (
@@ -329,8 +329,8 @@ INSERT INTO public.lehenga_products (
   '[{"url":"/products/bb-12-front.jpg","title":"Full Front Silhouette","alt":"Shehzadi Berry Plum Lehenga with silver and gold filigree"}]'::jsonb,
   'Embodying true princely grandeur, the Shehzadi lehenga features a deep berry-plum raw silk base covered with delicate leafy vines and antique gold zardozi arches.',
   '{"colour":"Rich Berry Plum with Antique Gold & Silver Filigree","fabric":"Mulberry Raw Silk with Organza Bordered Dupatta","work":"Zardozi Filigree, Sequined Clusters & Pearl Pipings","lining":"Heavy Shantoon with Full Volume Can-Can","flare":"5.4 meters wide twirl flare","components":"Embroidered Skirt, Padded Blouse, Finished Dupatta","closure":"Side Zipper with Metallic Tassels","care":"Dry Clean Only."}'::jsonb,
-  '{"standardSizes":"XS, S, M, L, XL","skirtLength":"42.5 inches","waistFitting":"Adjustable drawstring with internal waist-tape","alterations":"Complimentary alteration service.","consultation":"Personalized WhatsApp consultation."}'::jsonb,
-  '{"status":"Ready for studio trial & reservation.","trials":"Mumbai Flagship Studio appointments.","deliveryTimeline":"3–5 days dispatch.","shipping":"Pan-India free delivery."}'::jsonb,
+  '{"standardSizes":"XS, S, M, L, XL","skirtLength":"42.5 inches","waistFitting":"Adjustable drawstring with internal waist-tape"}'::jsonb,
+  '{"status":"Ready for studio trial & reservation.","trials":"Available for viewing & trials at our Bhopal studio."}'::jsonb,
   14
 ),
 (
@@ -351,8 +351,8 @@ INSERT INTO public.lehenga_products (
   '[{"url":"/products/bb-13-front.jpg","title":"Full Front Silhouette","alt":"Zarina Plum Zari Lehenga with broad antique border"}]'::jsonb,
   'Crafted for evening receptions and Dandiya galas, featuring 24 kalis woven with dense botanical medallions and framed by an ornate 10-inch hand-finished border.',
   '{"colour":"Royal Plum Purple with Antique Gold Zari","fabric":"Heritage Brocade Silk with Tissue Georgette Dupatta","work":"Dense Zari Weave, Hand Zardozi Embroidery & Muted Sequins","lining":"Triple-layer Shantoon with Reinforced Crinoline Can-Can","flare":"5.8 meters royal twirling flare","components":"Flared Skirt, Structured Sweetheart Choli, Embroidered Veil","closure":"Concealed Side Zipper with Heavy Brocade Latkans","care":"Heritage Dry Clean Only."}'::jsonb,
-  '{"standardSizes":"S, M, L","skirtLength":"43 inches standard","waistFitting":"Structured waist with supportive boning","alterations":"Custom made-to-measure available.","consultation":"Virtual fitting consultation."}'::jsonb,
-  '{"status":"Only 2 pieces remaining for this festive season.","trials":"Available at studio trial lounge.","deliveryTimeline":"Express 48-hour dispatch for standard size S/M.","shipping":"Complimentary insured shipping."}'::jsonb,
+  '{"standardSizes":"S, M, L","skirtLength":"43 inches standard","waistFitting":"Structured waist with supportive boning"}'::jsonb,
+  '{"status":"Only 2 pieces remaining for this festive season.","trials":"Available for viewing & trials at our Bhopal studio."}'::jsonb,
   15
 ),
 (
@@ -373,8 +373,8 @@ INSERT INTO public.lehenga_products (
   '[{"url":"/products/bb-14-front.jpg","title":"Full Front Silhouette","alt":"Badshahi Wine Velvet Lehenga with ornate zardozi embroidery"}]'::jsonb,
   'The pinnacle of nocturnal opulence. Rich wine velvet skirt embellished with 3D French wire zardozi, micro seed pearls, and an antique gold scalloped veil dupatta.',
   '{"colour":"Deep Wine Plum with Antique Champagne Gold","fabric":"Pure Silk Velvet with Net & Tissue Dual Dupatta","work":"French Wire Zardozi, Seed Pearl Applique & Resham Shading","lining":"Pure Silk Shantoon with Heavy Ball-Gown Can-Can","flare":"6.0 meters ballroom flare","components":"Velvet Skirt, Embroidered Blouse, Two Dupattas (Shoulder & Veil)","closure":"Side Zipper with Hand-embroidered Royal Latkans","care":"Museum Quality Dry Clean Only."}'::jsonb,
-  '{"standardSizes":"Bespoke Custom Fitting","skirtLength":"Custom fit to client specifications","waistFitting":"Custom tailored with interior grip-tape waist","alterations":"Full bespoke tailoring included.","consultation":"Senior Bridal Stylist consultation included."}'::jsonb,
-  '{"status":"Handcrafted on order by master artisans.","trials":"Private VIP suite preview.","deliveryTimeline":"12–15 business days.","shipping":"White-glove doorstep delivery."}'::jsonb,
+  '{"standardSizes":"Bespoke Custom Fitting","skirtLength":"Custom fit to client specifications","waistFitting":"Custom tailored with interior grip-tape waist"}'::jsonb,
+  '{"status":"Handcrafted on order by master artisans.","trials":"Available for viewing & trials at our Bhopal studio."}'::jsonb,
   16
 ),
 (
@@ -395,8 +395,8 @@ INSERT INTO public.lehenga_products (
   '[{"url":"/products/bb-15-front.jpg","title":"Full Front Silhouette","alt":"Shabnam Plum Georgette Lehenga twirling with mirror accents"}]'::jsonb,
   'Engineered for effortless twirling through late Dandiya night rhythms. Weightless plum georgette adorned with silver mukaish dots and reflective mirror borders.',
   '{"colour":"Deep Jewel Plum with Silver Mirror Accents","fabric":"Flowing Pure Georgette with Chiffon Dupatta","work":"Mirror Embroidery, Silver Mukaish Sprinkles & Threadwork","lining":"Soft Shantoon with Lightweight Flexible Can-Can","flare":"5.5 meters circular flare","components":"Flared Skirt, Padded Choli, Bordered Dupatta","closure":"Concealed Side Zip with Dori Latkans","care":"Dry Clean Only."}'::jsonb,
-  '{"standardSizes":"XS, S, M, L, XL","skirtLength":"42 inches","waistFitting":"Drawstring adjustable fit","alterations":"Complimentary fit adjustments.","consultation":"WhatsApp styling consultation."}'::jsonb,
-  '{"status":"In stock for immediate reservation.","trials":"Available at Mumbai Studio.","deliveryTimeline":"3–5 working days.","shipping":"Free express courier."}'::jsonb,
+  '{"standardSizes":"XS, S, M, L, XL","skirtLength":"42 inches","waistFitting":"Drawstring adjustable fit"}'::jsonb,
+  '{"status":"In stock for immediate reservation.","trials":"Available for viewing & trials at our Bhopal studio."}'::jsonb,
   17
 ),
 (
@@ -417,8 +417,8 @@ INSERT INTO public.lehenga_products (
   '[{"url":"/products/bb-23-front.jpg","title":"Full Front Silhouette","alt":"Royal Plum Purple Lehenga with heavy gold zari embroidery in royal palace corridor"}]'::jsonb,
   'Indulge in the regal drama of deep royal plum. Featuring rich brocade silk embellished with dense antique gold zari, shimmering sequins clusters, and intricate floral kalis, designed for unforgettable royal evening presence.',
   '{"colour":"Royal Plum Purple with Antique Gold Zari","fabric":"Heritage Brocade Velvet Silk with Silk-Tissue Dupatta","work":"Heavy Antique Gold Zari, Muted Sequin Clusters & Resham Motifs","lining":"Dual Layer Shantoon with Reinforced Crinoline Can-Can","flare":"Over 5.8 meters royal ballroom flare","components":"Flared Kalidar Skirt, Structured Sweetheart Choli, Embellished Veil Dupatta","closure":"Concealed Side Zipper with Heavy Brocade Tassels","care":"Specialized Heritage Dry Clean Only."}'::jsonb,
-  '{"standardSizes":"XS, S, M, L, XL","skirtLength":"43 inches standard","waistFitting":"Structured waist with supportive internal boning","alterations":"Custom made-to-measure available.","consultation":"Virtual fitting consultation with master draper."}'::jsonb,
-  '{"status":"Exclusive boutique edition available for reservation.","trials":"Private studio appointment required for trial.","deliveryTimeline":"Express 3-day dispatch available.","shipping":"Complimentary insured shipping nationwide."}'::jsonb,
+  '{"standardSizes":"XS, S, M, L, XL","skirtLength":"43 inches standard","waistFitting":"Structured waist with supportive internal boning"}'::jsonb,
+  '{"status":"Exclusive boutique edition available for reservation.","trials":"Available for viewing & trials at our Bhopal studio."}'::jsonb,
   18
 ),
 (
@@ -439,8 +439,8 @@ INSERT INTO public.lehenga_products (
   '[{"url":"/products/bb-16-front.jpg","title":"Full Front Silhouette","alt":"Afreen Blush Organza Lehenga floating in palace garden"}]'::jsonb,
   'Soft and romantic as a petal at dawn. Layered sheer organza over a champagne satin base, embellished with delicate tone-on-tone resham embroidery, pearl butis, and a scalloped floral border.',
   '{"colour":"Blush Rose with Champagne Pearl Accents","fabric":"Fine Shimmer Organza with Soft Net Dupatta","work":"Resham Floral Threadwork, Pearl Seed Applique & Rose-Gold Sequins","lining":"Heavy Satin Shantoon with Lightweight Can-Can","flare":"5.5 meters romantic umbrella cut","components":"Twirling Skirt, Embroidered Choli, Scalloped Pearl Dupatta","closure":"Side Zipper & Pearl Beaded Latkans","care":"Delicate Dry Clean Only."}'::jsonb,
-  '{"standardSizes":"XS, S, M, L, XL","skirtLength":"42 inches","waistFitting":"Comfortable waist with customizable fit","alterations":"Complimentary alteration service.","consultation":"Dedicated bridal concierge styling."}'::jsonb,
-  '{"status":"In stock for private studio trial.","trials":"Mumbai Flagship Studio appointments.","deliveryTimeline":"3–5 working days.","shipping":"Pan-India insured delivery."}'::jsonb,
+  '{"standardSizes":"XS, S, M, L, XL","skirtLength":"42 inches","waistFitting":"Comfortable waist with customizable fit"}'::jsonb,
+  '{"status":"In stock for private studio trial.","trials":"Available for viewing & trials at our Bhopal studio."}'::jsonb,
   19
 ),
 (
@@ -461,8 +461,8 @@ INSERT INTO public.lehenga_products (
   '[{"url":"/products/bb-17-front.jpg","title":"Full Front Silhouette","alt":"Mehrunissa Rose Gold Lehenga catching sunset light"}]'::jsonb,
   'A poetic dream created for modern brides and festive celebrations. Radiates an incandescent blush glow with hand-pressed rose gold metallic elements and fine Swarovski crystal accents.',
   '{"colour":"Blush Pink with Rose-Gold Metallic Highlights","fabric":"Pure Mulberry Silk with Organza Tissue Dupatta","work":"Rose-gold Foil Work, Hand Zardozi & Crystal Bead Borders","lining":"Mulberry Silk Lining with Triple Can-Can Framework","flare":"5.8 meters royal twirl flare","components":"Embroidered Skirt, Sweetheart Choli, Embellished Veil","closure":"Side Concealed Zip & Crystal Beaded Latkans","care":"Museum Quality Dry Clean Only."}'::jsonb,
-  '{"standardSizes":"S, M, L, XL","skirtLength":"42.5 inches","waistFitting":"Tailored fit with waist drawstrings","alterations":"Complimentary fitting service.","consultation":"WhatsApp video consultation with designer."}'::jsonb,
-  '{"status":"Limited boutique edition.","trials":"Private appointment required.","deliveryTimeline":"4–6 working days.","shipping":"Insured nationwide courier."}'::jsonb,
+  '{"standardSizes":"S, M, L, XL","skirtLength":"42.5 inches","waistFitting":"Tailored fit with waist drawstrings"}'::jsonb,
+  '{"status":"Limited boutique edition.","trials":"Available for viewing & trials at our Bhopal studio."}'::jsonb,
   20
 ),
 (
@@ -483,8 +483,8 @@ INSERT INTO public.lehenga_products (
   '[{"url":"/products/bb-18-front.jpg","title":"Full Front Silhouette","alt":"Gulposh Pastel Choli Lehenga with 3D floral threadwork"}]'::jsonb,
   'A fresh modern interpretation of timeless Indian florals. Features 3D embroidered chiffon petals, delicate silver threadwork, and an effortless lightweight silhouette.',
   '{"colour":"Powder Blush with Soft Sage & Peach Petals","fabric":"Fine Georgette with Organza Veil Dupatta","work":"3D Floral Applique, Silver Resham Work & Micro-Sequins","lining":"Soft Shantoon with Double Layer Can-Can","flare":"5.2 meters circular umbrella flare","components":"Floral Skirt, Embroidered Blouse, Finished Dupatta","closure":"Side Zipper with Silk Tassels","care":"Delicate Dry Clean Only."}'::jsonb,
-  '{"standardSizes":"XS, S, M, L, XL","skirtLength":"42 inches","waistFitting":"Adjustable drawstring waist","alterations":"Complimentary alterations.","consultation":"Virtual styling assistance."}'::jsonb,
-  '{"status":"Ready for studio booking.","trials":"Mumbai Flagship trial lounge.","deliveryTimeline":"3–5 working days.","shipping":"Free delivery across India."}'::jsonb,
+  '{"standardSizes":"XS, S, M, L, XL","skirtLength":"42 inches","waistFitting":"Adjustable drawstring waist"}'::jsonb,
+  '{"status":"Ready for studio booking.","trials":"Available for viewing & trials at our Bhopal studio."}'::jsonb,
   21
 ),
 (
@@ -505,8 +505,8 @@ INSERT INTO public.lehenga_products (
   '[{"url":"/products/bb-19-front.jpg","title":"Full Front Silhouette","alt":"Roshni Shimmer Blush Lehenga sparkling with light reflection"}]'::jsonb,
   'Gleams like starlight on a calm palace pond. Tens of thousands of tonal micro-sequins shimmer continuously as you dance, paired with an elegant backless designer blouse.',
   '{"colour":"Pale Shimmer Blush with Champagne Highlights","fabric":"Butterfly Shimmer Net over Micro-Satin","work":"All-over Sequin Geometry, Pearl Borders & Resham Outlining","lining":"Dense Shantoon with High-Volume Can-Can","flare":"5.6 meters ballroom twirl flare","components":"Sequin Skirt, Designer Blouse, Scalloped Border Dupatta","closure":"Side Zipper with Crystal Drop Latkans","care":"Specialized Dry Clean Only."}'::jsonb,
-  '{"standardSizes":"S, M, L","skirtLength":"42.5 inches","waistFitting":"Tailored fit with drawstring ease","alterations":"Complimentary alterations.","consultation":"WhatsApp fit consultation."}'::jsonb,
-  '{"status":"Only 2 pieces remaining.","trials":"Studio trial by reservation.","deliveryTimeline":"Express 48-hour dispatch for standard size.","shipping":"Insured express transit."}'::jsonb,
+  '{"standardSizes":"S, M, L","skirtLength":"42.5 inches","waistFitting":"Tailored fit with drawstring ease"}'::jsonb,
+  '{"status":"Only 2 pieces remaining.","trials":"Available for viewing & trials at our Bhopal studio."}'::jsonb,
   22
 ),
 (
@@ -527,8 +527,8 @@ INSERT INTO public.lehenga_products (
   '[{"url":"/products/bb-20-front.jpg","title":"Full Front Silhouette","alt":"Nazneen Blush Kali Lehenga with silver zari border"}]'::jsonb,
   'A tribute to timeless royal court costumes. Featuring 24 slender kalis alternating between matte raw silk and gleaming brocade, edged with hand-embroidered silver dabka borders.',
   '{"colour":"Tender Blush Pink with Muted Silver Zari","fabric":"Raw Silk & Tissue Brocade with Organza Dupatta","work":"Silver Dabka Zardozi, Resham Vines & Scalloped Borders","lining":"Pure Shantoon with Full Structured Can-Can","flare":"5.5 meters structured kali flare","components":"Kalidar Skirt, Structured Choli, Bordered Dupatta","closure":"Side Zipper & Traditional Latkans","care":"Heritage Dry Clean Only."}'::jsonb,
-  '{"standardSizes":"XS, S, M, L, XL","skirtLength":"43 inches","waistFitting":"Adjustable drawstring waist up to 40 inches","alterations":"Complimentary alterations included.","consultation":"One-on-one virtual fitting."}'::jsonb,
-  '{"status":"Ready for studio trial.","trials":"Mumbai Flagship Studio appointments.","deliveryTimeline":"3–5 working days.","shipping":"Pan-India free shipping."}'::jsonb,
+  '{"standardSizes":"XS, S, M, L, XL","skirtLength":"43 inches","waistFitting":"Adjustable drawstring waist up to 40 inches"}'::jsonb,
+  '{"status":"Ready for studio trial.","trials":"Available for viewing & trials at our Bhopal studio."}'::jsonb,
   23
 ),
 (
@@ -549,8 +549,8 @@ INSERT INTO public.lehenga_products (
   '[{"url":"/products/bb-24-front.jpg","title":"Full Front Twirl Silhouette","alt":"Blush Dream Lehenga twirling in palace garden with flower petals"},{"url":"/Dreamy Pink Garden Bridal Portrait.png","title":"Close Floral Setting Portrait","alt":"Model seated in romantic floral arch wearing delicate blush embroidered lehenga"}]'::jsonb,
   'Soft as a twilight blossom, this ethereal blush pink lehenga is crafted in whispering organza and butterfly net. Delicately decorated with 3D floral thread embroidery, light-reflecting sequins, and scalloped rose-gold borders.',
   '{"colour":"Blush Pink with Rose-Gold Highlights","fabric":"Sheer Shimmer Organza & Butterfly Net with Satin Base","work":"Thread Floral Applique, Pearl Accents & Rose-Gold Gota Work","lining":"Triple-layer Soft Silk with Featherlight Can-Can","flare":"Full 6-meter dramatic twirling umbrella cut","components":"Twirling Skirt, Embroidered Choli Blouse, Shimmer Organza Dupatta","closure":"Side Zipper with Crystal-beaded Tassels","care":"Delicate Dry Clean Only."}'::jsonb,
-  '{"standardSizes":"XS, S, M, L","skirtLength":"42 inches standard","waistFitting":"Comfortable waist with customizable ease","alterations":"Complimentary alteration service included.","consultation":"Dedicated bridal concierge styling."}'::jsonb,
-  '{"status":"Only 2 handcrafted pieces remaining for this festive season.","trials":"Available at studio trial lounge.","deliveryTimeline":"Dispatch within 48 hours for standard sizing.","shipping":"Free express shipping across India."}'::jsonb,
+  '{"standardSizes":"XS, S, M, L","skirtLength":"42 inches standard","waistFitting":"Comfortable waist with customizable ease"}'::jsonb,
+  '{"status":"Only 2 handcrafted pieces remaining for this festive season.","trials":"Available for viewing & trials at our Bhopal studio."}'::jsonb,
   24
 ),
 (
@@ -571,8 +571,8 @@ INSERT INTO public.lehenga_products (
   '[{"url":"/Pink-Gold Dandiya Celebration.png","title":"Festive Celebration Pose","alt":"Model dancing with dandiya sticks in pink and gold lehenga with palace backdrop"}]'::jsonb,
   'The iconic centerpiece of our Dandiya Night series, worn by our campaign muse. A majestic fusion of hot pink silk and luminous gold borders engineered specifically for comfort and high-impact movement during Garba and Dandiya nights.',
   '{"colour":"Festive Pink & Luminous Champagne Gold","fabric":"Pure Georgette with Heavy Silk Broad Border","work":"Traditional Kutchi Mirror Work, Zardozi Borders & Golden Sequins","lining":"Breathable Cotton Silk with Full-Volume Can-Can","flare":"6.2 meters maximum ballroom twirl flare","components":"High-Twirl Skirt, Backless Dori Choli, Hand-finished Dupatta","closure":"Heavy Dori Drawstring with Bell-shaped Latkans","care":"Professional Dry Clean Only."}'::jsonb,
-  '{"standardSizes":"Tailored to your exact measurements","skirtLength":"Custom measured to your height with footwear","waistFitting":"Custom tailored","alterations":"Bespoke tailoring included.","consultation":"One-on-one video measurement session."}'::jsonb,
-  '{"status":"Handcrafted on order by senior master artisans.","trials":"Fabric and embroidery swatches available at our studio.","deliveryTimeline":"12–15 business days for handcrafted custom creation.","shipping":"Insured worldwide delivery."}'::jsonb,
+  '{"standardSizes":"Tailored to your exact measurements","skirtLength":"Custom measured to your height with footwear","waistFitting":"Custom tailored"}'::jsonb,
+  '{"status":"Handcrafted on order by senior master artisans.","trials":"Available for viewing & trials at our Bhopal studio."}'::jsonb,
   25
 ),
 (
@@ -593,8 +593,8 @@ INSERT INTO public.lehenga_products (
   '[{"url":"/products/bb-27-front.jpg","title":"Full Front Silhouette","alt":"Garba Ras Festive Lehenga twirling with bandhani and mirrors"},{"url":"/Pink-Gold Dandiya Celebration.png","title":"Campaign Styling","alt":"Festive celebration pose with dandiya sticks"}]'::jsonb,
   'Celebrates Gujarat and Rajasthan heritage with authentic artisanal bandhej dots, heavy real-mirror embellishments, and dramatic concentric gota borders designed for peak festive exuberance.',
   '{"colour":"Festive Fuchsia & Saffron Orange with Gold","fabric":"Pure Silk Bandhani with Georgette Dupatta","work":"Hand-tied Bandhani, Authentic Kutchi Mirrors & Broad Gota Borders","lining":"Heavy Cotton Shantoon with Dual Can-Can","flare":"6.0 meters high-volume Garba flare","components":"Flared Bandhani Skirt, Embroidered Choli, Mirror-edged Dupatta","closure":"Handcrafted Braided Dori with Bell Latkans","care":"Dry Clean Only."}'::jsonb,
-  '{"standardSizes":"XS, S, M, L, XL","skirtLength":"42.5 inches","waistFitting":"Comfortable drawstring fit up to 40 inches","alterations":"Complimentary alterations.","consultation":"WhatsApp video consultation."}'::jsonb,
-  '{"status":"In stock for studio reservation.","trials":"Private appointments at Mumbai Studio.","deliveryTimeline":"3–5 working days.","shipping":"Free insured transit across India."}'::jsonb,
+  '{"standardSizes":"XS, S, M, L, XL","skirtLength":"42.5 inches","waistFitting":"Comfortable drawstring fit up to 40 inches"}'::jsonb,
+  '{"status":"In stock for studio reservation.","trials":"Available for viewing & trials at our Bhopal studio."}'::jsonb,
   26
 ),
 (
@@ -615,8 +615,8 @@ INSERT INTO public.lehenga_products (
   '[{"url":"/products/bb-28-front.jpg","title":"Full Front Silhouette","alt":"Utsav Kiran Festive Lehenga with vibrant gold and resham kalis"}]'::jsonb,
   'Bursting with festive energy, this multi-kali celebration lehenga features contrasting borders in crimson, emerald, and turmeric gold, finished with shimmering golden mukaish work.',
   '{"colour":"Multi-hue Festive Coral, Rani & Golden Yellow","fabric":"Fine Raw Silk with Silk Tissue Dupatta","work":"Mukaish Hand-embroidery, Resham Kalis & Gota Patti Borders","lining":"Pure Shantoon with Structured Can-Can","flare":"5.6 meters circular twirl flare","components":"Multi-kali Skirt, Embroidered Blouse, Tissue Dupatta","closure":"Concealed Side Zip & Hand-tied Tassels","care":"Dry Clean Only."}'::jsonb,
-  '{"standardSizes":"S, M, L, XL","skirtLength":"42 inches","waistFitting":"Adjustable drawstring waist","alterations":"Complimentary fitting.","consultation":"Dedicated styling support."}'::jsonb,
-  '{"status":"Ready for studio booking.","trials":"Available at Mumbai Studio trial lounge.","deliveryTimeline":"4–6 working days.","shipping":"Complimentary delivery nationwide."}'::jsonb,
+  '{"standardSizes":"S, M, L, XL","skirtLength":"42 inches","waistFitting":"Adjustable drawstring waist"}'::jsonb,
+  '{"status":"Ready for studio booking.","trials":"Available for viewing & trials at our Bhopal studio."}'::jsonb,
   27
 ),
 (
@@ -637,8 +637,8 @@ INSERT INTO public.lehenga_products (
   '[{"url":"/Beauty Blossoms Lehenga Collection.png","title":"Bridal Garden Portrait","alt":"Model in delicate pink floral embroidered couture lehenga seated in floral pavilion"}]'::jsonb,
   'An heirloom creation inspired by the blooming royal gardens of Rajasthan. Every flower petal is rendered in subtle tonal silk threads, pearls, and hand-cut zardozi wire over blush-peach raw silk base.',
   '{"colour":"Blush Peach with Soft Crimson Garden Florals","fabric":"Pure Mulberry Silk with Two Contrasting Dupattas","work":"3D Floral Applique, Fine Resham Thread, Zardozi & Seed Pearls","lining":"Mulberry Silk Lining with Triple Can-Can Framework","flare":"5.5 meters structural kali flare","components":"Kalidar Skirt, Heavily Embroidered Blouse, Shoulder Dupatta, Veil Dupatta","closure":"Side Zipper with Hand-embroidered Royal Latkans","care":"Museum Quality Dry Clean Only."}'::jsonb,
-  '{"standardSizes":"Bespoke Custom Fitting","skirtLength":"Custom fit to client specifications","waistFitting":"Custom tailored with interior grip-tape waist reinforcement","alterations":"Full bespoke tailoring included.","consultation":"Senior Bridal Stylist consultation included."}'::jsonb,
-  '{"status":"Available for private preview & bridal bookings.","trials":"Private VIP Bridal Suite appointment at Mumbai Flagship.","deliveryTimeline":"14–18 business days for complete bespoke preparation.","shipping":"White-glove doorstep delivery."}'::jsonb,
+  '{"standardSizes":"Bespoke Custom Fitting","skirtLength":"Custom fit to client specifications","waistFitting":"Custom tailored with interior grip-tape waist reinforcement"}'::jsonb,
+  '{"status":"Available for private preview & bridal bookings.","trials":"Available for viewing & trials at our Bhopal studio."}'::jsonb,
   28
 ),
 (
@@ -659,8 +659,8 @@ INSERT INTO public.lehenga_products (
   '[{"url":"/products/bb-29-front.jpg","title":"Full Front Silhouette","alt":"Mumtaz Mahal Couture Lehenga with imperial zardozi and kundan work"},{"url":"/Beauty Blossoms Lehenga Collection.png","title":"Floral Pavilion Portrait","alt":"Couture lehenga portrait in palace garden pavilion"}]'::jsonb,
   'A true museum-grade couture lehenga taking over 320 artisan hours to create. Dense Mughal jali arches, floral paisleys, and real kundan gemstones embroidered on deep rose raw silk.',
   '{"colour":"Imperial Rose & Antique Mughal Gold","fabric":"Heaviest Weight Raw Silk with Dual Zari Organza Dupattas","work":"Real Kundan Setting, Antique Dabka Zardozi & Freshwater Seed Pearls","lining":"Pure Silk Lining with Triple Structural Can-Can Layers","flare":"6.2 meters ballroom bridal flare","components":"Flared Skirt, Padded Sweetheart Blouse, Hand-embroidered Veil & Shoulder Dupatta","closure":"Concealed Side Zipper with Heirloom Latkans","care":"Specialized Museum Dry Clean Only."}'::jsonb,
-  '{"standardSizes":"Completely Bespoke Made-to-Measure","skirtLength":"Custom tailored to client height & bridal footwear","waistFitting":"Custom tailored corset waist","alterations":"Unlimited bespoke fittings included.","consultation":"Direct consultation with Creative Director & Master Draper."}'::jsonb,
-  '{"status":"Made exclusively on private bridal commission.","trials":"Private VIP Bridal Suite appointment at Mumbai Flagship.","deliveryTimeline":"20–25 business days handcrafted timeline.","shipping":"White-glove insured delivery nationwide."}'::jsonb,
+  '{"standardSizes":"Completely Bespoke Made-to-Measure","skirtLength":"Custom tailored to client height & bridal footwear","waistFitting":"Custom tailored corset waist"}'::jsonb,
+  '{"status":"Made exclusively on private bridal commission.","trials":"Available for viewing & trials at our Bhopal studio."}'::jsonb,
   29
 ),
 (
@@ -681,8 +681,8 @@ INSERT INTO public.lehenga_products (
   '[{"url":"/products/bb-30-front.jpg","title":"Full Front Silhouette","alt":"Rajkumari Shringar Lehenga with heritage peacock zari motifs"},{"url":"/Beauty Blossoms Lehenga Collection.png","title":"Bridal Setting","alt":"Royal lehenga with intricate golden border detail"}]'::jsonb,
   'Inspired by the regal attire of Rajput princesses. 28 kalis featuring hand-embroidered royal peacocks, lotus blossoms in fine resham, and a grand 12-inch scalloped antique gold zardozi border.',
   '{"colour":"Deep Crimson Rani with Antique Gold Zari","fabric":"Pure Mulberry Silk with Tissue Brocade Veil","work":"Antique Gold Zardozi, Resham Thread Peacocks & Cut-dana Embellishments","lining":"Pure Shantoon with Dual Stiffened Can-Can Frames","flare":"6.0 meters majestic bridal twirl flare","components":"Embroidered Kalidar Skirt, Backless Dori Choli, Two Bordered Dupattas","closure":"Concealed Side Zipper with Handcrafted Peacock Latkans","care":"Museum Quality Dry Clean Only."}'::jsonb,
-  '{"standardSizes":"Bespoke Made-to-Measure","skirtLength":"Tailored precisely to measurement","waistFitting":"Tailored fit with internal reinforcement","alterations":"Full custom alteration service included.","consultation":"Senior Bridal Concierge consultation."}'::jsonb,
-  '{"status":"Open for bridal appointments & reservations.","trials":"Mumbai Flagship Studio VIP Lounge.","deliveryTimeline":"15–20 business days bespoke preparation.","shipping":"Complimentary insured door-to-door transit."}'::jsonb,
+  '{"standardSizes":"Bespoke Made-to-Measure","skirtLength":"Tailored precisely to measurement","waistFitting":"Tailored fit with internal reinforcement"}'::jsonb,
+  '{"status":"Open for bridal appointments & reservations.","trials":"Available for viewing & trials at our Bhopal studio."}'::jsonb,
   30
 )
 ON CONFLICT (id) DO UPDATE SET
