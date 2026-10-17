@@ -44,40 +44,59 @@ export default function ProductDetailPage({
 
   return (
     <div className="bb-product-page-root">
-      {/* Top Navigation Bar with Back Action & Logo */}
+      {/* Top Navigation Bar with Strict Symmetrical 3-Slot Grid */}
       <header className="bb-product-nav-header">
-        <button
-          type="button"
-          className="bb-product-back-btn"
-          onClick={onBack}
-          aria-label="Back to Dandiya Night Lehengas collection"
-        >
-          <svg className="bb-back-arrow-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2">
-            <polyline points="15 18 9 12 15 6" />
-          </svg>
-          <span className="bb-back-btn-text">Collection</span>
-        </button>
+        <div className="bb-product-nav-inner">
+          {/* Left Slot: Symmetrical Circular Back Button */}
+          <div className="bb-nav-slot bb-nav-slot-left">
+            <button
+              type="button"
+              className="bb-product-nav-btn bb-product-back-btn"
+              onClick={onBack}
+              aria-label="Back to Dandiya collection"
+              title="Back to collection"
+            >
+              <svg className="bb-nav-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+                <polyline points="15 18 9 12 15 6" />
+              </svg>
+            </button>
+          </div>
 
-        <a href="#collection-section" onClick={(e) => { e.preventDefault(); onBack(); }} className="bb-product-logo-link">
-          <img src="/logo.svg" alt="Beauty Blossoms" className="bb-product-header-logo" />
-        </a>
+          {/* Center Slot: Perfectly Centered Brand Logo */}
+          <div className="bb-nav-slot bb-nav-slot-center">
+            <a
+              href="#collection-section"
+              onClick={(e) => { e.preventDefault(); onBack(); }}
+              className="bb-product-logo-link"
+              aria-label="Beauty Blossoms Boutique Home"
+            >
+              <img src="/logo.svg" alt="Beauty Blossoms" className="bb-product-header-logo" />
+            </a>
+          </div>
 
-        <button
-          type="button"
-          className={`bb-product-nav-fav-btn ${isFav ? 'is-active' : ''}`}
-          onClick={() => onToggleFavorite && onToggleFavorite(product.id)}
-          aria-label={isFav ? 'Remove from shortlist' : 'Save to shortlist'}
-        >
-          <svg
-            className="bb-nav-heart-svg"
-            viewBox="0 0 24 24"
-            fill={isFav ? '#CF2A52' : 'none'}
-            stroke={isFav ? '#CF2A52' : '#4A232B'}
-            strokeWidth="2"
-          >
-            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
-          </svg>
-        </button>
+          {/* Right Slot: Symmetrical Circular Wishlist Heart Button */}
+          <div className="bb-nav-slot bb-nav-slot-right">
+            <button
+              type="button"
+              className={`bb-product-nav-btn bb-product-nav-fav-btn ${isFav ? 'is-active' : ''}`}
+              onClick={() => onToggleFavorite && onToggleFavorite(product.id)}
+              aria-label={isFav ? 'Remove from shortlist' : 'Save to shortlist'}
+              title={isFav ? 'Remove from shortlist' : 'Save to shortlist'}
+            >
+              <svg
+                className="bb-nav-icon-svg"
+                viewBox="0 0 24 24"
+                fill={isFav ? '#CF2A52' : 'none'}
+                stroke={isFav ? '#CF2A52' : '#4A232B'}
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+              </svg>
+            </button>
+          </div>
+        </div>
       </header>
 
       {/* Main Content Area */}
