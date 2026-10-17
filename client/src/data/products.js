@@ -33,7 +33,12 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-01.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-01 Patola Twirl Dandiya Lehenga (BB-01) — Dandiya Night Lehenga"
+        "alt": "BB-01 Patola Twirl Dandiya Lehenga (BB-01) — Dandiya Night Lehenga Model Silhouette"
+      },
+      {
+        "url": "/products/bb-01-flatlay.webp",
+        "title": "Luxury Gift Box Ensemble & Details",
+        "alt": "BB-01 Patola Twirl Dandiya Lehenga (BB-01) — Luxury Gift Box Packaging & Choli Flat Lay"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -85,7 +90,12 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-02.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-02 Haldi Bandhani Twirl Lehenga (BB-02) — Dandiya Night Lehenga"
+        "alt": "BB-02 Haldi Bandhani Twirl Lehenga (BB-02) — Dandiya Night Lehenga Model Silhouette"
+      },
+      {
+        "url": "/products/bb-02-flatlay.webp",
+        "title": "Luxury Gift Box Ensemble & Details",
+        "alt": "BB-02 Haldi Bandhani Twirl Lehenga (BB-02) — Luxury Gift Box Packaging & Choli Flat Lay"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -137,7 +147,12 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-03.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-03 Midnight Sitara Dandiya Lehenga (BB-03) — Dandiya Night Lehenga"
+        "alt": "BB-03 Midnight Sitara Dandiya Lehenga (BB-03) — Dandiya Night Lehenga Model Silhouette"
+      },
+      {
+        "url": "/products/bb-03-flatlay.webp",
+        "title": "Luxury Gift Box Ensemble & Details",
+        "alt": "BB-03 Midnight Sitara Dandiya Lehenga (BB-03) — Luxury Gift Box Packaging & Choli Flat Lay"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -189,7 +204,12 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-04.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-04 Royal Kutch Heritage Lehenga (BB-04) — Dandiya Night Lehenga"
+        "alt": "BB-04 Royal Kutch Heritage Lehenga (BB-04) — Dandiya Night Lehenga Model Silhouette"
+      },
+      {
+        "url": "/products/bb-04-flatlay.webp",
+        "title": "Luxury Gift Box Ensemble & Details",
+        "alt": "BB-04 Royal Kutch Heritage Lehenga (BB-04) — Luxury Gift Box Packaging & Choli Flat Lay"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -241,7 +261,12 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-05.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-05 Neelambari Indigo Lehenga (BB-05) — Dandiya Night Lehenga"
+        "alt": "BB-05 Neelambari Indigo Lehenga (BB-05) — Dandiya Night Lehenga Model Silhouette"
+      },
+      {
+        "url": "/products/bb-05-flatlay.webp",
+        "title": "Luxury Gift Box Ensemble & Details",
+        "alt": "BB-05 Neelambari Indigo Lehenga (BB-05) — Luxury Gift Box Packaging & Choli Flat Lay"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -293,7 +318,12 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-06.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-06 Mayur Pankh Festive Lehenga (BB-06) — Dandiya Night Lehenga"
+        "alt": "BB-06 Mayur Pankh Festive Lehenga (BB-06) — Dandiya Night Lehenga Model Silhouette"
+      },
+      {
+        "url": "/products/bb-06-flatlay.webp",
+        "title": "Luxury Gift Box Ensemble & Details",
+        "alt": "BB-06 Mayur Pankh Festive Lehenga (BB-06) — Luxury Gift Box Packaging & Choli Flat Lay"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -345,7 +375,12 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-07.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-07 Noor-e-Bahar Ivory Blush Lehenga (BB-07) — Dandiya Night Lehenga"
+        "alt": "BB-07 Noor-e-Bahar Ivory Blush Lehenga (BB-07) — Dandiya Night Lehenga Model Silhouette"
+      },
+      {
+        "url": "/products/bb-07-flatlay.webp",
+        "title": "Luxury Gift Box Ensemble & Details",
+        "alt": "BB-07 Noor-e-Bahar Ivory Blush Lehenga (BB-07) — Luxury Gift Box Packaging & Choli Flat Lay"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -397,7 +432,12 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-08.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-08 Kesar Chand Sunshine Lehenga (BB-08) — Dandiya Night Lehenga"
+        "alt": "BB-08 Kesar Chand Sunshine Lehenga (BB-08) — Dandiya Night Lehenga Model Silhouette"
+      },
+      {
+        "url": "/products/bb-08-flatlay.webp",
+        "title": "Luxury Gift Box Ensemble & Details",
+        "alt": "BB-08 Kesar Chand Sunshine Lehenga (BB-08) — Luxury Gift Box Packaging & Choli Flat Lay"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -449,7 +489,12 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-09.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-09 Marigold Utsav Flare Lehenga (BB-09) — Dandiya Night Lehenga"
+        "alt": "BB-09 Marigold Utsav Flare Lehenga (BB-09) — Dandiya Night Lehenga Model Silhouette"
+      },
+      {
+        "url": "/products/bb-09-flatlay.webp",
+        "title": "Luxury Gift Box Ensemble & Details",
+        "alt": "BB-09 Marigold Utsav Flare Lehenga (BB-09) — Luxury Gift Box Packaging & Choli Flat Lay"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -501,7 +546,12 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-10.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-10 Gulab Vilas Rani Pink Lehenga (BB-10) — Dandiya Night Lehenga"
+        "alt": "BB-10 Gulab Vilas Rani Pink Lehenga (BB-10) — Dandiya Night Lehenga Model Silhouette"
+      },
+      {
+        "url": "/products/bb-10-flatlay.webp",
+        "title": "Luxury Gift Box Ensemble & Details",
+        "alt": "BB-10 Gulab Vilas Rani Pink Lehenga (BB-10) — Luxury Gift Box Packaging & Choli Flat Lay"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -553,7 +603,12 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-11.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-11 Amber Sitara Dandiya Lehenga (BB-11) — Dandiya Night Lehenga"
+        "alt": "BB-11 Amber Sitara Dandiya Lehenga (BB-11) — Dandiya Night Lehenga Model Silhouette"
+      },
+      {
+        "url": "/products/bb-11-flatlay.webp",
+        "title": "Luxury Gift Box Ensemble & Details",
+        "alt": "BB-11 Amber Sitara Dandiya Lehenga (BB-11) — Luxury Gift Box Packaging & Choli Flat Lay"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -605,7 +660,7 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-12.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-12 Padma Rani Festive Lehenga (BB-12) — Dandiya Night Lehenga"
+        "alt": "BB-12 Padma Rani Festive Lehenga (BB-12) — Dandiya Night Lehenga Model Silhouette"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -657,7 +712,7 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-13.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-13 Lalita Crimson Twirl Lehenga (BB-13) — Dandiya Night Lehenga"
+        "alt": "BB-13 Lalita Crimson Twirl Lehenga (BB-13) — Dandiya Night Lehenga Model Silhouette"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -709,7 +764,7 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-14.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-14 Badshahi Sapphire Plum Lehenga (BB-14) — Dandiya Night Lehenga"
+        "alt": "BB-14 Badshahi Sapphire Plum Lehenga (BB-14) — Dandiya Night Lehenga Model Silhouette"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -761,7 +816,12 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-15.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-15 Shweta Ras Festive Lehenga (BB-15) — Dandiya Night Lehenga"
+        "alt": "BB-15 Shweta Ras Festive Lehenga (BB-15) — Dandiya Night Lehenga Model Silhouette"
+      },
+      {
+        "url": "/products/bb-15-flatlay.webp",
+        "title": "Luxury Gift Box Ensemble & Details",
+        "alt": "BB-15 Shweta Ras Festive Lehenga (BB-15) — Luxury Gift Box Packaging & Choli Flat Lay"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -813,7 +873,12 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-16.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-16 Sundari Terracotta Festive Lehenga (BB-16) — Dandiya Night Lehenga"
+        "alt": "BB-16 Sundari Terracotta Festive Lehenga (BB-16) — Dandiya Night Lehenga Model Silhouette"
+      },
+      {
+        "url": "/products/bb-16-flatlay.webp",
+        "title": "Luxury Gift Box Ensemble & Details",
+        "alt": "BB-16 Sundari Terracotta Festive Lehenga (BB-16) — Luxury Gift Box Packaging & Choli Flat Lay"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -865,7 +930,12 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-17.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-17 Kaali Sitara Night Lehenga (BB-17) — Dandiya Night Lehenga"
+        "alt": "BB-17 Kaali Sitara Night Lehenga (BB-17) — Dandiya Night Lehenga Model Silhouette"
+      },
+      {
+        "url": "/products/bb-17-flatlay.webp",
+        "title": "Luxury Gift Box Ensemble & Details",
+        "alt": "BB-17 Kaali Sitara Night Lehenga (BB-17) — Luxury Gift Box Packaging & Choli Flat Lay"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -917,7 +987,12 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-18.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-18 Roohani Rust Gold Lehenga (BB-18) — Dandiya Night Lehenga"
+        "alt": "BB-18 Roohani Rust Gold Lehenga (BB-18) — Dandiya Night Lehenga Model Silhouette"
+      },
+      {
+        "url": "/products/bb-18-flatlay.webp",
+        "title": "Luxury Gift Box Ensemble & Details",
+        "alt": "BB-18 Roohani Rust Gold Lehenga (BB-18) — Luxury Gift Box Packaging & Choli Flat Lay"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -969,7 +1044,7 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-19.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-19 Gulposh Rani Couture Lehenga (BB-19) — Dandiya Night Lehenga"
+        "alt": "BB-19 Gulposh Rani Couture Lehenga (BB-19) — Dandiya Night Lehenga Model Silhouette"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -1021,7 +1096,12 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-20.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-20 Sitara Rang Rani Lehenga (BB-20) — Dandiya Night Lehenga"
+        "alt": "BB-20 Sitara Rang Rani Lehenga (BB-20) — Dandiya Night Lehenga Model Silhouette"
+      },
+      {
+        "url": "/products/bb-20-flatlay.webp",
+        "title": "Luxury Gift Box Ensemble & Details",
+        "alt": "BB-20 Sitara Rang Rani Lehenga (BB-20) — Luxury Gift Box Packaging & Choli Flat Lay"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -1073,7 +1153,27 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-21.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-21 Shyamali Charcoal Festive Lehenga (BB-21) — Dandiya Night Lehenga"
+        "alt": "BB-21 Shyamali Charcoal Festive Lehenga (BB-21) — Dandiya Night Lehenga Model Silhouette"
+      },
+      {
+        "url": "/products/bb-21-flatlay.webp",
+        "title": "Luxury Gift Box Ensemble & Details",
+        "alt": "BB-21 Shyamali Charcoal Festive Lehenga (BB-21) — Luxury Gift Box Packaging & Choli Flat Lay"
+      },
+      {
+        "url": "/products/bb-21-choli.jpg",
+        "title": "Embroidered Choli Blouse Detail",
+        "alt": "BB-21 Shyamali Charcoal Festive Lehenga (BB-21) — Handcrafted Choli Blouse Detail"
+      },
+      {
+        "url": "/products/bb-21-embroidery.jpg",
+        "title": "Artisan Border & Mirrorwork Craft",
+        "alt": "BB-21 Shyamali Charcoal Festive Lehenga (BB-21) — Authentic Handcrafted Embroidery & Mirrors"
+      },
+      {
+        "url": "/products/bb-21-back.jpg",
+        "title": "Back Silhouette & Tie-up Latkans",
+        "alt": "BB-21 Shyamali Charcoal Festive Lehenga (BB-21) — Back Tassels & Latkan Finish"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -1125,7 +1225,7 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-22.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-22 Kasturi Dark Jewel Lehenga (BB-22) — Dandiya Night Lehenga"
+        "alt": "BB-22 Kasturi Dark Jewel Lehenga (BB-22) — Dandiya Night Lehenga Model Silhouette"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -1177,7 +1277,12 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-23.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-23 Chandani Indigo Twirl Lehenga (BB-23) — Dandiya Night Lehenga"
+        "alt": "BB-23 Chandani Indigo Twirl Lehenga (BB-23) — Dandiya Night Lehenga Model Silhouette"
+      },
+      {
+        "url": "/products/bb-23-flatlay.webp",
+        "title": "Luxury Gift Box Ensemble & Details",
+        "alt": "BB-23 Chandani Indigo Twirl Lehenga (BB-23) — Luxury Gift Box Packaging & Choli Flat Lay"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -1229,7 +1334,7 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-24.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-24 Kesar Kunj Ochre Lehenga (BB-24) — Dandiya Night Lehenga"
+        "alt": "BB-24 Kesar Kunj Ochre Lehenga (BB-24) — Dandiya Night Lehenga Model Silhouette"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -1281,7 +1386,12 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-25.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-25 Sindoori Rust Bridal Lehenga (BB-25) — Dandiya Night Lehenga"
+        "alt": "BB-25 Sindoori Rust Bridal Lehenga (BB-25) — Dandiya Night Lehenga Model Silhouette"
+      },
+      {
+        "url": "/products/bb-25-flatlay.webp",
+        "title": "Luxury Gift Box Ensemble & Details",
+        "alt": "BB-25 Sindoori Rust Bridal Lehenga (BB-25) — Luxury Gift Box Packaging & Choli Flat Lay"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -1333,7 +1443,7 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-26.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-26 Tarangini Black Mirror Lehenga (BB-26) — Dandiya Night Lehenga"
+        "alt": "BB-26 Tarangini Black Mirror Lehenga (BB-26) — Dandiya Night Lehenga Model Silhouette"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -1385,7 +1495,7 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-27.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-27 Maru Desh Festive Lehenga (BB-27) — Dandiya Night Lehenga"
+        "alt": "BB-27 Maru Desh Festive Lehenga (BB-27) — Dandiya Night Lehenga Model Silhouette"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -1437,7 +1547,12 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-28.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-28 Haldi Utsav Golden Lehenga (BB-28) — Dandiya Night Lehenga"
+        "alt": "BB-28 Haldi Utsav Golden Lehenga (BB-28) — Dandiya Night Lehenga Model Silhouette"
+      },
+      {
+        "url": "/products/bb-28-flatlay.webp",
+        "title": "Luxury Gift Box Ensemble & Details",
+        "alt": "BB-28 Haldi Utsav Golden Lehenga (BB-28) — Luxury Gift Box Packaging & Choli Flat Lay"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -1489,7 +1604,12 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-29.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-29 Chandrakala Blush Ivory Lehenga (BB-29) — Dandiya Night Lehenga"
+        "alt": "BB-29 Chandrakala Blush Ivory Lehenga (BB-29) — Dandiya Night Lehenga Model Silhouette"
+      },
+      {
+        "url": "/products/bb-29-flatlay.webp",
+        "title": "Luxury Gift Box Ensemble & Details",
+        "alt": "BB-29 Chandrakala Blush Ivory Lehenga (BB-29) — Luxury Gift Box Packaging & Choli Flat Lay"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -1541,7 +1661,12 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-30.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-30 Manhar Ivory Maroon Bandhani Lehenga (BB-30) — Dandiya Night Lehenga"
+        "alt": "BB-30 Manhar Ivory Maroon Bandhani Lehenga (BB-30) — Dandiya Night Lehenga Model Silhouette"
+      },
+      {
+        "url": "/products/bb-30-flatlay.webp",
+        "title": "Luxury Gift Box Ensemble & Details",
+        "alt": "BB-30 Manhar Ivory Maroon Bandhani Lehenga (BB-30) — Luxury Gift Box Packaging & Choli Flat Lay"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -1593,7 +1718,12 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-31.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-31 Kesar Ajrakh Sunshine Dandiya Lehenga (BB-31) — Dandiya Night Lehenga"
+        "alt": "BB-31 Kesar Ajrakh Sunshine Dandiya Lehenga (BB-31) — Dandiya Night Lehenga Model Silhouette"
+      },
+      {
+        "url": "/products/bb-31-flatlay.webp",
+        "title": "Luxury Gift Box Ensemble & Details",
+        "alt": "BB-31 Kesar Ajrakh Sunshine Dandiya Lehenga (BB-31) — Luxury Gift Box Packaging & Choli Flat Lay"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -1645,7 +1775,12 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-32.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-32 Raas Vilas Midnight Blue Dandiya Lehenga (BB-32) — Dandiya Night Lehenga"
+        "alt": "BB-32 Raas Vilas Midnight Blue Dandiya Lehenga (BB-32) — Dandiya Night Lehenga Model Silhouette"
+      },
+      {
+        "url": "/products/bb-32-flatlay.webp",
+        "title": "Luxury Gift Box Ensemble & Details",
+        "alt": "BB-32 Raas Vilas Midnight Blue Dandiya Lehenga (BB-32) — Luxury Gift Box Packaging & Choli Flat Lay"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -1697,7 +1832,12 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-33.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-33 Kalka Midnight Crimson Festive Lehenga (BB-33) — Dandiya Night Lehenga"
+        "alt": "BB-33 Kalka Midnight Crimson Festive Lehenga (BB-33) — Dandiya Night Lehenga Model Silhouette"
+      },
+      {
+        "url": "/products/bb-33-flatlay.webp",
+        "title": "Luxury Gift Box Ensemble & Details",
+        "alt": "BB-33 Kalka Midnight Crimson Festive Lehenga (BB-33) — Luxury Gift Box Packaging & Choli Flat Lay"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
@@ -1749,7 +1889,12 @@ export const LEHENGA_PRODUCTS = [
       {
         "url": "/products/bb-34.webp",
         "title": "Full Front Silhouette",
-        "alt": "BB-34 Gota Kiran Royal Indigo Lehenga (BB-34) — Dandiya Night Lehenga"
+        "alt": "BB-34 Gota Kiran Royal Indigo Lehenga (BB-34) — Dandiya Night Lehenga Model Silhouette"
+      },
+      {
+        "url": "/products/bb-34-flatlay.webp",
+        "title": "Luxury Gift Box Ensemble & Details",
+        "alt": "BB-34 Gota Kiran Royal Indigo Lehenga (BB-34) — Luxury Gift Box Packaging & Choli Flat Lay"
       }
     ],
     "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
