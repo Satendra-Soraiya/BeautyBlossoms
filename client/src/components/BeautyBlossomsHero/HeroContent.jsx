@@ -34,16 +34,6 @@ export default function HeroContent({ onExploreClick }) {
           Tradition in Every Twirl <span className="bb-heart-glyph" aria-hidden="true">♡</span>
         </p>
 
-        {/* Rent for Garba Night Slay Callout */}
-        <div className="bb-hero-slay-bar" aria-label="Rent for Garba night and slay">
-          <div className="bb-hero-slay-title">
-            <span className="bb-slay-star" aria-hidden="true">✦</span>
-            <span className="bb-slay-text">Rent for Garba night and slay</span>
-          </div>
-          <div className="bb-hero-slay-sub">
-            1-Day Garba Rentals ₹500 to ₹1,000 / day · Rent &amp; Buy
-          </div>
-        </div>
 
         {/* Primary Call-to-Action */}
         <CollectionCTA onClick={onExploreClick} label="Explore Collection" />
