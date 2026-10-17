@@ -9,6 +9,7 @@
 
 const TOKEN_KEY = 'bb_cms_token';
 const REMEMBER_KEY = 'bb_cms_remember';
+const API_BASE = (import.meta.env.VITE_API_URL || '/api').replace(/\/+$/, '');
 
 export const adminService = {
   /**
@@ -28,7 +29,7 @@ export const adminService = {
    */
   async verifyPasscode(pin, remember = true) {
     try {
-      const res = await fetch('/api/auth/verify-pin', {
+      const res = await fetch(`${API_BASE}/auth/verify-pin`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ pin }),
@@ -83,7 +84,7 @@ export const adminService = {
     formData.append('productCode', productCode);
     if (title) formData.append('title', title);
 
-    const res = await fetch('/api/products/upload', {
+    const res = await fetch(`${API_BASE}/products/upload`, {
       method: 'POST',
       body: formData,
     });
@@ -101,7 +102,7 @@ export const adminService = {
    * Creates a new lehenga outfit in the collection
    */
   async createProduct(productData) {
-    const res = await fetch('/api/products', {
+    const res = await fetch(`${API_BASE}/products`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(productData),
@@ -120,7 +121,7 @@ export const adminService = {
    * Updates an existing lehenga outfit
    */
   async updateProduct(id, productData) {
-    const res = await fetch(`/api/products/${id}`, {
+    const res = await fetch(`${API_BASE}/products/${id}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(productData),
@@ -139,7 +140,7 @@ export const adminService = {
    * Deletes a lehenga outfit from the catalog
    */
   async deleteProduct(id) {
-    const res = await fetch(`/api/products/${id}`, {
+    const res = await fetch(`${API_BASE}/products/${id}`, {
       method: 'DELETE',
     });
 

@@ -11,6 +11,8 @@
 import { supabase, isSupabaseConfigured } from '../config/supabase';
 import { LEHENGA_PRODUCTS, getProductBySlug as getLocalProductBySlug } from '../data/products';
 
+const API_BASE = (import.meta.env.VITE_API_URL || '/api').replace(/\/+$/, '');
+
 let cachedProducts = null;
 let currentDataSource = 'local_fallback'; // 'supabase_direct' | 'supabase_backend' | 'local_fallback'
 
@@ -151,7 +153,7 @@ export async function getProducts(options = {}) {
 
   // 2. Attempt backend API fetch (/api/products connected to Supabase PostgreSQL)
   try {
-    const url = category && category !== 'all' ? `/api/products?category=${category}` : '/api/products';
+    const url = category && category !== 'all' ? `${API_BASE}/products?category=${category}` : `${API_BASE}/products`;
     const res = await fetch(url);
     if (res.ok) {
       const json = await res.json();
@@ -228,7 +230,7 @@ export async function getProduct(slugOrId) {
 
   // Attempt backend API
   try {
-    const res = await fetch(`/api/products/${slugOrId}`);
+    const res = await fetch(`${API_BASE}/products/${slugOrId}`);
     if (res.ok) {
       const json = await res.json();
       if (json.data) {
