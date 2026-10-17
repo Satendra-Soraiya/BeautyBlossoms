@@ -10,10 +10,23 @@ import { syncLocalProductsFile } from '../utils/syncCatalog.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const productsOutputDir = path.resolve(__dirname, '../../../client/public/products');
+const clientProductsDir = path.resolve(__dirname, '../../../client/public/products');
+const serverUploadsDir = path.resolve(__dirname, '../../uploads/products');
+
+let productsOutputDir = clientProductsDir;
+try {
+  if (!fs.existsSync(path.dirname(clientProductsDir))) {
+    productsOutputDir = serverUploadsDir;
+  }
+} catch {
+  productsOutputDir = serverUploadsDir;
+}
 
 if (!fs.existsSync(productsOutputDir)) {
   fs.mkdirSync(productsOutputDir, { recursive: true });
+}
+if (!fs.existsSync(serverUploadsDir)) {
+  fs.mkdirSync(serverUploadsDir, { recursive: true });
 }
 
 const upload = multer({
@@ -210,6 +223,11 @@ router.post('/upload', upload.array('images', 10), async (req, res) => {
     const { productCode = 'outfit', title = '' } = req.body;
     const cleanCode = (productCode || 'outfit').toLowerCase().replace(/[^a-z0-9]/g, '');
 
+    const host = req.get('host') || '';
+    const protocol = req.headers['x-forwarded-proto'] || req.protocol || 'http';
+    const isLocal = host.includes('localhost') || host.includes('127.0.0.1');
+    const baseUrl = isLocal ? '' : `${protocol}://${host}`;
+
     const uploadedResults = [];
 
     for (let i = 0; i < files.length; i++) {
@@ -226,8 +244,18 @@ router.post('/upload', upload.array('images', 10), async (req, res) => {
         .webp({ quality: 86, effort: 5 })
         .toFile(outPath);
 
+      // Mirror copy to serverUploadsDir if writing directly to client/public
+      try {
+        if (productsOutputDir !== serverUploadsDir) {
+          const fallbackPath = path.join(serverUploadsDir, filename);
+          fs.copyFileSync(outPath, fallbackPath);
+        }
+      } catch {
+        // silent fallback
+      }
+
       uploadedResults.push({
-        url: `/products/${filename}`,
+        url: `${baseUrl}/products/${filename}`,
         title: title || `${productCode} Photography`,
         alt: `${productCode} detail photograph`,
         filename,

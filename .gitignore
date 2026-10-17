@@ -34,4 +34,5 @@ lerna-debug.log*
 scratch/
 client/public/ai images*
 client/public/product review image*
+server/uploads/
 
