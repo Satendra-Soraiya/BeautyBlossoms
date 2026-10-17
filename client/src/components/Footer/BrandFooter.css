@@ -296,6 +296,19 @@
   letter-spacing: 0.03em;
 }
 
+.bb-footer-admin-link {
+  color: #E5B869;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s;
+  padding: 2px 4px;
+}
+
+.bb-footer-admin-link:hover {
+  text-decoration: underline;
+  opacity: 0.85;
+}
+
 /* --------------------------------------------------------------------------
    Tablet & Desktop Grid
    -------------------------------------------------------------------------- */

@@ -4,6 +4,7 @@ import DandiyaCollectionSection from './components/Collection/DandiyaCollectionS
 import ProductDetailPage from './components/ProductDetail/ProductDetailPage';
 import BrandFooter from './components/Footer/BrandFooter';
 import WishlistDrawer from './components/WishlistDrawer/WishlistDrawer';
+import AdminCMS from './components/AdminCMS/AdminCMS';
 import { getProducts, getProduct } from './services/productService';
 import { LEHENGA_PRODUCTS } from './data/products';
 
@@ -18,10 +19,12 @@ import { LEHENGA_PRODUCTS } from './data/products';
  * - Non-commercial "Call to Book" & "Enquire on WhatsApp" workflows
  * - Wishlist shortlist drawer replacing traditional shopping cart
  * - Brand footer featuring royal Indian palace heritage
+ * - Integrated mobile-first Boutique CMS (#admin) for managing outfits & photos
  */
 export default function App() {
   const [products, setProducts] = useState(LEHENGA_PRODUCTS);
   const [selectedProduct, setSelectedProduct] = useState(null);
+  const [isAdminView, setIsAdminView] = useState(() => window.location.hash === '#admin');
   const [isHeroLoaded, setIsHeroLoaded] = useState(false);
   const [favorites, setFavorites] = useState(() => {
     try {
@@ -98,20 +101,27 @@ export default function App() {
   useEffect(() => {
     const handleHashChange = () => {
       const hash = window.location.hash;
-      if (hash.startsWith('#product/')) {
-        const slug = hash.replace('#product/', '');
-        getProduct(slug).then((found) => {
-          if (found) {
-            setSelectedProduct(found);
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-          }
-        });
-      } else if (hash === '#collection-section') {
+      if (hash === '#admin') {
+        setIsAdminView(true);
         setSelectedProduct(null);
-        const el = document.getElementById('collection-section');
-        if (el) el.scrollIntoView({ behavior: 'smooth' });
-      } else if (!hash || hash === '#') {
-        setSelectedProduct(null);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      } else {
+        setIsAdminView(false);
+        if (hash.startsWith('#product/')) {
+          const slug = hash.replace('#product/', '');
+          getProduct(slug).then((found) => {
+            if (found) {
+              setSelectedProduct(found);
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+          });
+        } else if (hash === '#collection-section') {
+          setSelectedProduct(null);
+          const el = document.getElementById('collection-section');
+          if (el) el.scrollIntoView({ behavior: 'smooth' });
+        } else if (!hash || hash === '#') {
+          setSelectedProduct(null);
+        }
       }
     };
 
@@ -168,7 +178,7 @@ export default function App() {
   return (
     <div className="bb-root-layout">
       {/* Synchronized Screen Transition Veil (dissolves only when both header and hero background are ready) */}
-      {!isHeroLoaded && !activeProduct && (
+      {!isHeroLoaded && !activeProduct && !isAdminView && (
         <div className="bb-screen-loader" aria-label="Loading Beauty Blossoms">
           <div className="bb-loader-inner">
             <span className="bb-loader-flourish" aria-hidden="true">✿</span>
@@ -181,7 +191,19 @@ export default function App() {
         </div>
       )}
 
-      {activeProduct ? (
+      {isAdminView ? (
+        /* Mobile-First Boutique CMS (#admin) */
+        <AdminCMS
+          onExitToStore={() => {
+            window.location.hash = '';
+            setIsAdminView(false);
+          }}
+          onSelectProductToView={(prod) => {
+            setIsAdminView(false);
+            handleSelectProduct(prod);
+          }}
+        />
+      ) : activeProduct ? (
         /* Dedicated Lehenga Product Detail View (Screen 3) */
         <ProductDetailPage
           product={activeProduct}

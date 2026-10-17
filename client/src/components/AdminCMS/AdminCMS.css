@@ -1,0 +1,1122 @@
+/**
+ * Beauty Blossoms Boutique CMS — Mobile-First Styling
+ * Luxurious Royal Indian Heritage Palette + High Productivity UI
+ */
+
+/* ==========================================================================
+   Root Container & Navigation Bar
+   ========================================================================== */
+.bb-admin-root {
+  min-height: 100vh;
+  background: #14070A;
+  color: #F8ECEE;
+  font-family: 'Outfit', sans-serif;
+  padding-bottom: 5rem;
+}
+
+.bb-admin-nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.9rem 1.25rem;
+  background: rgba(36, 11, 18, 0.95);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(229, 184, 105, 0.25);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.bb-admin-nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.bb-admin-brand-icon {
+  font-size: 1.4rem;
+  color: #E5B869;
+}
+
+.bb-admin-brand-titles h2 {
+  font-family: 'Cinzel', serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #FFF2D6;
+  margin: 0;
+  letter-spacing: 0.05em;
+}
+
+.bb-admin-brand-sub {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #E5B869;
+  font-weight: 500;
+}
+
+.bb-admin-nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.bb-admin-view-store-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: rgba(229, 184, 105, 0.12);
+  color: #E5B869;
+  border: 1px solid rgba(229, 184, 105, 0.35);
+  border-radius: 999px;
+  padding: 0.4rem 0.85rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.bb-admin-view-store-btn:hover {
+  background: rgba(229, 184, 105, 0.22);
+}
+
+.bb-admin-logout-btn {
+  background: transparent;
+  border: none;
+  color: #A98088;
+  padding: 0.45rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: color 0.2s;
+}
+
+.bb-admin-logout-btn:hover {
+  color: #FF5A7A;
+}
+
+.bb-logout-svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+/* Toast Message */
+.bb-admin-toast {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 999;
+  background: #1C3322;
+  color: #8CE8A0;
+  border: 1px solid #388E3C;
+  padding: 0.85rem 1.4rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.92rem;
+  font-weight: 500;
+  animation: slideToastIn 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes slideToastIn {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.bb-toast-icon {
+  font-weight: bold;
+}
+
+/* ==========================================================================
+   PIN / Passcode Modal
+   ========================================================================== */
+.bb-admin-pin-backdrop {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background: radial-gradient(circle at center, #2B0C15 0%, #100508 100%);
+}
+
+.bb-admin-pin-card {
+  width: 100%;
+  max-width: 380px;
+  background: rgba(30, 9, 16, 0.95);
+  border: 1px solid rgba(229, 184, 105, 0.3);
+  border-radius: 20px;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+.bb-admin-lock-icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: 0 auto 1rem;
+  background: rgba(229, 184, 105, 0.12);
+  border: 1px solid rgba(229, 184, 105, 0.35);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #E5B869;
+}
+
+.bb-admin-lock-icon svg {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.bb-admin-pin-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.35rem;
+  color: #FFF2D6;
+  margin: 0 0 0.4rem;
+}
+
+.bb-admin-pin-sub {
+  font-size: 0.85rem;
+  color: #CDB3B8;
+  margin: 0 0 1.5rem;
+  line-height: 1.4;
+}
+
+.bb-admin-pin-field {
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 0.5em;
+  background: rgba(0, 0, 0, 0.4);
+  color: #E5B869;
+  border: 1.5px solid rgba(229, 184, 105, 0.4);
+  border-radius: 12px;
+  padding: 0.6rem 0.5rem;
+  outline: none;
+  font-family: monospace;
+}
+
+.bb-admin-pin-field:focus {
+  border-color: #E5B869;
+  box-shadow: 0 0 15px rgba(229, 184, 105, 0.3);
+}
+
+.bb-admin-pin-error {
+  color: #FF7B92;
+  font-size: 0.82rem;
+  margin-top: 0.65rem;
+}
+
+.bb-admin-keypad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.6rem;
+  max-width: 260px;
+  margin: 1.5rem auto 1.25rem;
+}
+
+.bb-admin-keypad-btn {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #F8ECEE;
+  font-size: 1.35rem;
+  font-weight: 500;
+  border-radius: 12px;
+  padding: 0.75rem;
+  cursor: pointer;
+  transition: all 0.15s;
+  touch-action: manipulation;
+}
+
+.bb-admin-keypad-btn:active {
+  background: rgba(229, 184, 105, 0.25);
+  transform: scale(0.95);
+}
+
+.bb-keypad-clear {
+  color: #FF8B9E;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.bb-keypad-del {
+  color: #E5B869;
+}
+
+.bb-admin-remember-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 0.82rem;
+  color: #CDB3B8;
+  margin-bottom: 1.25rem;
+  cursor: pointer;
+}
+
+.bb-admin-pin-submit-btn {
+  width: 100%;
+  background: linear-gradient(135deg, #CF2A52 0%, #9F1639 100%);
+  color: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0.85rem;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.bb-admin-pin-submit-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.bb-admin-pin-footer {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  font-size: 0.8rem;
+}
+
+.bb-admin-exit-link {
+  background: transparent;
+  border: none;
+  color: #E5B869;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0.4rem;
+}
+
+.bb-admin-pin-hint {
+  color: #8C6A72;
+}
+
+/* ==========================================================================
+   Product List View
+   ========================================================================== */
+.bb-admin-list-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem 1rem 5rem;
+}
+
+.bb-admin-list-toolbar {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.bb-toolbar-search-box {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.bb-toolbar-search-box .bb-search-icon {
+  position: absolute;
+  left: 0.9rem;
+  width: 1.1rem;
+  height: 1.1rem;
+  color: #A98088;
+}
+
+.bb-admin-search-input {
+  width: 100%;
+  background: rgba(30, 9, 16, 0.8);
+  border: 1px solid rgba(229, 184, 105, 0.25);
+  color: #F8ECEE;
+  padding: 0.7rem 2.2rem 0.7rem 2.5rem;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  outline: none;
+}
+
+.bb-admin-search-input:focus {
+  border-color: #E5B869;
+}
+
+.bb-admin-search-clear {
+  position: absolute;
+  right: 0.8rem;
+  background: transparent;
+  border: none;
+  color: #A98088;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.bb-admin-add-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: linear-gradient(135deg, #CF2A52 0%, #A81B3E 100%);
+  color: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0.7rem 1.1rem;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.88rem;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.bb-admin-category-pills {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+.bb-admin-category-pills::-webkit-scrollbar {
+  display: none;
+}
+
+.bb-admin-pill {
+  background: rgba(40, 14, 22, 0.8);
+  border: 1px solid rgba(229, 184, 105, 0.2);
+  color: #CDB3B8;
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.bb-admin-pill.is-active {
+  background: #E5B869;
+  color: #240B12;
+  font-weight: 600;
+  border-color: #E5B869;
+}
+
+.bb-admin-stats-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+  color: #A98088;
+  margin-bottom: 1rem;
+  padding: 0 0.25rem;
+}
+
+.bb-admin-stats-row strong {
+  color: #E5B869;
+}
+
+/* Card Grid */
+.bb-admin-cards-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.85rem;
+}
+
+@media (min-width: 640px) {
+  .bb-admin-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .bb-admin-cards-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.bb-admin-outfit-card {
+  background: rgba(32, 10, 17, 0.85);
+  border: 1px solid rgba(229, 184, 105, 0.22);
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.bb-admin-outfit-card:hover {
+  border-color: rgba(229, 184, 105, 0.5);
+}
+
+.bb-card-thumb-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  background: #0A0305;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.bb-card-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.bb-admin-outfit-card:hover .bb-card-thumb {
+  transform: scale(1.02);
+}
+
+.bb-card-photo-chip {
+  position: absolute;
+  bottom: 0.6rem;
+  right: 0.6rem;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(6px);
+  color: #FFF;
+  font-size: 0.72rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.bb-card-info {
+  padding: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.bb-card-top-tags {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.35rem;
+}
+
+.bb-card-code {
+  font-family: monospace;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #E5B869;
+  background: rgba(229, 184, 105, 0.12);
+  padding: 0.2rem 0.45rem;
+  border-radius: 4px;
+}
+
+.bb-card-category {
+  font-size: 0.72rem;
+  color: #A98088;
+}
+
+.bb-card-name {
+  font-family: 'Cinzel', serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #FFF2D6;
+  margin: 0 0 0.5rem;
+  line-height: 1.3;
+  cursor: pointer;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.bb-card-pricing-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.bb-card-rent-price {
+  font-weight: 700;
+  color: #FF5A7A;
+  font-size: 0.95rem;
+}
+
+.bb-card-avail-badge {
+  font-size: 0.72rem;
+  color: #E5B869;
+}
+
+.bb-card-actions-bar {
+  display: flex;
+  gap: 0.4rem;
+  margin-top: 0.75rem;
+}
+
+.bb-card-action-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  padding: 0.55rem;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  transition: all 0.15s;
+}
+
+.bb-action-edit {
+  background: rgba(229, 184, 105, 0.15);
+  color: #E5B869;
+  border: 1px solid rgba(229, 184, 105, 0.3);
+}
+
+.bb-action-view {
+  background: rgba(255, 255, 255, 0.08);
+  color: #CDB3B8;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.bb-action-delete {
+  flex: 0 0 2.2rem;
+  background: rgba(255, 90, 122, 0.12);
+  color: #FF5A7A;
+  border: 1px solid rgba(255, 90, 122, 0.25);
+}
+
+.bb-action-svg {
+  width: 0.95rem;
+  height: 0.95rem;
+}
+
+/* Mobile Floating Action Button */
+.bb-admin-mobile-fab {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #CF2A52 0%, #A81B3E 100%);
+  color: #FFF;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 10px 25px rgba(207, 42, 82, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 90;
+  transition: transform 0.2s;
+}
+
+.bb-admin-mobile-fab:active {
+  transform: scale(0.92);
+}
+
+.bb-fab-icon {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+@media (min-width: 640px) {
+  .bb-admin-mobile-fab {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   Image Manager (Camera & Gallery)
+   ========================================================================== */
+.bb-admin-image-manager {
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px dashed rgba(229, 184, 105, 0.3);
+  border-radius: 16px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.bb-aim-header {
+  margin-bottom: 0.9rem;
+}
+
+.bb-aim-label {
+  display: block;
+  font-weight: 600;
+  color: #E5B869;
+  font-size: 0.95rem;
+  margin-bottom: 0.2rem;
+}
+
+.bb-aim-sub {
+  font-size: 0.8rem;
+  color: #A98088;
+}
+
+.bb-aim-actions-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.bb-aim-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.9rem;
+  border-radius: 12px;
+  border: 1px solid;
+  cursor: pointer;
+  text-align: left;
+  transition: transform 0.15s, background 0.15s;
+}
+
+.bb-aim-camera-btn {
+  background: rgba(207, 42, 82, 0.15);
+  border-color: rgba(207, 42, 82, 0.4);
+  color: #FF7B92;
+}
+
+.bb-aim-camera-btn:hover {
+  background: rgba(207, 42, 82, 0.25);
+}
+
+.bb-aim-gallery-btn {
+  background: rgba(229, 184, 105, 0.12);
+  border-color: rgba(229, 184, 105, 0.4);
+  color: #E5B869;
+}
+
+.bb-aim-gallery-btn:hover {
+  background: rgba(229, 184, 105, 0.22);
+}
+
+.bb-aim-icon {
+  width: 1.75rem;
+  height: 1.75rem;
+  flex-shrink: 0;
+}
+
+.bb-aim-btn-text strong {
+  display: block;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+.bb-aim-btn-text span {
+  display: block;
+  font-size: 0.72rem;
+  opacity: 0.8;
+}
+
+.bb-aim-status-box {
+  padding: 0.75rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.bb-aim-uploading {
+  background: rgba(229, 184, 105, 0.15);
+  color: #E5B869;
+  border: 1px solid rgba(229, 184, 105, 0.3);
+}
+
+.bb-aim-spinner {
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid rgba(229, 184, 105, 0.3);
+  border-top-color: #E5B869;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.bb-aim-error {
+  background: rgba(255, 90, 122, 0.15);
+  color: #FF5A7A;
+  border: 1px solid rgba(255, 90, 122, 0.3);
+}
+
+/* Attached Images Grid */
+.bb-aim-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+}
+
+@media (min-width: 500px) {
+  .bb-aim-gallery-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.bb-aim-card {
+  background: rgba(25, 7, 12, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.bb-aim-card.is-primary {
+  border-color: #E5B869;
+  box-shadow: 0 0 12px rgba(229, 184, 105, 0.3);
+}
+
+.bb-aim-img-wrapper {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  background: #000;
+}
+
+.bb-aim-thumb-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bb-aim-primary-badge {
+  position: absolute;
+  top: 0.4rem;
+  left: 0.4rem;
+  background: #E5B869;
+  color: #240B12;
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+}
+
+.bb-aim-card-controls {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.3rem;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.bb-aim-order-btns {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.bb-aim-icon-btn {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: #FFF;
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.bb-aim-icon-btn:disabled {
+  opacity: 0.3;
+}
+
+.bb-aim-index-num {
+  font-size: 0.72rem;
+  color: #A98088;
+}
+
+.bb-aim-action-btn {
+  font-size: 0.7rem;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #CDB3B8;
+  padding: 0.25rem 0.45rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.bb-aim-action-btn.is-active-star {
+  background: rgba(229, 184, 105, 0.2);
+  color: #E5B869;
+  border-color: #E5B869;
+}
+
+.bb-aim-delete-btn {
+  background: transparent;
+  border: none;
+  color: #FF5A7A;
+  padding: 0.2rem;
+  cursor: pointer;
+}
+
+.bb-aim-trash-svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+.bb-aim-empty {
+  text-align: center;
+  padding: 1.5rem;
+  color: #A98088;
+  font-size: 0.85rem;
+}
+
+/* ==========================================================================
+   Product Editor Form
+   ========================================================================== */
+.bb-admin-editor-wrap {
+  max-width: 780px;
+  margin: 0 auto;
+  padding-bottom: 6rem;
+}
+
+.bb-admin-editor-header {
+  position: sticky;
+  top: 56px;
+  background: rgba(24, 7, 12, 0.96);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(229, 184, 105, 0.25);
+  padding: 0.85rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  z-index: 80;
+}
+
+.bb-editor-back-btn {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #F8ECEE;
+  padding: 0.45rem 0.85rem;
+  border-radius: 8px;
+  font-size: 0.82rem;
+  cursor: pointer;
+}
+
+.bb-editor-header-title {
+  flex: 1;
+  text-align: center;
+}
+
+.bb-editor-header-title h3 {
+  font-family: 'Cinzel', serif;
+  font-size: 1.05rem;
+  color: #FFF2D6;
+  margin: 0;
+}
+
+.bb-editor-header-sub {
+  font-size: 0.72rem;
+  color: #A98088;
+  display: block;
+}
+
+.bb-editor-save-head-btn {
+  background: linear-gradient(135deg, #CF2A52 0%, #A81B3E 100%);
+  color: #FFF;
+  border: none;
+  padding: 0.45rem 1.1rem;
+  border-radius: 8px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.bb-editor-error-banner {
+  background: #380C14;
+  color: #FF7B92;
+  border: 1px solid #FF5A7A;
+  padding: 0.85rem;
+  margin: 1rem;
+  border-radius: 10px;
+  font-size: 0.88rem;
+}
+
+.bb-admin-editor-form {
+  padding: 1rem;
+}
+
+.bb-editor-section {
+  background: rgba(30, 9, 16, 0.8);
+  border: 1px solid rgba(229, 184, 105, 0.2);
+  border-radius: 16px;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.bb-section-heading {
+  font-family: 'Cinzel', serif;
+  font-size: 1.05rem;
+  color: #E5B869;
+  margin: 0 0 1rem;
+  letter-spacing: 0.04em;
+}
+
+.bb-form-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.bb-field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.bb-field-group label {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #CDB3B8;
+}
+
+.bb-field-row-two {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 500px) {
+  .bb-field-row-two {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.bb-input-field,
+.bb-select-field,
+.bb-textarea-field {
+  width: 100%;
+  background: rgba(15, 4, 8, 0.7);
+  border: 1px solid rgba(229, 184, 105, 0.25);
+  color: #FFF2D6;
+  border-radius: 10px;
+  padding: 0.7rem 0.85rem;
+  font-size: 0.9rem;
+  font-family: inherit;
+  outline: none;
+}
+
+.bb-input-field:focus,
+.bb-select-field:focus,
+.bb-textarea-field:focus {
+  border-color: #E5B869;
+}
+
+.bb-price-input-row {
+  display: flex;
+  align-items: center;
+  background: rgba(15, 4, 8, 0.7);
+  border: 1px solid rgba(229, 184, 105, 0.25);
+  border-radius: 10px;
+  padding: 0 0.85rem;
+}
+
+.bb-curr-symbol {
+  font-weight: 700;
+  color: #E5B869;
+  font-size: 1.1rem;
+  margin-right: 0.4rem;
+}
+
+.bb-rent-field {
+  border: none;
+  background: transparent;
+  padding: 0.7rem 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #FF5A7A;
+}
+
+.bb-per-day {
+  font-size: 0.8rem;
+  color: #A98088;
+}
+
+.bb-rent-presets {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+
+.bb-preset-chip {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #CDB3B8;
+  padding: 0.3rem 0.65rem;
+  border-radius: 6px;
+  font-size: 0.78rem;
+  cursor: pointer;
+}
+
+.bb-preset-chip.is-selected {
+  background: rgba(207, 42, 82, 0.25);
+  border-color: #CF2A52;
+  color: #FF7B92;
+  font-weight: 600;
+}
+
+/* Sticky Mobile Bottom Footer */
+.bb-editor-sticky-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(20, 6, 11, 0.98);
+  backdrop-filter: blur(14px);
+  border-top: 1px solid rgba(229, 184, 105, 0.3);
+  padding: 0.85rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  z-index: 100;
+}
+
+.bb-editor-delete-action {
+  background: rgba(255, 90, 122, 0.12);
+  color: #FF5A7A;
+  border: 1px solid rgba(255, 90, 122, 0.3);
+  padding: 0.65rem 1rem;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.bb-editor-footer-right {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-left: auto;
+}
+
+.bb-editor-cancel-action {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #CDB3B8;
+  padding: 0.65rem 1rem;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.bb-editor-save-action {
+  background: linear-gradient(135deg, #CF2A52 0%, #A81B3E 100%);
+  color: #FFF;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 0.65rem 1.4rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(207, 42, 82, 0.4);
+}

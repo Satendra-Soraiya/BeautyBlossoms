@@ -127,7 +127,7 @@ export default function BrandFooter({ onAboutClick }) {
               © {CURRENT_YEAR} BeautyBlossoms. All rights reserved.
             </p>
             <p className="bb-policy-note">
-              Bhopal Boutique Showcase • Direct In-Studio Purchase Only
+              Bhopal Boutique Showcase • Direct In-Studio Purchase Only • <a href="#admin" className="bb-footer-admin-link" title="Staff Boutique Portal">Staff Portal ✦</a>
             </p>
           </div>
         </div>
