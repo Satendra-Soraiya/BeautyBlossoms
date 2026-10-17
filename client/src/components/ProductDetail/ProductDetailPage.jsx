@@ -107,13 +107,32 @@ export default function ProductDetailPage({
             <span className="bb-product-code-pill">({product.productCode})</span>
           </div>
 
-          <div className="bb-product-price-row">
-            <span className="bb-product-price-amount">{product.formattedPrice}</span>
-            {product.availability && (
-              <span className={`bb-product-status-tag bb-badge-${product.availabilityBadge || 'available'}`}>
-                ● {product.availability}
-              </span>
-            )}
+          {/* Slay Callout */}
+          <div className="bb-detail-slay-banner" aria-label="Rent for Garba night and slay">
+            <span className="bb-detail-slay-sparkle" aria-hidden="true">✨</span>
+            <span className="bb-detail-slay-text">Rent for Garba night and slay</span>
+            <span className="bb-detail-slay-badge">Rent & Buy Available</span>
+          </div>
+
+          {/* Dual Pricing Card (Rent for Garba vs Direct Purchase) */}
+          <div className="bb-detail-pricing-card">
+            <div className="bb-pricing-tier bb-tier-rental">
+              <span className="bb-tier-tag">1-DAY GARBA RENTAL</span>
+              <div className="bb-tier-price-row">
+                <span className="bb-tier-price">{product.formattedRentPrice || '₹799 / day'}</span>
+              </div>
+              <span className="bb-tier-sub">₹500 to ₹1,000 for 1-day Dandiya & Garba events</span>
+            </div>
+
+            <div className="bb-pricing-divider" aria-hidden="true" />
+
+            <div className="bb-pricing-tier bb-tier-buy">
+              <span className="bb-tier-tag bb-tag-buy">DIRECT PURCHASE</span>
+              <div className="bb-tier-price-row">
+                <span className="bb-tier-price bb-price-buy">{product.formattedPrice}</span>
+              </div>
+              <span className="bb-tier-sub">Buy to own · Authentic handloom craftsmanship</span>
+            </div>
           </div>
 
           {/* Description */}

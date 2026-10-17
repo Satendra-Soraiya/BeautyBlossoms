@@ -85,7 +85,8 @@ products.forEach((p) => {
 
   const insertSql = `INSERT INTO public.lehenga_products (
   id, slug, product_code, name, collection, tagline,
-  price, formatted_price, availability, availability_badge,
+  price, formatted_price, rent_price, formatted_rent_price, slay_tagline,
+  availability, availability_badge,
   category, category_label, featured, thumbnail, images,
   description, details, size_fitting, booking_info, sort_order
 ) VALUES (
@@ -97,6 +98,9 @@ products.forEach((p) => {
   '${escapeSql(p.tagline)}',
   ${p.price},
   '${escapeSql(p.formattedPrice)}',
+  ${p.rentPrice},
+  '${escapeSql(p.formattedRentPrice)}',
+  '${escapeSql(p.slayTagline)}',
   '${escapeSql(p.availability)}',
   '${escapeSql(p.availabilityBadge)}',
   '${escapeSql(p.category)}',
@@ -114,6 +118,11 @@ products.forEach((p) => {
   tagline = EXCLUDED.tagline,
   price = EXCLUDED.price,
   formatted_price = EXCLUDED.formatted_price,
+  rent_price = EXCLUDED.rent_price,
+  formatted_rent_price = EXCLUDED.formatted_rent_price,
+  slay_tagline = EXCLUDED.slay_tagline,
+  availability = EXCLUDED.availability,
+  availability_badge = EXCLUDED.availability_badge,
   category = EXCLUDED.category,
   category_label = EXCLUDED.category_label,
   featured = EXCLUDED.featured,

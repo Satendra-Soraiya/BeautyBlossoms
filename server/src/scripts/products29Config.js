@@ -415,6 +415,13 @@ export const PRODUCTS_CONFIG = [
   },
 ];
 
+// 1-Day Rental prices between ₹500 and ₹1,000
+const RENT_TIERS = [
+  799, 699, 899, 799, 849, 749, 899, 699, 599, 799,
+  699, 899, 749, 999, 699, 749, 899, 699, 999, 799,
+  749, 849, 899, 949, 999, 799, 849, 699, 899
+];
+
 // Helper to generate full product object
 export function buildProductRecord(item) {
   const pad = String(item.index).padStart(2, '0');
@@ -423,6 +430,9 @@ export function buildProductRecord(item) {
   const slug = `bb-${pad}`;
   const thumbnail = `/products/bb-${pad}.webp`;
   const formattedPrice = `₹${item.price.toLocaleString('en-IN')}`;
+  
+  const rentPrice = RENT_TIERS[(item.index - 1) % RENT_TIERS.length] || 799;
+  const formattedRentPrice = `₹${rentPrice} / day`;
 
   return {
     id,
@@ -431,10 +441,16 @@ export function buildProductRecord(item) {
     name: item.name,
     collection: 'Dandiya Night Lehengas',
     tagline: item.tagline,
+    slayTagline: 'Rent for Garba night and slay',
+    rentPrice,
+    formattedRentPrice,
+    rentalPeriod: '1 Day',
     price: item.price,
     formattedPrice,
-    availability: 'In Stock',
-    availabilityBadge: 'in-stock',
+    buyPrice: item.price,
+    formattedBuyPrice: formattedPrice,
+    availability: 'Rent & Buy',
+    availabilityBadge: 'rent-and-buy',
     category: item.category,
     categoryLabel: item.categoryLabel,
     featured: Boolean(item.featured),
@@ -446,7 +462,7 @@ export function buildProductRecord(item) {
         alt: `${item.name} (${productCode}) — Dandiya Night Lehenga`,
       },
     ],
-    description: `A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.`,
+    description: `A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.`,
     details: {
       colour: item.colour,
       fabric: item.fabric,
@@ -463,9 +479,12 @@ export function buildProductRecord(item) {
       waistFitting: 'Adjustable drawstring tie-up with matching tassels',
     },
     bookingInfo: {
-      status: 'Ready for studio trial & in-person purchase.',
-      trials: 'Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal).',
+      status: 'Available to Rent for Garba Night & Direct In-Studio Purchase.',
+      rental: `${formattedRentPrice} (1-Day Garba Rental)`,
+      purchase: `${formattedPrice} (Buy to Own)`,
+      trials: 'Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal).',
     },
     sortOrder: item.index,
   };
 }
+

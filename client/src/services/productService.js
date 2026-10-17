@@ -58,6 +58,12 @@ export function normalizeProduct(item) {
     return val;
   };
 
+  const rentPrice = Number(item.rent_price || item.rentPrice) || 799;
+  const formattedRentPrice =
+    item.formatted_rent_price ||
+    item.formattedRentPrice ||
+    `₹${rentPrice} / day`;
+
   return {
     id,
     slug: item.slug || id,
@@ -65,10 +71,16 @@ export function normalizeProduct(item) {
     name,
     collection: item.collection || 'Dandiya Night Lehengas',
     tagline: item.tagline || 'Exquisite handcrafted bridal & festive couture',
+    slayTagline: item.slay_tagline || item.slayTagline || 'Rent for Garba night and slay',
+    rentPrice,
+    formattedRentPrice,
+    rentalPeriod: '1 Day',
     price,
     formattedPrice,
-    availability: item.availability || 'In Stock',
-    availabilityBadge: item.availability_badge || item.availabilityBadge || 'in-stock',
+    buyPrice: price,
+    formattedBuyPrice: formattedPrice,
+    availability: item.availability || 'Rent & Buy',
+    availabilityBadge: item.availability_badge || item.availabilityBadge || 'rent-and-buy',
     category: item.category || 'rani-pink',
     categoryLabel: item.category_label || item.categoryLabel || 'Rani Pink',
     featured: Boolean(item.featured),

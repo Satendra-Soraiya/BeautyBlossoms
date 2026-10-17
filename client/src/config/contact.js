@@ -43,8 +43,9 @@ export const CONTACT_CONFIG = {
   /**
    * Generates WhatsApp prefilled enquiry link for a specific lehenga product.
    */
-  getWhatsAppEnquiryUrl: (productName, productCode) => {
-    const text = `Hello Beauty Blossoms! I would like to enquire about ${productName} (Code: ${productCode}). Could you please share its availability and booking details?`;
+  getWhatsAppEnquiryUrl: (productName, productCode, formattedRentPrice) => {
+    const rentText = formattedRentPrice ? ` to rent for Garba night (${formattedRentPrice}) or purchase` : ' to rent for Garba night or buy';
+    const text = `Hello Beauty Blossoms! I would like to enquire about ${productName} (Code: ${productCode})${rentText}. Could you please share its availability and studio trial details?`;
     return `https://wa.me/918516051495?text=${encodeURIComponent(text)}`;
   },
 

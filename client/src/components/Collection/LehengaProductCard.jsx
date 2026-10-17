@@ -20,8 +20,6 @@ export default function LehengaProductCard({
     productCode,
     name,
     formattedPrice,
-    availability,
-    availabilityBadge,
     thumbnail,
   } = product;
 
@@ -37,8 +35,6 @@ export default function LehengaProductCard({
       onToggleFavorite(product.id);
     }
   };
-
-  const badgeClass = `bb-product-badge bb-badge-${availabilityBadge || 'available'}`;
 
   const handleImageError = (e) => {
     if (e.currentTarget.dataset.fallbackApplied) return;
@@ -99,11 +95,9 @@ export default function LehengaProductCard({
         </button>
 
         {/* Availability Badge */}
-        {availability && (
-          <span className={badgeClass}>
-            {availability}
-          </span>
-        )}
+        <span className="bb-product-badge bb-badge-rent-and-buy">
+          Rent & Buy
+        </span>
       </div>
 
       {/* Product Card Information */}
@@ -111,9 +105,16 @@ export default function LehengaProductCard({
         <span className="bb-card-code">{productCode}</span>
         <h3 className="bb-card-title">{name}</h3>
         <div className="bb-card-footer-row">
-          <span className="bb-card-price">{formattedPrice}</span>
+          <div className="bb-card-pricing-dual">
+            <span className="bb-card-rent-price">
+              <span className="bb-rent-lbl">Rent</span> {product.formattedRentPrice || '₹799 / day'}
+            </span>
+            <span className="bb-card-buy-price">
+              <span className="bb-buy-lbl">Buy</span> {formattedPrice}
+            </span>
+          </div>
           <span className="bb-card-view-btn" aria-hidden="true">
-            View Details →
+            View →
           </span>
         </div>
       </div>

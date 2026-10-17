@@ -73,9 +73,20 @@ export default function DandiyaCollectionSection({
           </div>
           
           <h2 className="bb-collection-title">Dandiya Night Lehengas</h2>
+
+          {/* Slay & Rental Banner */}
+          <div className="bb-collection-slay-banner" aria-label="Rent for Garba night and slay">
+            <div className="bb-slay-badge-tag">
+              <span className="bb-sparkle-icon" aria-hidden="true">✨</span>
+              <span className="bb-slay-headline">Rent for Garba night and slay</span>
+            </div>
+            <p className="bb-slay-rental-info">
+              1-Day Garba Rentals from <strong>₹500 to ₹1,000 / day</strong> · Purchase options also available
+            </p>
+          </div>
           
           <p className="bb-collection-tagline">
-            Celebrate every twirl in an outfit made for unforgettable Navratri nights.
+            Celebrate every twirl in an authentic handcrafted outfit. In-studio trials & bookings in Bhopal.
           </p>
         </header>
 

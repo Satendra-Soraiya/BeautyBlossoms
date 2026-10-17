@@ -74,17 +74,63 @@
   font-size: clamp(28px, 7.5vw, 36px);
   line-height: 1.15;
   color: #641527;
-  margin: 0 0 8px 0;
+  margin: 0 0 10px 0;
   letter-spacing: -0.01em;
+}
+
+/* Slay & Rental Banner Callout */
+.bb-collection-slay-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  margin: 0 auto 12px auto;
+  max-width: 440px;
+}
+
+.bb-slay-badge-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: linear-gradient(135deg, rgba(207, 34, 80, 0.12) 0%, rgba(140, 25, 53, 0.08) 100%);
+  border: 1px solid rgba(207, 42, 82, 0.28);
+  padding: 5px 14px;
+  border-radius: 9999px;
+}
+
+.bb-sparkle-icon {
+  font-size: 13px;
+}
+
+.bb-slay-headline {
+  font-family: var(--font-sans-body);
+  font-size: clamp(12.5px, 3.2vw, 13.5px);
+  font-weight: 700;
+  color: #8C1935;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+}
+
+.bb-slay-rental-info {
+  font-family: var(--font-sans-body);
+  font-size: clamp(11.5px, 2.9vw, 12.5px);
+  color: #6E3240;
+  margin: 0;
+  line-height: 1.35;
+}
+
+.bb-slay-rental-info strong {
+  color: #8C1935;
+  font-weight: 700;
 }
 
 .bb-collection-tagline {
   font-family: var(--font-sans-body);
-  font-size: clamp(13px, 3.4vw, 14.5px);
+  font-size: clamp(12.5px, 3.1vw, 13.5px);
   font-weight: 400;
   line-height: 1.4;
-  color: #5A3D44;
-  max-width: 340px;
+  color: #6B4E55;
+  max-width: 380px;
   margin: 0 auto;
   font-style: italic;
 }
@@ -375,6 +421,14 @@
   border: 1px solid rgba(244, 143, 177, 0.5);
 }
 
+.bb-badge-rent-and-buy {
+  background: rgba(255, 255, 255, 0.95);
+  color: #8C1935;
+  border: 1px solid rgba(207, 42, 82, 0.35);
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
 /* Card Content */
 .bb-card-content {
   padding: 10px 10px 12px;
@@ -407,9 +461,51 @@
 
 .bb-card-footer-row {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
-  margin-top: 4px;
+  margin-top: 5px;
+}
+
+/* Dual Pricing (Rent & Buy) */
+.bb-card-pricing-dual {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.bb-card-rent-price {
+  font-family: var(--font-sans-body);
+  font-size: clamp(12.5px, 3.3vw, 14px);
+  font-weight: 700;
+  color: #8C1935;
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.bb-rent-lbl {
+  font-size: 9.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #CF2A52;
+  letter-spacing: 0.05em;
+}
+
+.bb-card-buy-price {
+  font-family: var(--font-sans-body);
+  font-size: 11px;
+  color: #8C6A72;
+  font-weight: 500;
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.bb-buy-lbl {
+  font-size: 9px;
+  text-transform: uppercase;
+  color: #A8868E;
+  font-weight: 600;
 }
 
 .bb-card-price {
@@ -424,7 +520,8 @@
   font-size: 11px;
   font-weight: 600;
   color: #CF2A52;
-  opacity: 0.9;
+  opacity: 0.95;
+  padding-bottom: 2px;
   transition: transform 0.2s ease;
 }
 

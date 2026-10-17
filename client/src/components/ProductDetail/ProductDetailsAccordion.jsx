@@ -135,7 +135,7 @@ export default function ProductDetailsAccordion({ product }) {
     },
     {
       key: 'booking',
-      title: 'Studio Trials & In-Person Viewing',
+      title: 'Garba 1-Day Rental & Purchase Policy',
       icon: (
         <svg className="bb-accordion-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
@@ -145,11 +145,15 @@ export default function ProductDetailsAccordion({ product }) {
       content: (
         <dl className="bb-details-list">
           <div className="bb-detail-row">
-            <dt>Trial & Viewing:</dt>
-            <dd className="bb-highlight-text">Available directly at our Bhopal Studio</dd>
+            <dt>1-Day Garba Rental:</dt>
+            <dd className="bb-highlight-text">₹500 to ₹1,000 / day — Rent for your Garba night and slay!</dd>
           </div>
           <div className="bb-detail-row">
-            <dt>Studio Address:</dt>
+            <dt>Direct Purchase:</dt>
+            <dd>You can also purchase this outfit directly to own forever.</dd>
+          </div>
+          <div className="bb-detail-row">
+            <dt>Studio Trials & Fitting:</dt>
             <dd>184, Press Colony, Anand Nagar, Bhopal, Madhya Pradesh</dd>
           </div>
           <div className="bb-detail-row">
@@ -157,12 +161,12 @@ export default function ProductDetailsAccordion({ product }) {
             <dd>10:00 AM – 7:00 PM</dd>
           </div>
           <div className="bb-detail-row">
-            <dt>How to Book:</dt>
-            <dd>Visit our studio directly or enquire on WhatsApp (+91 85160 51495) before your visit to confirm outfit availability.</dd>
+            <dt>How to Reserve:</dt>
+            <dd>Enquire on WhatsApp (+91 85160 51495) to reserve your 1-day rental date or visit our Bhopal studio directly.</dd>
           </div>
           <div className="bb-detail-row">
-            <dt>Purchase Policy:</dt>
-            <dd>Direct in-studio purchase only. No online courier or home delivery.</dd>
+            <dt>Pick-up & Trials:</dt>
+            <dd>Direct in-studio trials and pick-up only in Bhopal.</dd>
           </div>
         </dl>
       ),

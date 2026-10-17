@@ -15,10 +15,16 @@ export const LEHENGA_PRODUCTS = [
     "name": "BB-01 Patola Twirl Dandiya Lehenga",
     "collection": "Dandiya Night Lehengas",
     "tagline": "Ivory kalidar silk with heritage red Patola arches and hand-stitched gota patti",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 799,
+    "formattedRentPrice": "₹799 / day",
+    "rentalPeriod": "1 Day",
     "price": 34999,
     "formattedPrice": "₹34,999",
-    "availability": "In Stock",
-    "availabilityBadge": "in-stock",
+    "buyPrice": 34999,
+    "formattedBuyPrice": "₹34,999",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
     "category": "festive-special",
     "categoryLabel": "Festive Special",
     "featured": true,
@@ -30,7 +36,7 @@ export const LEHENGA_PRODUCTS = [
         "alt": "BB-01 Patola Twirl Dandiya Lehenga (BB-01) — Dandiya Night Lehenga"
       }
     ],
-    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
     "details": {
       "colour": "Ivory Cream & Sindoor Red with Gold Zari",
       "fabric": "Pure Raw Silk with Bandhani Chiffon Dupatta",
@@ -47,8 +53,10 @@ export const LEHENGA_PRODUCTS = [
       "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
     "bookingInfo": {
-      "status": "Ready for studio trial & in-person purchase.",
-      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹799 / day (1-Day Garba Rental)",
+      "purchase": "₹34,999 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
     "sortOrder": 1
   },
@@ -59,10 +67,16 @@ export const LEHENGA_PRODUCTS = [
     "name": "BB-02 Haldi Bandhani Twirl Lehenga",
     "collection": "Dandiya Night Lehengas",
     "tagline": "Sunshine yellow flared silk with scarlet Bandhani dupatta and kundan accents",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 699,
+    "formattedRentPrice": "₹699 / day",
+    "rentalPeriod": "1 Day",
     "price": 33499,
     "formattedPrice": "₹33,499",
-    "availability": "In Stock",
-    "availabilityBadge": "in-stock",
+    "buyPrice": 33499,
+    "formattedBuyPrice": "₹33,499",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
     "category": "sunshine-yellow",
     "categoryLabel": "Sunshine Yellow",
     "featured": true,
@@ -74,7 +88,7 @@ export const LEHENGA_PRODUCTS = [
         "alt": "BB-02 Haldi Bandhani Twirl Lehenga (BB-02) — Dandiya Night Lehenga"
       }
     ],
-    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
     "details": {
       "colour": "Sunshine Yellow & Scarlet Red with Antique Brass Zari",
       "fabric": "Fine Mulberry Silk with Authentic Bandhani Dupatta",
@@ -91,8 +105,10 @@ export const LEHENGA_PRODUCTS = [
       "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
     "bookingInfo": {
-      "status": "Ready for studio trial & in-person purchase.",
-      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹699 / day (1-Day Garba Rental)",
+      "purchase": "₹33,499 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
     "sortOrder": 2
   },
@@ -103,10 +119,16 @@ export const LEHENGA_PRODUCTS = [
     "name": "BB-03 Midnight Sitara Dandiya Lehenga",
     "collection": "Dandiya Night Lehengas",
     "tagline": "Midnight velvet-silk blend with multi-hued resham florals and dazzling mirror work",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 899,
+    "formattedRentPrice": "₹899 / day",
+    "rentalPeriod": "1 Day",
     "price": 36999,
     "formattedPrice": "₹36,999",
-    "availability": "In Stock",
-    "availabilityBadge": "in-stock",
+    "buyPrice": 36999,
+    "formattedBuyPrice": "₹36,999",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
     "category": "festive-special",
     "categoryLabel": "Festive Special",
     "featured": false,
@@ -118,7 +140,7 @@ export const LEHENGA_PRODUCTS = [
         "alt": "BB-03 Midnight Sitara Dandiya Lehenga (BB-03) — Dandiya Night Lehenga"
       }
     ],
-    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
     "details": {
       "colour": "Midnight Black & Multi-Color Resham with Silver Mirror",
       "fabric": "Micro-Velvet & Heavy Georgette with Embellished Net Dupatta",
@@ -135,8 +157,10 @@ export const LEHENGA_PRODUCTS = [
       "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
     "bookingInfo": {
-      "status": "Ready for studio trial & in-person purchase.",
-      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹899 / day (1-Day Garba Rental)",
+      "purchase": "₹36,999 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
     "sortOrder": 3
   },
@@ -147,10 +171,16 @@ export const LEHENGA_PRODUCTS = [
     "name": "BB-04 Royal Kutch Heritage Lehenga",
     "collection": "Dandiya Night Lehengas",
     "tagline": "Generational Gujarati Kutch motif panels with abhala mirror craftsmanship",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 799,
+    "formattedRentPrice": "₹799 / day",
+    "rentalPeriod": "1 Day",
     "price": 35999,
     "formattedPrice": "₹35,999",
-    "availability": "In Stock",
-    "availabilityBadge": "in-stock",
+    "buyPrice": 35999,
+    "formattedBuyPrice": "₹35,999",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
     "category": "festive-special",
     "categoryLabel": "Festive Special",
     "featured": false,
@@ -162,7 +192,7 @@ export const LEHENGA_PRODUCTS = [
         "alt": "BB-04 Royal Kutch Heritage Lehenga (BB-04) — Dandiya Night Lehenga"
       }
     ],
-    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
     "details": {
       "colour": "Deep Charcoal & Vibrant Jewel Tones",
       "fabric": "Pure Silk Dupion with Banarasi Weave Dupatta",
@@ -179,8 +209,10 @@ export const LEHENGA_PRODUCTS = [
       "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
     "bookingInfo": {
-      "status": "Ready for studio trial & in-person purchase.",
-      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹799 / day (1-Day Garba Rental)",
+      "purchase": "₹35,999 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
     "sortOrder": 4
   },
@@ -191,10 +223,16 @@ export const LEHENGA_PRODUCTS = [
     "name": "BB-05 Neelambari Indigo Lehenga",
     "collection": "Dandiya Night Lehengas",
     "tagline": "Deep indigo-plum kalis accented with silver gota and antique threadwork",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 849,
+    "formattedRentPrice": "₹849 / day",
+    "rentalPeriod": "1 Day",
     "price": 37999,
     "formattedPrice": "₹37,999",
-    "availability": "In Stock",
-    "availabilityBadge": "in-stock",
+    "buyPrice": 37999,
+    "formattedBuyPrice": "₹37,999",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
     "category": "royal-plum",
     "categoryLabel": "Royal Plum",
     "featured": false,
@@ -206,7 +244,7 @@ export const LEHENGA_PRODUCTS = [
         "alt": "BB-05 Neelambari Indigo Lehenga (BB-05) — Dandiya Night Lehenga"
       }
     ],
-    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
     "details": {
       "colour": "Royal Indigo Plum with Antique Silver Filigree",
       "fabric": "Chanderi Silk with Sheer Organza Embellished Dupatta",
@@ -223,8 +261,10 @@ export const LEHENGA_PRODUCTS = [
       "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
     "bookingInfo": {
-      "status": "Ready for studio trial & in-person purchase.",
-      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹849 / day (1-Day Garba Rental)",
+      "purchase": "₹37,999 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
     "sortOrder": 5
   },
@@ -235,10 +275,16 @@ export const LEHENGA_PRODUCTS = [
     "name": "BB-06 Mayur Pankh Festive Lehenga",
     "collection": "Dandiya Night Lehengas",
     "tagline": "Peacock-inspired indigo flare with shimmering antique sequins and resham",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 749,
+    "formattedRentPrice": "₹749 / day",
+    "rentalPeriod": "1 Day",
     "price": 38499,
     "formattedPrice": "₹38,499",
-    "availability": "In Stock",
-    "availabilityBadge": "in-stock",
+    "buyPrice": 38499,
+    "formattedBuyPrice": "₹38,499",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
     "category": "royal-plum",
     "categoryLabel": "Royal Plum",
     "featured": false,
@@ -250,7 +296,7 @@ export const LEHENGA_PRODUCTS = [
         "alt": "BB-06 Mayur Pankh Festive Lehenga (BB-06) — Dandiya Night Lehenga"
       }
     ],
-    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
     "details": {
       "colour": "Deep Royal Indigo with Emerald & Teal Undertones",
       "fabric": "Pure Mulberry Silk with Organza Dupatta",
@@ -267,8 +313,10 @@ export const LEHENGA_PRODUCTS = [
       "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
     "bookingInfo": {
-      "status": "Ready for studio trial & in-person purchase.",
-      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹749 / day (1-Day Garba Rental)",
+      "purchase": "₹38,499 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
     "sortOrder": 6
   },
@@ -279,10 +327,16 @@ export const LEHENGA_PRODUCTS = [
     "name": "BB-07 Noor-e-Bahar Ivory Blush Lehenga",
     "collection": "Dandiya Night Lehengas",
     "tagline": "Ethereal pastel ivory silk illuminated with champagne gota and pearl seedwork",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 899,
+    "formattedRentPrice": "₹899 / day",
+    "rentalPeriod": "1 Day",
     "price": 39999,
     "formattedPrice": "₹39,999",
-    "availability": "In Stock",
-    "availabilityBadge": "in-stock",
+    "buyPrice": 39999,
+    "formattedBuyPrice": "₹39,999",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
     "category": "blush-pink",
     "categoryLabel": "Blush Dream",
     "featured": true,
@@ -294,7 +348,7 @@ export const LEHENGA_PRODUCTS = [
         "alt": "BB-07 Noor-e-Bahar Ivory Blush Lehenga (BB-07) — Dandiya Night Lehenga"
       }
     ],
-    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
     "details": {
       "colour": "Soft Ivory Cream & Champagne Gold",
       "fabric": "Fine Georgette with Organza Silk Dupatta",
@@ -311,8 +365,10 @@ export const LEHENGA_PRODUCTS = [
       "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
     "bookingInfo": {
-      "status": "Ready for studio trial & in-person purchase.",
-      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹899 / day (1-Day Garba Rental)",
+      "purchase": "₹39,999 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
     "sortOrder": 7
   },
@@ -323,10 +379,16 @@ export const LEHENGA_PRODUCTS = [
     "name": "BB-08 Kesar Chand Sunshine Lehenga",
     "collection": "Dandiya Night Lehengas",
     "tagline": "Radiant kesar mustard silk adorned with real mirror discs and scarlet border",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 699,
+    "formattedRentPrice": "₹699 / day",
+    "rentalPeriod": "1 Day",
     "price": 32499,
     "formattedPrice": "₹32,499",
-    "availability": "In Stock",
-    "availabilityBadge": "in-stock",
+    "buyPrice": 32499,
+    "formattedBuyPrice": "₹32,499",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
     "category": "sunshine-yellow",
     "categoryLabel": "Sunshine Yellow",
     "featured": true,
@@ -338,7 +400,7 @@ export const LEHENGA_PRODUCTS = [
         "alt": "BB-08 Kesar Chand Sunshine Lehenga (BB-08) — Dandiya Night Lehenga"
       }
     ],
-    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
     "details": {
       "colour": "Mustard Saffron Yellow & Crimson Red",
       "fabric": "Pure Silk with Bandhej Print Dupatta",
@@ -355,8 +417,10 @@ export const LEHENGA_PRODUCTS = [
       "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
     "bookingInfo": {
-      "status": "Ready for studio trial & in-person purchase.",
-      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹699 / day (1-Day Garba Rental)",
+      "purchase": "₹32,499 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
     "sortOrder": 8
   },
@@ -367,10 +431,16 @@ export const LEHENGA_PRODUCTS = [
     "name": "BB-09 Marigold Utsav Flare Lehenga",
     "collection": "Dandiya Night Lehengas",
     "tagline": "Celebratory marigold yellow flare with geometric mirror borders and bandhani choli",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 599,
+    "formattedRentPrice": "₹599 / day",
+    "rentalPeriod": "1 Day",
     "price": 31999,
     "formattedPrice": "₹31,999",
-    "availability": "In Stock",
-    "availabilityBadge": "in-stock",
+    "buyPrice": 31999,
+    "formattedBuyPrice": "₹31,999",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
     "category": "sunshine-yellow",
     "categoryLabel": "Sunshine Yellow",
     "featured": false,
@@ -382,7 +452,7 @@ export const LEHENGA_PRODUCTS = [
         "alt": "BB-09 Marigold Utsav Flare Lehenga (BB-09) — Dandiya Night Lehenga"
       }
     ],
-    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
     "details": {
       "colour": "Deep Marigold Gold with Vermilion Accents",
       "fabric": "Raw Silk with Chiffon Leheriya Dupatta",
@@ -399,8 +469,10 @@ export const LEHENGA_PRODUCTS = [
       "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
     "bookingInfo": {
-      "status": "Ready for studio trial & in-person purchase.",
-      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹599 / day (1-Day Garba Rental)",
+      "purchase": "₹31,999 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
     "sortOrder": 9
   },
@@ -411,10 +483,16 @@ export const LEHENGA_PRODUCTS = [
     "name": "BB-10 Gulab Vilas Rani Pink Lehenga",
     "collection": "Dandiya Night Lehengas",
     "tagline": "Classic Rajasthani rani pink silk featuring leheriya stripes and heavy mirror waistband",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 799,
+    "formattedRentPrice": "₹799 / day",
+    "rentalPeriod": "1 Day",
     "price": 36499,
     "formattedPrice": "₹36,499",
-    "availability": "In Stock",
-    "availabilityBadge": "in-stock",
+    "buyPrice": 36499,
+    "formattedBuyPrice": "₹36,499",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
     "category": "rani-pink",
     "categoryLabel": "Rani Pink",
     "featured": true,
@@ -426,7 +504,7 @@ export const LEHENGA_PRODUCTS = [
         "alt": "BB-10 Gulab Vilas Rani Pink Lehenga (BB-10) — Dandiya Night Lehenga"
       }
     ],
-    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
     "details": {
       "colour": "Deep Rani Pink & Sun Gold with Mustard Dupatta",
       "fabric": "Handwoven Raw Silk with Pure Georgette Dupatta",
@@ -443,8 +521,10 @@ export const LEHENGA_PRODUCTS = [
       "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
     "bookingInfo": {
-      "status": "Ready for studio trial & in-person purchase.",
-      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹799 / day (1-Day Garba Rental)",
+      "purchase": "₹36,499 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
     "sortOrder": 10
   },
@@ -455,10 +535,16 @@ export const LEHENGA_PRODUCTS = [
     "name": "BB-11 Amber Sitara Dandiya Lehenga",
     "collection": "Dandiya Night Lehengas",
     "tagline": "Warm amber tones intertwined with intricate tribal resham borders",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 699,
+    "formattedRentPrice": "₹699 / day",
+    "rentalPeriod": "1 Day",
     "price": 34999,
     "formattedPrice": "₹34,999",
-    "availability": "In Stock",
-    "availabilityBadge": "in-stock",
+    "buyPrice": 34999,
+    "formattedBuyPrice": "₹34,999",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
     "category": "festive-special",
     "categoryLabel": "Festive Special",
     "featured": false,
@@ -470,7 +556,7 @@ export const LEHENGA_PRODUCTS = [
         "alt": "BB-11 Amber Sitara Dandiya Lehenga (BB-11) — Dandiya Night Lehenga"
       }
     ],
-    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
     "details": {
       "colour": "Warm Amber & Rust Gold with Dark Olive Borders",
       "fabric": "Pure Tussar Silk with Banarasi Border Dupatta",
@@ -487,8 +573,10 @@ export const LEHENGA_PRODUCTS = [
       "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
     "bookingInfo": {
-      "status": "Ready for studio trial & in-person purchase.",
-      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹699 / day (1-Day Garba Rental)",
+      "purchase": "₹34,999 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
     "sortOrder": 11
   },
@@ -499,10 +587,16 @@ export const LEHENGA_PRODUCTS = [
     "name": "BB-12 Padma Rani Festive Lehenga",
     "collection": "Dandiya Night Lehengas",
     "tagline": "Vibrant ruby-rani pink kalidar skirt with dense floral threadwork and gota arches",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 899,
+    "formattedRentPrice": "₹899 / day",
+    "rentalPeriod": "1 Day",
     "price": 38999,
     "formattedPrice": "₹38,999",
-    "availability": "In Stock",
-    "availabilityBadge": "in-stock",
+    "buyPrice": 38999,
+    "formattedBuyPrice": "₹38,999",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
     "category": "rani-pink",
     "categoryLabel": "Rani Pink",
     "featured": true,
@@ -514,7 +608,7 @@ export const LEHENGA_PRODUCTS = [
         "alt": "BB-12 Padma Rani Festive Lehenga (BB-12) — Dandiya Night Lehenga"
       }
     ],
-    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
     "details": {
       "colour": "Ruby Rani Pink with Champagne Threadwork",
       "fabric": "Mulberry Silk with Organza Border Dupatta",
@@ -531,8 +625,10 @@ export const LEHENGA_PRODUCTS = [
       "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
     "bookingInfo": {
-      "status": "Ready for studio trial & in-person purchase.",
-      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹899 / day (1-Day Garba Rental)",
+      "purchase": "₹38,999 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
     "sortOrder": 12
   },
@@ -543,10 +639,16 @@ export const LEHENGA_PRODUCTS = [
     "name": "BB-13 Lalita Crimson Twirl Lehenga",
     "collection": "Dandiya Night Lehengas",
     "tagline": "Festive scarlet-rani silk skirt crafted for dramatic spinning Navratri evenings",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 749,
+    "formattedRentPrice": "₹749 / day",
+    "rentalPeriod": "1 Day",
     "price": 37499,
     "formattedPrice": "₹37,499",
-    "availability": "In Stock",
-    "availabilityBadge": "in-stock",
+    "buyPrice": 37499,
+    "formattedBuyPrice": "₹37,499",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
     "category": "rani-pink",
     "categoryLabel": "Rani Pink",
     "featured": false,
@@ -558,7 +660,7 @@ export const LEHENGA_PRODUCTS = [
         "alt": "BB-13 Lalita Crimson Twirl Lehenga (BB-13) — Dandiya Night Lehenga"
       }
     ],
-    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
     "details": {
       "colour": "Crimson Rani Red with Gold Foil & Zari",
       "fabric": "Heavy Silk with Four-Sided Border Organza Dupatta",
@@ -575,8 +677,10 @@ export const LEHENGA_PRODUCTS = [
       "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
     "bookingInfo": {
-      "status": "Ready for studio trial & in-person purchase.",
-      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹749 / day (1-Day Garba Rental)",
+      "purchase": "₹37,499 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
     "sortOrder": 13
   },
@@ -587,10 +691,16 @@ export const LEHENGA_PRODUCTS = [
     "name": "BB-14 Badshahi Sapphire Plum Lehenga",
     "collection": "Dandiya Night Lehengas",
     "tagline": "Regal sapphire-plum velvet kalis adorned with silver antique zardozi",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 999,
+    "formattedRentPrice": "₹999 / day",
+    "rentalPeriod": "1 Day",
     "price": 41999,
     "formattedPrice": "₹41,999",
-    "availability": "In Stock",
-    "availabilityBadge": "in-stock",
+    "buyPrice": 41999,
+    "formattedBuyPrice": "₹41,999",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
     "category": "royal-plum",
     "categoryLabel": "Royal Plum",
     "featured": false,
@@ -602,7 +712,7 @@ export const LEHENGA_PRODUCTS = [
         "alt": "BB-14 Badshahi Sapphire Plum Lehenga (BB-14) — Dandiya Night Lehenga"
       }
     ],
-    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
     "details": {
       "colour": "Deep Royal Sapphire Plum with Antique Silver Work",
       "fabric": "Silk Velvet & Dupion with Butterfly Net Dupatta",
@@ -619,8 +729,10 @@ export const LEHENGA_PRODUCTS = [
       "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
     "bookingInfo": {
-      "status": "Ready for studio trial & in-person purchase.",
-      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹999 / day (1-Day Garba Rental)",
+      "purchase": "₹41,999 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
     "sortOrder": 14
   },
@@ -631,10 +743,16 @@ export const LEHENGA_PRODUCTS = [
     "name": "BB-15 Shweta Ras Festive Lehenga",
     "collection": "Dandiya Night Lehengas",
     "tagline": "Pristine pearl-white silk with multi-color Rajasthani border accents",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 699,
+    "formattedRentPrice": "₹699 / day",
+    "rentalPeriod": "1 Day",
     "price": 35999,
     "formattedPrice": "₹35,999",
-    "availability": "In Stock",
-    "availabilityBadge": "in-stock",
+    "buyPrice": 35999,
+    "formattedBuyPrice": "₹35,999",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
     "category": "blush-pink",
     "categoryLabel": "Blush Dream",
     "featured": false,
@@ -646,7 +764,7 @@ export const LEHENGA_PRODUCTS = [
         "alt": "BB-15 Shweta Ras Festive Lehenga (BB-15) — Dandiya Night Lehenga"
       }
     ],
-    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
     "details": {
       "colour": "Pristine Pearl White & Multi-Hued Resham",
       "fabric": "Pure Georgette with Chanderi Silk Dupatta",
@@ -663,8 +781,10 @@ export const LEHENGA_PRODUCTS = [
       "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
     "bookingInfo": {
-      "status": "Ready for studio trial & in-person purchase.",
-      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹699 / day (1-Day Garba Rental)",
+      "purchase": "₹35,999 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
     "sortOrder": 15
   },
@@ -675,10 +795,16 @@ export const LEHENGA_PRODUCTS = [
     "name": "BB-16 Sundari Terracotta Festive Lehenga",
     "collection": "Dandiya Night Lehengas",
     "tagline": "Earth-toned terracotta rust silk with authentic Gujarati mirror motifs",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 749,
+    "formattedRentPrice": "₹749 / day",
+    "rentalPeriod": "1 Day",
     "price": 33999,
     "formattedPrice": "₹33,999",
-    "availability": "In Stock",
-    "availabilityBadge": "in-stock",
+    "buyPrice": 33999,
+    "formattedBuyPrice": "₹33,999",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
     "category": "festive-special",
     "categoryLabel": "Festive Special",
     "featured": false,
@@ -690,7 +816,7 @@ export const LEHENGA_PRODUCTS = [
         "alt": "BB-16 Sundari Terracotta Festive Lehenga (BB-16) — Dandiya Night Lehenga"
       }
     ],
-    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
     "details": {
       "colour": "Terracotta Rust & Antique Gold with Teal Accents",
       "fabric": "Raw Silk with Chiffon Dupatta",
@@ -707,8 +833,10 @@ export const LEHENGA_PRODUCTS = [
       "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
     "bookingInfo": {
-      "status": "Ready for studio trial & in-person purchase.",
-      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹749 / day (1-Day Garba Rental)",
+      "purchase": "₹33,999 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
     "sortOrder": 16
   },
@@ -719,10 +847,16 @@ export const LEHENGA_PRODUCTS = [
     "name": "BB-17 Kaali Sitara Night Lehenga",
     "collection": "Dandiya Night Lehengas",
     "tagline": "Dramatic jet black silk kalis glittering with silver mirrors under festive lamps",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 899,
+    "formattedRentPrice": "₹899 / day",
+    "rentalPeriod": "1 Day",
     "price": 39499,
     "formattedPrice": "₹39,499",
-    "availability": "In Stock",
-    "availabilityBadge": "in-stock",
+    "buyPrice": 39499,
+    "formattedBuyPrice": "₹39,499",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
     "category": "festive-special",
     "categoryLabel": "Festive Special",
     "featured": false,
@@ -734,7 +868,7 @@ export const LEHENGA_PRODUCTS = [
         "alt": "BB-17 Kaali Sitara Night Lehenga (BB-17) — Dandiya Night Lehenga"
       }
     ],
-    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
     "details": {
       "colour": "Jet Black with Pure Silver Mirror Sparkle",
       "fabric": "Pure Georgette with Embellished Organza Dupatta",
@@ -751,8 +885,10 @@ export const LEHENGA_PRODUCTS = [
       "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
     "bookingInfo": {
-      "status": "Ready for studio trial & in-person purchase.",
-      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹899 / day (1-Day Garba Rental)",
+      "purchase": "₹39,499 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
     "sortOrder": 17
   },
@@ -763,10 +899,16 @@ export const LEHENGA_PRODUCTS = [
     "name": "BB-18 Roohani Rust Gold Lehenga",
     "collection": "Dandiya Night Lehengas",
     "tagline": "Warm spice rust silk with golden temple arches and artisan handwork",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 699,
+    "formattedRentPrice": "₹699 / day",
+    "rentalPeriod": "1 Day",
     "price": 34499,
     "formattedPrice": "₹34,499",
-    "availability": "In Stock",
-    "availabilityBadge": "in-stock",
+    "buyPrice": 34499,
+    "formattedBuyPrice": "₹34,499",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
     "category": "festive-special",
     "categoryLabel": "Festive Special",
     "featured": false,
@@ -778,7 +920,7 @@ export const LEHENGA_PRODUCTS = [
         "alt": "BB-18 Roohani Rust Gold Lehenga (BB-18) — Dandiya Night Lehenga"
       }
     ],
-    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
     "details": {
       "colour": "Spiced Rust & Antique Brass with Crimson Trim",
       "fabric": "Chanderi Silk with Leheriya Dupatta",
@@ -795,8 +937,10 @@ export const LEHENGA_PRODUCTS = [
       "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
     "bookingInfo": {
-      "status": "Ready for studio trial & in-person purchase.",
-      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹699 / day (1-Day Garba Rental)",
+      "purchase": "₹34,499 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
     "sortOrder": 18
   },
@@ -807,10 +951,16 @@ export const LEHENGA_PRODUCTS = [
     "name": "BB-19 Gulposh Rani Couture Lehenga",
     "collection": "Dandiya Night Lehengas",
     "tagline": "Exquisite deep rani silk with dense lotus and peacock threadwork",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 999,
+    "formattedRentPrice": "₹999 / day",
+    "rentalPeriod": "1 Day",
     "price": 42999,
     "formattedPrice": "₹42,999",
-    "availability": "In Stock",
-    "availabilityBadge": "in-stock",
+    "buyPrice": 42999,
+    "formattedBuyPrice": "₹42,999",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
     "category": "rani-pink",
     "categoryLabel": "Rani Pink",
     "featured": true,
@@ -822,7 +972,7 @@ export const LEHENGA_PRODUCTS = [
         "alt": "BB-19 Gulposh Rani Couture Lehenga (BB-19) — Dandiya Night Lehenga"
       }
     ],
-    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
     "details": {
       "colour": "Deep Royal Rani Pink with Vintage Gold Accents",
       "fabric": "Pure Mulberry Silk with Heavy Net Dupatta",
@@ -839,8 +989,10 @@ export const LEHENGA_PRODUCTS = [
       "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
     "bookingInfo": {
-      "status": "Ready for studio trial & in-person purchase.",
-      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹999 / day (1-Day Garba Rental)",
+      "purchase": "₹42,999 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
     "sortOrder": 19
   },
@@ -851,10 +1003,16 @@ export const LEHENGA_PRODUCTS = [
     "name": "BB-20 Sitara Rang Rani Lehenga",
     "collection": "Dandiya Night Lehengas",
     "tagline": "Bright celebratory rani pink flare with circular bandhej and sparkling sequins",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 799,
+    "formattedRentPrice": "₹799 / day",
+    "rentalPeriod": "1 Day",
     "price": 36999,
     "formattedPrice": "₹36,999",
-    "availability": "In Stock",
-    "availabilityBadge": "in-stock",
+    "buyPrice": 36999,
+    "formattedBuyPrice": "₹36,999",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
     "category": "rani-pink",
     "categoryLabel": "Rani Pink",
     "featured": true,
@@ -866,7 +1024,7 @@ export const LEHENGA_PRODUCTS = [
         "alt": "BB-20 Sitara Rang Rani Lehenga (BB-20) — Dandiya Night Lehenga"
       }
     ],
-    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
     "details": {
       "colour": "Vibrant Rani Pink & Gold with Orange Accents",
       "fabric": "Raw Silk with Bandhej Dupatta",
@@ -883,8 +1041,10 @@ export const LEHENGA_PRODUCTS = [
       "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
     "bookingInfo": {
-      "status": "Ready for studio trial & in-person purchase.",
-      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹799 / day (1-Day Garba Rental)",
+      "purchase": "₹36,999 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
     "sortOrder": 20
   },
@@ -895,10 +1055,16 @@ export const LEHENGA_PRODUCTS = [
     "name": "BB-21 Shyamali Charcoal Festive Lehenga",
     "collection": "Dandiya Night Lehengas",
     "tagline": "Smoky charcoal silk with vivid scarlet and saffron Gujarati geometric motifs",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 749,
+    "formattedRentPrice": "₹749 / day",
+    "rentalPeriod": "1 Day",
     "price": 35499,
     "formattedPrice": "₹35,499",
-    "availability": "In Stock",
-    "availabilityBadge": "in-stock",
+    "buyPrice": 35499,
+    "formattedBuyPrice": "₹35,499",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
     "category": "festive-special",
     "categoryLabel": "Festive Special",
     "featured": false,
@@ -910,7 +1076,7 @@ export const LEHENGA_PRODUCTS = [
         "alt": "BB-21 Shyamali Charcoal Festive Lehenga (BB-21) — Dandiya Night Lehenga"
       }
     ],
-    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
     "details": {
       "colour": "Smoky Charcoal with Scarlet & Saffron Trim",
       "fabric": "Pure Dupion Silk with Embroidered Dupatta",
@@ -927,8 +1093,10 @@ export const LEHENGA_PRODUCTS = [
       "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
     "bookingInfo": {
-      "status": "Ready for studio trial & in-person purchase.",
-      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹749 / day (1-Day Garba Rental)",
+      "purchase": "₹35,499 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
     "sortOrder": 21
   },
@@ -939,10 +1107,16 @@ export const LEHENGA_PRODUCTS = [
     "name": "BB-22 Kasturi Dark Jewel Lehenga",
     "collection": "Dandiya Night Lehengas",
     "tagline": "Rich dark espresso-wine silhouette featuring antique gold gotta accents",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 849,
+    "formattedRentPrice": "₹849 / day",
+    "rentalPeriod": "1 Day",
     "price": 37999,
     "formattedPrice": "₹37,999",
-    "availability": "In Stock",
-    "availabilityBadge": "in-stock",
+    "buyPrice": 37999,
+    "formattedBuyPrice": "₹37,999",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
     "category": "festive-special",
     "categoryLabel": "Festive Special",
     "featured": false,
@@ -954,7 +1128,7 @@ export const LEHENGA_PRODUCTS = [
         "alt": "BB-22 Kasturi Dark Jewel Lehenga (BB-22) — Dandiya Night Lehenga"
       }
     ],
-    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
     "details": {
       "colour": "Deep Espresso Wine with Antique Gold Gota",
       "fabric": "Raw Silk with Organza Border Dupatta",
@@ -971,8 +1145,10 @@ export const LEHENGA_PRODUCTS = [
       "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
     "bookingInfo": {
-      "status": "Ready for studio trial & in-person purchase.",
-      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹849 / day (1-Day Garba Rental)",
+      "purchase": "₹37,999 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
     "sortOrder": 22
   },
@@ -983,10 +1159,16 @@ export const LEHENGA_PRODUCTS = [
     "name": "BB-23 Chandani Indigo Twirl Lehenga",
     "collection": "Dandiya Night Lehengas",
     "tagline": "Dark midnight indigo adorned with silver mirror constellations",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 899,
+    "formattedRentPrice": "₹899 / day",
+    "rentalPeriod": "1 Day",
     "price": 38999,
     "formattedPrice": "₹38,999",
-    "availability": "In Stock",
-    "availabilityBadge": "in-stock",
+    "buyPrice": 38999,
+    "formattedBuyPrice": "₹38,999",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
     "category": "royal-plum",
     "categoryLabel": "Royal Plum",
     "featured": false,
@@ -998,7 +1180,7 @@ export const LEHENGA_PRODUCTS = [
         "alt": "BB-23 Chandani Indigo Twirl Lehenga (BB-23) — Dandiya Night Lehenga"
       }
     ],
-    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
     "details": {
       "colour": "Midnight Indigo with Silver Zari & Mirror",
       "fabric": "Fine Georgette with Organza Dupatta",
@@ -1015,8 +1197,10 @@ export const LEHENGA_PRODUCTS = [
       "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
     "bookingInfo": {
-      "status": "Ready for studio trial & in-person purchase.",
-      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹899 / day (1-Day Garba Rental)",
+      "purchase": "₹38,999 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
     "sortOrder": 23
   },
@@ -1027,10 +1211,16 @@ export const LEHENGA_PRODUCTS = [
     "name": "BB-24 Kesar Kunj Ochre Lehenga",
     "collection": "Dandiya Night Lehengas",
     "tagline": "Heritage mustard ochre silk with traditional kalidar twirl and rich borders",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 949,
+    "formattedRentPrice": "₹949 / day",
+    "rentalPeriod": "1 Day",
     "price": 40999,
     "formattedPrice": "₹40,999",
-    "availability": "In Stock",
-    "availabilityBadge": "in-stock",
+    "buyPrice": 40999,
+    "formattedBuyPrice": "₹40,999",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
     "category": "bridal-festive",
     "categoryLabel": "Bridal & Festive",
     "featured": false,
@@ -1042,7 +1232,7 @@ export const LEHENGA_PRODUCTS = [
         "alt": "BB-24 Kesar Kunj Ochre Lehenga (BB-24) — Dandiya Night Lehenga"
       }
     ],
-    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
     "details": {
       "colour": "Mustard Ochre & Antique Bronze with Emerald Highlights",
       "fabric": "Pure Mulberry Silk with Four-Sided Border Dupatta",
@@ -1059,8 +1249,10 @@ export const LEHENGA_PRODUCTS = [
       "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
     "bookingInfo": {
-      "status": "Ready for studio trial & in-person purchase.",
-      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹949 / day (1-Day Garba Rental)",
+      "purchase": "₹40,999 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
     "sortOrder": 24
   },
@@ -1071,10 +1263,16 @@ export const LEHENGA_PRODUCTS = [
     "name": "BB-25 Sindoori Rust Bridal Lehenga",
     "collection": "Dandiya Night Lehengas",
     "tagline": "Regal bridal-festive sindoor rust silhouette with hand-embroidered doli motifs",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 999,
+    "formattedRentPrice": "₹999 / day",
+    "rentalPeriod": "1 Day",
     "price": 43999,
     "formattedPrice": "₹43,999",
-    "availability": "In Stock",
-    "availabilityBadge": "in-stock",
+    "buyPrice": 43999,
+    "formattedBuyPrice": "₹43,999",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
     "category": "bridal-festive",
     "categoryLabel": "Bridal & Festive",
     "featured": true,
@@ -1086,7 +1284,7 @@ export const LEHENGA_PRODUCTS = [
         "alt": "BB-25 Sindoori Rust Bridal Lehenga (BB-25) — Dandiya Night Lehenga"
       }
     ],
-    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
     "details": {
       "colour": "Sindoor Rust & Royal Gold with Crimson Dupatta",
       "fabric": "Handwoven Raw Silk with Pure Silk Dupatta",
@@ -1103,8 +1301,10 @@ export const LEHENGA_PRODUCTS = [
       "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
     "bookingInfo": {
-      "status": "Ready for studio trial & in-person purchase.",
-      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹999 / day (1-Day Garba Rental)",
+      "purchase": "₹43,999 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
     "sortOrder": 25
   },
@@ -1115,10 +1315,16 @@ export const LEHENGA_PRODUCTS = [
     "name": "BB-26 Tarangini Black Mirror Lehenga",
     "collection": "Dandiya Night Lehengas",
     "tagline": "Dramatic monochrome black silk sparkling with multi-color festive stitches",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 799,
+    "formattedRentPrice": "₹799 / day",
+    "rentalPeriod": "1 Day",
     "price": 36499,
     "formattedPrice": "₹36,499",
-    "availability": "In Stock",
-    "availabilityBadge": "in-stock",
+    "buyPrice": 36499,
+    "formattedBuyPrice": "₹36,499",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
     "category": "festive-special",
     "categoryLabel": "Festive Special",
     "featured": false,
@@ -1130,7 +1336,7 @@ export const LEHENGA_PRODUCTS = [
         "alt": "BB-26 Tarangini Black Mirror Lehenga (BB-26) — Dandiya Night Lehenga"
       }
     ],
-    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
     "details": {
       "colour": "Jet Black with Multi-Color Resham Accents",
       "fabric": "Heavy Georgette with Embellished Net Dupatta",
@@ -1147,8 +1353,10 @@ export const LEHENGA_PRODUCTS = [
       "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
     "bookingInfo": {
-      "status": "Ready for studio trial & in-person purchase.",
-      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹799 / day (1-Day Garba Rental)",
+      "purchase": "₹36,499 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
     "sortOrder": 26
   },
@@ -1159,10 +1367,16 @@ export const LEHENGA_PRODUCTS = [
     "name": "BB-27 Maru Desh Festive Lehenga",
     "collection": "Dandiya Night Lehengas",
     "tagline": "Authentic desert Rajasthan artistry with detailed kalis and antique zari",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 849,
+    "formattedRentPrice": "₹849 / day",
+    "rentalPeriod": "1 Day",
     "price": 39499,
     "formattedPrice": "₹39,499",
-    "availability": "In Stock",
-    "availabilityBadge": "in-stock",
+    "buyPrice": 39499,
+    "formattedBuyPrice": "₹39,499",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
     "category": "bridal-festive",
     "categoryLabel": "Bridal & Festive",
     "featured": false,
@@ -1174,7 +1388,7 @@ export const LEHENGA_PRODUCTS = [
         "alt": "BB-27 Maru Desh Festive Lehenga (BB-27) — Dandiya Night Lehenga"
       }
     ],
-    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
     "details": {
       "colour": "Deep Mahogany Rust with Antique Gold Work",
       "fabric": "Pure Silk Dupion with Banarasi Dupatta",
@@ -1191,8 +1405,10 @@ export const LEHENGA_PRODUCTS = [
       "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
     "bookingInfo": {
-      "status": "Ready for studio trial & in-person purchase.",
-      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹849 / day (1-Day Garba Rental)",
+      "purchase": "₹39,499 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
     "sortOrder": 27
   },
@@ -1203,10 +1419,16 @@ export const LEHENGA_PRODUCTS = [
     "name": "BB-28 Haldi Utsav Golden Lehenga",
     "collection": "Dandiya Night Lehengas",
     "tagline": "Luminous haldi gold flare with mirror medallions and scalloped red border",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 699,
+    "formattedRentPrice": "₹699 / day",
+    "rentalPeriod": "1 Day",
     "price": 35999,
     "formattedPrice": "₹35,999",
-    "availability": "In Stock",
-    "availabilityBadge": "in-stock",
+    "buyPrice": 35999,
+    "formattedBuyPrice": "₹35,999",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
     "category": "sunshine-yellow",
     "categoryLabel": "Sunshine Yellow",
     "featured": true,
@@ -1218,7 +1440,7 @@ export const LEHENGA_PRODUCTS = [
         "alt": "BB-28 Haldi Utsav Golden Lehenga (BB-28) — Dandiya Night Lehenga"
       }
     ],
-    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
     "details": {
       "colour": "Haldi Gold & Vermilion Red",
       "fabric": "Mulberry Silk with Bandhani Chiffon Dupatta",
@@ -1235,8 +1457,10 @@ export const LEHENGA_PRODUCTS = [
       "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
     "bookingInfo": {
-      "status": "Ready for studio trial & in-person purchase.",
-      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹699 / day (1-Day Garba Rental)",
+      "purchase": "₹35,999 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
     "sortOrder": 28
   },
@@ -1247,10 +1471,16 @@ export const LEHENGA_PRODUCTS = [
     "name": "BB-29 Chandrakala Blush Ivory Lehenga",
     "collection": "Dandiya Night Lehengas",
     "tagline": "Soft pearl blush silk illuminated with delicate silver gota and rose gold thread",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 899,
+    "formattedRentPrice": "₹899 / day",
+    "rentalPeriod": "1 Day",
     "price": 41499,
     "formattedPrice": "₹41,499",
-    "availability": "In Stock",
-    "availabilityBadge": "in-stock",
+    "buyPrice": 41499,
+    "formattedBuyPrice": "₹41,499",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
     "category": "blush-pink",
     "categoryLabel": "Blush Dream",
     "featured": true,
@@ -1262,7 +1492,7 @@ export const LEHENGA_PRODUCTS = [
         "alt": "BB-29 Chandrakala Blush Ivory Lehenga (BB-29) — Dandiya Night Lehenga"
       }
     ],
-    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Features handcrafted threadwork, authentic mirror highlights, and a dramatic circular twirl flare — available exclusively for in-person viewing and trials at our Bhopal studio.",
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
     "details": {
       "colour": "Pearl Blush Ivory & Rose Gold",
       "fabric": "Pure Georgette with Organza Silk Dupatta",
@@ -1279,8 +1509,10 @@ export const LEHENGA_PRODUCTS = [
       "waistFitting": "Adjustable drawstring tie-up with matching tassels"
     },
     "bookingInfo": {
-      "status": "Ready for studio trial & in-person purchase.",
-      "trials": "Available for viewing & trials at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹899 / day (1-Day Garba Rental)",
+      "purchase": "₹41,499 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
     "sortOrder": 29
   }
