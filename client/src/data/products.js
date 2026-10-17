@@ -1515,6 +1515,266 @@ export const LEHENGA_PRODUCTS = [
       "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
     },
     "sortOrder": 29
+  },
+  {
+    "id": "bb-30",
+    "slug": "bb-30",
+    "productCode": "BB-30",
+    "name": "BB-30 Manhar Ivory Maroon Bandhani Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Ivory Chanderi silk with deep maroon Bandhani diamond medallions and heritage zari kalis",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 849,
+    "formattedRentPrice": "₹849 / day",
+    "rentalPeriod": "1 Day",
+    "price": 37999,
+    "formattedPrice": "₹37,999",
+    "buyPrice": 37999,
+    "formattedBuyPrice": "₹37,999",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
+    "category": "festive-special",
+    "categoryLabel": "Festive Special",
+    "featured": true,
+    "thumbnail": "/products/bb-30.webp",
+    "images": [
+      {
+        "url": "/products/bb-30.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-30 Manhar Ivory Maroon Bandhani Lehenga (BB-30) — Dandiya Night Lehenga"
+      }
+    ],
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
+    "details": {
+      "colour": "Ivory Cream & Deep Maroon with Antique Gold Zari",
+      "fabric": "Pure Raw Silk & Chanderi with Hand-Done Bandhani",
+      "work": "Kutch Bandhani Diamond Bootas, Intricate Zari Kalis & Scalloped Gota Hem",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "6.0 meters majestic twirl flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
+    },
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
+    },
+    "bookingInfo": {
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹849 / day (1-Day Garba Rental)",
+      "purchase": "₹37,999 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+    },
+    "sortOrder": 30
+  },
+  {
+    "id": "bb-31",
+    "slug": "bb-31",
+    "productCode": "BB-31",
+    "name": "BB-31 Kesar Ajrakh Sunshine Dandiya Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Vibrant sunshine yellow silk paneled with authentic midnight Ajrakh block prints",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 799,
+    "formattedRentPrice": "₹799 / day",
+    "rentalPeriod": "1 Day",
+    "price": 34499,
+    "formattedPrice": "₹34,499",
+    "buyPrice": 34499,
+    "formattedBuyPrice": "₹34,499",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
+    "category": "sunshine-yellow",
+    "categoryLabel": "Sunshine Yellow",
+    "featured": true,
+    "thumbnail": "/products/bb-31.webp",
+    "images": [
+      {
+        "url": "/products/bb-31.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-31 Kesar Ajrakh Sunshine Dandiya Lehenga (BB-31) — Dandiya Night Lehenga"
+      }
+    ],
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
+    "details": {
+      "colour": "Bright Sunshine Yellow & Midnight Indigo Ajrakh",
+      "fabric": "Fine Mul Silk & Authentic Gujarati Ajrakh Block Print",
+      "work": "Hand-Block Printed Ajrakh Motifs, Triangular Mirror Borders & Gota Kinari",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "5.8 meters twirl flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
+    },
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
+    },
+    "bookingInfo": {
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹799 / day (1-Day Garba Rental)",
+      "purchase": "₹34,499 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+    },
+    "sortOrder": 31
+  },
+  {
+    "id": "bb-32",
+    "slug": "bb-32",
+    "productCode": "BB-32",
+    "name": "BB-32 Raas Vilas Midnight Blue Dandiya Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Midnight indigo flared skirt with joyous Raas Leela dancer borders and radiant gota lines",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 949,
+    "formattedRentPrice": "₹949 / day",
+    "rentalPeriod": "1 Day",
+    "price": 38999,
+    "formattedPrice": "₹38,999",
+    "buyPrice": 38999,
+    "formattedBuyPrice": "₹38,999",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
+    "category": "royal-plum",
+    "categoryLabel": "Royal Plum",
+    "featured": true,
+    "thumbnail": "/products/bb-32.webp",
+    "images": [
+      {
+        "url": "/products/bb-32.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-32 Raas Vilas Midnight Blue Dandiya Lehenga (BB-32) — Dandiya Night Lehenga"
+      }
+    ],
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
+    "details": {
+      "colour": "Midnight Indigo Blue & Festive Saffron Yellow with Silver Gota",
+      "fabric": "Pure Chanderi Silk & Art Silk with Hand-Embroidered Hem",
+      "work": "Traditional Raas Leela Dancer Figurine Borders, Vertical Gota Ribbons & Multi-Colored Resham Threadwork",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "6.2 meters full twirl flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
+    },
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
+    },
+    "bookingInfo": {
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹949 / day (1-Day Garba Rental)",
+      "purchase": "₹38,999 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+    },
+    "sortOrder": 32
+  },
+  {
+    "id": "bb-33",
+    "slug": "bb-33",
+    "productCode": "BB-33",
+    "name": "BB-33 Kalka Midnight Crimson Festive Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Jet black pleated silk skirt adorned with deep crimson heritage Kalka paisley borders",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 749,
+    "formattedRentPrice": "₹749 / day",
+    "rentalPeriod": "1 Day",
+    "price": 36499,
+    "formattedPrice": "₹36,499",
+    "buyPrice": 36499,
+    "formattedBuyPrice": "₹36,499",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
+    "category": "festive-special",
+    "categoryLabel": "Festive Special",
+    "featured": false,
+    "thumbnail": "/products/bb-33.webp",
+    "images": [
+      {
+        "url": "/products/bb-33.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-33 Kalka Midnight Crimson Festive Lehenga (BB-33) — Dandiya Night Lehenga"
+      }
+    ],
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
+    "details": {
+      "colour": "Jet Black & Crimson Red with Antique Silver Accents",
+      "fabric": "Pure Raw Silk & Modal Satin with Hand-Crafted Paisley Block Print",
+      "work": "Heritage Kalka (Paisley) Multi-Tier Border, Fine Resham Threadwork & Mirror Accents",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "5.6 meters circular twirl flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
+    },
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
+    },
+    "bookingInfo": {
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹749 / day (1-Day Garba Rental)",
+      "purchase": "₹36,499 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+    },
+    "sortOrder": 33
+  },
+  {
+    "id": "bb-34",
+    "slug": "bb-34",
+    "productCode": "BB-34",
+    "name": "BB-34 Gota Kiran Royal Indigo Lehenga",
+    "collection": "Dandiya Night Lehengas",
+    "tagline": "Deep indigo mulberry silk featuring striking vertical gold gota patti and kiran edging",
+    "slayTagline": "Rent for Garba night and slay",
+    "rentPrice": 899,
+    "formattedRentPrice": "₹899 / day",
+    "rentalPeriod": "1 Day",
+    "price": 39999,
+    "formattedPrice": "₹39,999",
+    "buyPrice": 39999,
+    "formattedBuyPrice": "₹39,999",
+    "availability": "Rent & Buy",
+    "availabilityBadge": "rent-and-buy",
+    "category": "royal-plum",
+    "categoryLabel": "Royal Plum",
+    "featured": true,
+    "thumbnail": "/products/bb-34.webp",
+    "images": [
+      {
+        "url": "/products/bb-34.webp",
+        "title": "Full Front Silhouette",
+        "alt": "BB-34 Gota Kiran Royal Indigo Lehenga (BB-34) — Dandiya Night Lehenga"
+      }
+    ],
+    "description": "A stunning Dandiya and festive creation curated directly from authentic generational artisan clusters across Gujarat and Rajasthan. Available to rent for your Garba night (₹500 – ₹1,000/day) or direct in-studio purchase — visit our Bhopal studio for trials and fittings.",
+    "details": {
+      "colour": "Deep Royal Indigo Blue & Gilded Gold Gota",
+      "fabric": "Heavy Mulberry Raw Silk with Inner Can-Can Lining",
+      "work": "Broad Vertical Gota Patti Kalis, Golden Kiran Lace & Handcrafted Scalloped Borders",
+      "lining": "Heavy Shantoon with Stiffened Can-Can Net",
+      "flare": "6.0 meters majestic flare",
+      "components": "Flared Kalidar Skirt, Embroidered Choli Blouse, Embellished Dupatta",
+      "closure": "Concealed Side Zipper with Hand-knotted Latkans",
+      "care": "Strictly Dry Clean Only. Store in muslin wrap."
+    },
+    "sizeFitting": {
+      "standardSizes": "XS, S, M, L, XL",
+      "skirtLength": "42 inches standard",
+      "waistFitting": "Adjustable drawstring tie-up with matching tassels"
+    },
+    "bookingInfo": {
+      "status": "Available to Rent for Garba Night & Direct In-Studio Purchase.",
+      "rental": "₹899 / day (1-Day Garba Rental)",
+      "purchase": "₹39,999 (Buy to Own)",
+      "trials": "Available for in-person trials & booking at our Bhopal studio (184, Press Colony, Anand Nagar, Bhopal)."
+    },
+    "sortOrder": 34
   }
 ];
 
