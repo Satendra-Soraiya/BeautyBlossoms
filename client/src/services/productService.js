@@ -42,6 +42,24 @@ export function normalizeProduct(item) {
       images = [];
     }
   }
+
+  // Strictly filter out any obsolete legacy placeholders (-choli, -embroidery, -back)
+  // and prevent cross-product white lehenga (bb-01) contamination
+  const normId = (id || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  const isBB01 = normId === 'bb01' || normId === 'bb1';
+
+  images = images.filter((img) => {
+    if (!img || !img.url) return false;
+    const url = img.url.toLowerCase();
+    if (url.includes('-choli.') || url.includes('-embroidery.') || url.includes('-back.')) {
+      return false;
+    }
+    if (!isBB01 && (url.includes('bb-01') || url.includes('bb01'))) {
+      return false;
+    }
+    return true;
+  });
+
   if (!images || images.length === 0) {
     images = [{ url: thumbnail, title: name, alt: `${name} — ${productCode}` }];
   }
@@ -172,6 +190,8 @@ export async function getProduct(slugOrId) {
   if (!slugOrId) return null;
   const search = String(slugOrId).toLowerCase().trim();
 
+  const localMatch = getLocalProductBySlug(slugOrId);
+
   // Check cache first
   if (cachedProducts) {
     const found = cachedProducts.find(
@@ -180,7 +200,12 @@ export async function getProduct(slugOrId) {
         p.id?.toLowerCase() === search ||
         p.productCode?.toLowerCase() === search
     );
-    if (found) return found;
+    if (found) {
+      if (localMatch && Array.isArray(localMatch.images)) {
+        found.images = localMatch.images;
+      }
+      return normalizeProduct(found);
+    }
   }
 
   // Attempt Supabase direct

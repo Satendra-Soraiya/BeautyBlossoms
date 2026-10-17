@@ -69,7 +69,7 @@ export default function WishlistDrawer({
                     onError={(e) => {
                       if (!e.currentTarget.dataset.fallbackApplied) {
                         e.currentTarget.dataset.fallbackApplied = 'true';
-                        e.currentTarget.src = '/products/bb-01.webp';
+                        e.currentTarget.src = `/products/${product.id}-front.jpg`;
                       }
                     }}
                     onClick={() => {

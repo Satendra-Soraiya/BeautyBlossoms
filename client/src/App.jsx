@@ -73,6 +73,11 @@ export default function App() {
     getProducts().then((loaded) => {
       if (isMounted && Array.isArray(loaded) && loaded.length > 0) {
         setProducts(loaded);
+        setSelectedProduct((curr) => {
+          if (!curr) return null;
+          const fresh = loaded.find((p) => p.id === curr.id || p.slug === curr.slug);
+          return fresh || curr;
+        });
       }
     });
     return () => {
@@ -155,10 +160,15 @@ export default function App() {
     setIsWishlistOpen(true);
   };
 
+  // Derive fresh active product from catalog
+  const activeProduct = selectedProduct
+    ? products.find((p) => p.id === selectedProduct.id || p.slug === selectedProduct.slug) || selectedProduct
+    : null;
+
   return (
     <div className="bb-root-layout">
       {/* Synchronized Screen Transition Veil (dissolves only when both header and hero background are ready) */}
-      {!isHeroLoaded && !selectedProduct && (
+      {!isHeroLoaded && !activeProduct && (
         <div className="bb-screen-loader" aria-label="Loading Beauty Blossoms">
           <div className="bb-loader-inner">
             <span className="bb-loader-flourish" aria-hidden="true">✿</span>
@@ -171,10 +181,10 @@ export default function App() {
         </div>
       )}
 
-      {selectedProduct ? (
+      {activeProduct ? (
         /* Dedicated Lehenga Product Detail View (Screen 3) */
         <ProductDetailPage
-          product={selectedProduct}
+          product={activeProduct}
           onBack={handleBackToCollection}
           onSelectProduct={handleSelectProduct}
           favorites={favorites}

@@ -30,6 +30,19 @@ export default function ProductDetailPage({
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [product?.id]);
 
+  const cleanImages = React.useMemo(() => {
+    if (!product?.images) return [];
+    const normId = (product.id || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    const isBB01 = normId === 'bb01' || normId === 'bb1';
+    return product.images.filter((img) => {
+      if (!img?.url) return false;
+      const url = img.url.toLowerCase();
+      if (url.includes('-choli.') || url.includes('-embroidery.') || url.includes('-back.')) return false;
+      if (!isBB01 && (url.includes('bb-01') || url.includes('bb01'))) return false;
+      return true;
+    });
+  }, [product]);
+
   if (!product) return null;
 
   const isFav = favorites.includes(product.id);
@@ -114,8 +127,11 @@ export default function ProductDetailPage({
 
         {/* Section A: Portrait Image Gallery */}
         <ProductImageGallery
-          images={product.images}
+          key={product.id}
+          images={cleanImages}
           productName={product.name}
+          productId={product.id}
+          productCode={product.productCode}
           onOpenLightbox={handleOpenLightbox}
         />
 
@@ -238,7 +254,7 @@ export default function ProductDetailPage({
       <ImageLightbox
         isOpen={lightboxOpen}
         onClose={() => setLightboxOpen(false)}
-        images={product.images}
+        images={cleanImages}
         initialIndex={lightboxIndex}
         productName={product.name}
       />

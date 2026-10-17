@@ -37,16 +37,19 @@ export default function LehengaProductCard({
 
   const handleImageError = (e) => {
     if (e.currentTarget.dataset.fallbackApplied) return;
-    e.currentTarget.dataset.fallbackApplied = 'true';
+    if (product?.id) {
+      e.currentTarget.src = `/products/${product.id}-front.jpg`;
+      return;
+    }
     const fallbacks = {
       'rani-pink': '/products/bb-10.webp',
       'sunshine-yellow': '/products/bb-02.webp',
       'royal-plum': '/products/bb-05.webp',
-      'blush-pink': '/products/bb-01.webp',
+      'blush-pink': '/products/bb-07.webp',
       'festive-special': '/products/bb-03.webp',
       'bridal-festive': '/products/bb-25.webp',
     };
-    e.currentTarget.src = fallbacks[product.category] || '/products/bb-01.webp';
+    e.currentTarget.src = fallbacks[product.category] || '/products/bb-03.webp';
   };
 
   return (
